@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="quantidadescenarios" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="quantidaMetrica1" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="tabela" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="releaseselectorQuery" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="quantidaMetrica" type="mondrian.jndi">
+         <Catalog>mondrian:/project metric</Catalog>
+         <Jndi>source_info</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="quantidadescenarios"
+               id="quantidadescenarios"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select 
+    dsc.scenario_name as "Nome do Scenário",
+	sum(fsc.quantity_Scenario) as "Quantidade"
+from
+	F_Scenario_Class fsc,
+	D_Release re,
+	D_Scenario_Clean_Code dsc
+where
+	fsc.D_Scenario_Clean_Code_idScenario = dsc.idScenario
+	and re.idRelease = fsc.D_Release_idRelease
+	and re.release_name = ${release_param}
+group by
+	dsc.scenario_name</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600" connection="quantidaMetrica1"
+               id="quantidaMetrica1"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select 
+    q.quality_index as "Index",
+	m.metric_abbreviation as "Métrica"
+	
+from
+	F_Project_Metric fpm,
+	D_Release re,
+	D_Metric m,
+	D_Quality q
+where
+	fpm.D_Quality_idQuality = q.idQuality
+	and fpm.D_Metric_idMetric = m.idMetric
+	and re.idRelease = fpm.D_Release_idRelease
+	and re.release_name = "912"</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600" connection="tabela"
+               id="tabela"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select  c.class_name as "Classe", dsc.scenario_name as "Nome do Scenário", dsc.recomendations as "Recomendação"
+
+from D_Project pj, D_Release re, F_Scenario_Class fsc, D_Scenario_Clean_Code dsc, D_Class c
+
+where
+
+pj.idProject = fsc.D_Project_idProject and re.idRelease = fsc.D_Release_idRelease and fsc.D_Scenario_Clean_Code_idScenario = dsc.idScenario and c.idClass = fsc.D_Class_idClass
+and re.release_name = ${release_param};</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="releaseselectorQuery"
+               id="releaseselectorQuery"
+               type="sql">
+      <Columns/>
+      <Parameters/>
+      <Query>select DISTINCT re.release_name
+
+from D_Release re, F_Project_Metric fpm
+
+where
+
+re.idRelease = fpm.D_Release_idRelease;</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600" connection="quantidaMetrica"
+               id="quantidaMetrica"
+               type="mdx">
+      <BandedMode>compact</BandedMode>
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>SELECT
+NON EMPTY {Hierarchize({[D Metric.Metric abbreviation].[Metric abbreviation].Members})} ON COLUMNS,
+NON EMPTY {Hierarchize({[D Quality.Quality index].[Quality index].Members})} ON ROWS
+FROM [project metric]
+WHERE {[D Release.Release name].[${release_param}]}</Query>
+   </DataAccess>
+</CDADescriptor>
