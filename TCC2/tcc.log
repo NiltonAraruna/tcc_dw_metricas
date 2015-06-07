@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  5 JUN 2015 02:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  6 JUN 2015 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2951,11 +2951,16 @@ Overfull \hbox (25.44406pt too wide) in paragraph at lines 1--228
  [] 
  []
 
+
+LaTeX Warning: Reference `fig:arquiteturaAmbiente' on page 62 undefined on inpu
+t line 237.
+
 [62
 
 ]
-File: figuras/figuras_nilton/pentaho-tools.eps Graphic file (type eps)
- <figuras/figuras_nilton/pentaho-tools.eps>
+File: figuras/figuras_nilton/arquiteturaAmbientenew.eps Graphic file (type eps)
+
+ <figuras/figuras_nilton/arquiteturaAmbientenew.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3103,17 +3108,20 @@ Package rerunfilecheck Info: File `tcc.brf' has not changed.
 (rerunfilecheck)             Checksum: 11246AF165EFDFA0FA90AF16D24ACEBA;9832.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 26244 strings out of 493305
- 440379 string characters out of 6139898
- 634598 words of memory out of 5000000
- 29025 multiletter control sequences out of 15000+600000
+ 26245 strings out of 493305
+ 440425 string characters out of 6139898
+ 634659 words of memory out of 5000000
+ 29026 multiletter control sequences out of 15000+600000
  114737 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,75p,1403b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (83 pages, 889956 bytes).
+Output written on tcc.dvi (83 pages, 891240 bytes).
