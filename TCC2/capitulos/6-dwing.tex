@@ -214,19 +214,19 @@ Ainda seguindo a metodologia de \cite{Kimball2002}, \citeonline{rego_monitoramen
 	\end{table}	
 	\FloatBarrier
 
-Dando prosseguimento a metodologia de \cite{Kimball2002} foram identificadas mais fatos e dimensões em complemento à solução de \citeonline{rego_monitoramento_2014}, como mostra a Tabela \ref{tab:fatos-dimensoes-nilton}. 
+Dando prosseguimento a metodologia de \cite{Kimball2002}, foram identificadas mais fatos e dimensões em complemento à solução de \citeonline{rego_monitoramento_2014}, como mostra a Tabela \ref{tab:fatos-dimensoes-nilton}. 
 
 \begin{table}[!ht]
 	\begin{center}
 	
 	\input{tabelas/tabelasNilton/fatos-dimensoes-nilton.ltx} 
-	\caption{Fatos e dimensões identificadas neste trabalho}
+	\caption{Fatos e dimensões identificadas neste trabalho.}
 	\label{tab:fatos-dimensoes-nilton}
 	\end{center}
 	\end{table}	
 	\FloatBarrier 
 
-Após a identificação dos fatos e das dimensões, \citeonline{rego_monitoramento_2014} construiu o projeto físico do \textit{Data Warehouse} que pode ser visto na Figura \ref{fig:arquitetura_solucao}. A Tabela \ref{tab:tabelas-fatos-dimensoes} facilita a interpretação do projeto físico.
+Após a identificação dos fatos e das dimensões, \citeonline{rego_monitoramento_2014} construiu o projeto físico do \textit{Data Warehouse} que pode ser visto na Figura \ref{fig:arquitetura_solucao}. A Tabela \ref{tab:tabelas-fatos-dimensoes-rego} facilita a interpretação do projeto físico.
 
 \begin{figure}[h!]
 \centering
@@ -239,9 +239,9 @@ Após a identificação dos fatos e das dimensões, \citeonline{rego_monitoramen
 \begin{table}[!ht]
 	\begin{center}
 	
-	\input{tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes.ltx} 
+	\input{tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-rego.ltx} 
 	\caption{Tabelas fatos e tabelas dimensões elaboradas por \citeonline{rego_monitoramento_2014}}
-	\label{tab:tabelas-fatos-dimensoes}
+	\label{tab:tabelas-fatos-dimensoes-rego}
 	\end{center}
 	\end{table}	
 	\FloatBarrier
@@ -262,6 +262,43 @@ Visando facilitar o processo de ETL principalmente na etapa da transformação, 
 	\input{tabelas/tabelasNilton/tabelaMetadadosDescricao.ltx} 
 	\caption{Descrição das Tabelas do Metadados do \textit{Data Warehouse} }
 	\label{tab:tabelasMetadadosDescricao}
+	\end{center}
+	\end{table}	
+	\FloatBarrier
+	
+
+Após a identificação dos fatos e das dimensões deste trabalho, o projeto físico do \textit{Data Warehouse} construído por \citeonline{rego_monitoramento_2014} foi alterado. Foram adicionadas as Tabelas \textit{F\_Project\_Bug, D\_Class\_Bug, D\_Type, D\_Priority, F\_Project\_Violation, D\_Rules, D\_Severite e D\_Class\_Violation} como pode ser visto nas Figuras \ref{fig:project_violation} e \ref{fig:project_bug}. A Figura \ref{fig:arquitetura_solucao_finalizado} mostra como ficou o projeto físico finalizado e as Tabelas \ref{tab:tabelas-fatos-dimensoes-rego}, \ref{tab:tabelas-fatos-dimensoes-nilton} e \ref{tab:tabelasMetadadosDescricao} facilitam a sua interpretação.	
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_nilton/project_violation.eps}
+\caption{Parte do projeto físico contendo as tabelas relacionados ao PMD}
+\label{fig:project_violation}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_nilton/project_bug.eps}
+\caption{Parte do projeto físico contendo as tabelas relacionados ao \textit{FindBugs}}
+\label{fig:project_bug}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_nilton/modelo-dw-nilton.eps}
+\caption{Projeto físico do \textit{Data Warehouse} finalizado.}
+\label{fig:arquitetura_solucao_finalizado}
+\end{figure}
+\FloatBarrier
+
+\begin{table}[!ht]
+	\begin{center}
+	
+	\input{tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-nilton.ltx} 
+	\caption{Tabelas fatos e tabelas dimensões adicionadas à solução de \citeonline{rego_monitoramento_2014}}
+	\label{tab:tabelas-fatos-dimensoes-nilton}
 	\end{center}
 	\end{table}	
 	\FloatBarrier

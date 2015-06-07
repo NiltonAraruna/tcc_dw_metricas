@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  6 JUN 2015 19:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  7 JUN 2015 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1724,20 +1724,20 @@ o_2014'
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
-(hypdvips)                 on input line 15.
+(hypdvips)                 on input line 18.
 
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
-(hypdvips)                 on input line 15.
+(hypdvips)                 on input line 18.
 
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.SonarQube'
-(hypdvips)                 on input line 19.
+(hypdvips)                 on input line 22.
 
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.SonarQube'
-(hypdvips)                 on input line 19.
+(hypdvips)                 on input line 22.
 
 ) [9
 
@@ -1893,12 +1893,22 @@ o_2014'
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
-(hypdvips)                 on input line 14.
+(hypdvips)                 on input line 15.
 
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
-(hypdvips)                 on input line 14.
+(hypdvips)                 on input line 15.
+
+
+Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
+o_2014'
+(hypdvips)                 on input line 17.
+
+
+Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
+o_2014'
+(hypdvips)                 on input line 17.
 
 ) [10
 
@@ -2929,16 +2939,17 @@ File: figuras/figuras_nilton/pivoting.eps Graphic file (type eps)
 <figuras/figuras_nilton/pivoting.eps> [56] [57]
 File: figuras/figuras_nilton/metodologiaKimball.eps Graphic file (type eps)
 
-<figuras/figuras_nilton/metodologiaKimball.eps>
-(./tabelas/tabelasNilton/fatos-dimensoes.ltx) [58]
+<figuras/figuras_nilton/metodologiaKimball.eps> [58]
+(./tabelas/tabelasNilton/fatos-dimensoes.ltx)
+(./tabelas/tabelasNilton/fatos-dimensoes-nilton.ltx) [59]
 File: figuras/figuras_nilton/modelo-dw-baufaker.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/modelo-dw-baufaker.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes.ltx) [60]
-[61]
+[60] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-rego.ltx)
+[61] [62]
 File: figuras/figuras_nilton/metadados-baufaker.eps Graphic file (type eps)
  <figuras/figuras_nilton/metadados-baufaker.eps>
 (./tabelas/tabelasNilton/tabelaMetadadosDescricao.ltx
@@ -2947,24 +2958,55 @@ Underfull \hbox (badness 3168) in paragraph at lines 8--8
  []
 
 )
-Overfull \hbox (25.44406pt too wide) in paragraph at lines 1--228
+Overfull \hbox (25.44406pt too wide) in paragraph at lines 1--263
  [] 
  []
 
-
-LaTeX Warning: Reference `fig:arquiteturaAmbiente' on page 62 undefined on inpu
-t line 237.
-
-[62
+[63
 
 ]
-File: figuras/figuras_nilton/arquiteturaAmbientenew.eps Graphic file (type eps)
+File: figuras/figuras_nilton/project_violation.eps Graphic file (type eps)
+ <figuras/figuras_nilton/project_violation.eps>
+Overfull \hbox (12.7475pt too wide) in paragraph at lines 274--275
+ [][] 
+ []
 
- <figuras/figuras_nilton/arquiteturaAmbientenew.eps>
+File: figuras/figuras_nilton/project_bug.eps Graphic file (type eps)
+<figuras/figuras_nilton/project_bug.eps>
+Overfull \hbox (15.25687pt too wide) in paragraph at lines 282--283
+ [][] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[63]) (./capitulos/7-projeto-estudo-de-caso.tex [64] [65
+[64]
+File: figuras/figuras_nilton/modelo-dw-nilton.eps Graphic file (type eps)
+ <figuras/figuras_nilton/modelo-dw-nilton.eps>
+Overfull \hbox (50.38812pt too wide) in paragraph at lines 290--291
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 19.12498pt on input line 293.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[65] [66] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-nilton.ltx)
+
+LaTeX Warning: Reference `fig:arquiteturaAmbiente' on page 67 undefined on inpu
+t line 309.
+
+File: figuras/figuras_nilton/arquiteturaAmbientenew.eps Graphic file (type eps)
+
+<figuras/figuras_nilton/arquiteturaAmbientenew.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[67
+
+]) (./capitulos/7-projeto-estudo-de-caso.tex [68] [69
 
 ]
 File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
@@ -2973,7 +3015,7 @@ File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[66] [67] [68]
+[70] [71] [72]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
@@ -3004,7 +3046,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[69]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
@@ -3029,7 +3071,7 @@ File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70] [71] [72]
+[74] [75] [76]
 File: figuras/figuras_nilton/formula.eps Graphic file (type eps)
  <figuras/figuras_nilton/formula.eps>
 (./tabelas/tabelasNilton/multasdefeitos.ltx
@@ -3037,22 +3079,22 @@ Underfull \hbox (badness 1270) in paragraph at lines 8--9
 \T1/lmr/m/n/12 manda foi en-tre-gue no-va-mente
  []
 
-) [73] [74] [75] (./tabelas/tabelasNilton/cronograma.ltx)
+) [77] [78] [79] (./tabelas/tabelasNilton/cronograma.ltx)
 Overfull \hbox (14.80244pt too wide) in paragraph at lines 1--331
  [] 
  []
 
-) (./capitulos/8-Execucao-do-Estudo-de-Caso.tex [76]
+) (./capitulos/8-Execucao-do-Estudo-de-Caso.tex [80]
 File: figuras/figuras_nilton/eixosqualidade.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/eixosqualidade.eps>) (./capitulos/9-conclusao.tex
-[77
+[81
 
 ]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [78
+ [82
 
 ]
 bibitemlist
@@ -3082,11 +3124,11 @@ Underfull \hbox (badness 3354) in paragraph at lines 33--33
 [][][]$SIDOC;$[][] 
  []
 
-[79
+[83
 
-] [80] [81]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
+] [84] [85]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
 AED: lastpage setting LastPage
-[82]
+[86]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -3105,7 +3147,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 48.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 48.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 11246AF165EFDFA0FA90AF16D24ACEBA;9832.
+(rerunfilecheck)             Checksum: AB5560C2DC6D5C097D87F024FABF1FAB;10120.
 
 
 LaTeX Warning: There were undefined references.
@@ -3116,12 +3158,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 26245 strings out of 493305
- 440425 string characters out of 6139898
- 634659 words of memory out of 5000000
- 29026 multiletter control sequences out of 15000+600000
+ 26270 strings out of 493305
+ 441360 string characters out of 6139898
+ 637373 words of memory out of 5000000
+ 29042 multiletter control sequences out of 15000+600000
  114737 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,75p,1403b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (83 pages, 891240 bytes).
+Output written on tcc.dvi (87 pages, 920204 bytes).
