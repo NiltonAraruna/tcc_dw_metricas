@@ -48,29 +48,29 @@
 \contentsline {section}{\numberline {6.3}Modelagem Dimensional}{52}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}OLAP \textit {(On-Line Analytic Processing)}}{53}{subsection.6.3.1}
 \contentsline {section}{\numberline {6.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas, \textit {bugs} e viola\IeC {\c c}\IeC {\~o}es de C\IeC {\'o}digo-Fonte}{56}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Ferramentas de \textit {Data Warehousing}}{62}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{64}{section.6.5}
+\contentsline {subsection}{\numberline {6.4.1}Ferramentas de \textit {Data Warehousing}}{67}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{68}{section.6.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Projeto de estudo de Caso}}{65}{chapter.7}
-\contentsline {section}{\numberline {7.1}Defini\IeC {\c c}\IeC {\~a}o}{65}{section.7.1}
-\contentsline {section}{\numberline {7.2}Background}{67}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Trabalhos Antecedentes e Relacionados}{67}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Quest\IeC {\~a}o de Pesquisa}{68}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Design}{71}{section.7.3}
-\contentsline {section}{\numberline {7.4}Sele\IeC {\c c}\IeC {\~a}o}{72}{section.7.4}
-\contentsline {section}{\numberline {7.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{74}{section.7.5}
-\contentsline {section}{\numberline {7.6}Processo de an\IeC {\'a}lise dos dados}{74}{section.7.6}
-\contentsline {section}{\numberline {7.7}Amea\IeC {\c c}as a validade do estudo de caso}{75}{section.7.7}
-\contentsline {section}{\numberline {7.8}Cronograma}{76}{section.7.8}
-\contentsline {section}{\numberline {7.9}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{76}{section.7.9}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Projeto de estudo de Caso}}{69}{chapter.7}
+\contentsline {section}{\numberline {7.1}Defini\IeC {\c c}\IeC {\~a}o}{69}{section.7.1}
+\contentsline {section}{\numberline {7.2}Background}{71}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Trabalhos Antecedentes e Relacionados}{71}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Quest\IeC {\~a}o de Pesquisa}{72}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Design}{75}{section.7.3}
+\contentsline {section}{\numberline {7.4}Sele\IeC {\c c}\IeC {\~a}o}{76}{section.7.4}
+\contentsline {section}{\numberline {7.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{78}{section.7.5}
+\contentsline {section}{\numberline {7.6}Processo de an\IeC {\'a}lise dos dados}{78}{section.7.6}
+\contentsline {section}{\numberline {7.7}Amea\IeC {\c c}as a validade do estudo de caso}{79}{section.7.7}
+\contentsline {section}{\numberline {7.8}Cronograma}{80}{section.7.8}
+\contentsline {section}{\numberline {7.9}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{80}{section.7.9}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso}}{77}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sobre o SonarQube}{77}{section.8.1}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso}}{81}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sobre o SonarQube}{81}{section.8.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~a}o}}{78}{chapter.9}
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~a}o}}{82}{chapter.9}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{79}{section*.51}
+\contentsline {chapter}{Refer\^encias}{83}{section*.56}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
