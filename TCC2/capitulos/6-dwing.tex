@@ -1,7 +1,7 @@
 \chapter{\textit{Data Warehouse}} 
 \label{chap:arquitetura}
 
-Neste capítulo será apresentada a fundamentação teórica sobre \textit{Data Warehouse} e como utiliza-lo para o monitoramento de métricas. Também será apresentado o ambiente de \textit{Data Warehouse} utilizado na solução proposta por \citeonline{rego_monitoramento_2014}, no qual este trabalho busca analisar a eficácia e eficiência no monitoramento de métricas,  e como ela foi desenvolvida.  
+Neste capítulo será apresentada a fundamentação teórica sobre \textit{Data Warehouse} e como utiliza-lo para o monitoramento de métricas, \textit{bugs} e violações. Também será apresentado o ambiente de \textit{Data Warehouse} utilizado na solução proposta por \citeonline{rego_monitoramento_2014}, como ela foi desenvolvida e os incrementos no qual este trabalho buscou aumentar o valor da aferição da qualidade.   
 
 \section{Definição}
 
@@ -125,13 +125,13 @@ Entre as operações OLAP estão:
 	
 	\end{easylist}
 	
-\section{Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte}
+\section{Ambiente de \textit{Data Warehousing} para Métricas, \textit{bugs} e violações de Código-Fonte}
 
 
 Para a implementação do ambiente de Data Warehousing para métricas de código-
-fonte, \citeonline{rego_monitoramento_2014} definiu a arquitetura tal como mostra na Figura \ref{fig:etl}.
+fonte, \citeonline{rego_monitoramento_2014} definiu a arquitetura tal como mostra a Figura \ref{fig:etl}.
 
-A ferramenta de análise estática de código-fonte escolhida por \citeonline{rego_monitoramento_2014} foi a Analizo. A Analizo  possibilita emitir saídas das métricas em CSV que detalham nome da classe e as respectivas métricas, o que permitiu a seu trabalho incorporar a análise das métricas ANPM, AMLOC, CBO, NPA.
+A ferramenta de análise estática de código-fonte escolhida por \citeonline{rego_monitoramento_2014} foi a Analizo. A Analizo  possibilita emitir saídas das métricas em CSV que detalham nome da classe e as respectivas métricas, o que permitiu a seu trabalho incorporar a análise das métricas ANPM, AMLOC, CBO, NPA. As ferramentas FindBugs e PMD, descritas no capítulo \ref{chap:verificadores}, foram adicionadas ao ambiente de \textit{Data Warehousing} como pode ser visto na Figura \ref{fig:arquiteturaAmbientenew}. 
 
 \citeonline{rego_monitoramento_2014} seguiu a metodologia de \cite{Kimball2002}, apresentada na Figura \ref{fig:metodologia-dw}, para o seu projeto de \textit{data warehouse}. Seguindo esta metodologia, \citeonline{rego_monitoramento_2014} definiu os seguintes requisitos de negócio que a sua solução deveria suportar:
 
@@ -177,8 +177,32 @@ A ferramenta de análise estática de código-fonte escolhida por \citeonline{re
 \end{figure}
 \FloatBarrier
 
+Utilizando a mesma metodologia  que o \citeonline{rego_monitoramento_2014}, foi definido novos requisitos de negócio que a solução deveria suportar:
+
+\begin{easylist}[itemize]
+
+& Requisito 16: Visualizar o total de \textit{bugs} em uma determinada \textit{release}
+de um projeto.
+
+& Requisito 17: Visualizar o total de violações em uma determinada \textit{release}
+de um projeto.
+
+& Requisito 18: Visualizar a quantidade de \textit{bugs} por severidade em uma determinada \textit{release} de um projeto.
+
+& & Requisito 19: Visualizar a quantidade de \textit{bugs} por tipo em uma determinada \textit{release} de um projeto.
+
+& Requisito 20: Visualizar a quantidade de \textit{bugs} por classe em uma determinada \textit{release} de um projeto.
+
+& Requisito 21: Visualizar a quantidade de violações por severidade em uma determinada \textit{release} de um projeto. 
+
+& Requisito 22: Visualizar a quantidade de violações por tipo em uma determinada \textit{release} de um projeto.
+
+& Requisito 23: Visualizar a quantidade de violações por classe em uma determinada \textit{release} de um projeto.
+
+\end{easylist}
+
 	
-Ainda seguindo a metodologia de \cite{Kimball2002}, \citeonline{rego_monitoramento_2014} identificou fatos e dimensões no contexto de monitoramento de métricas, como mostra a Tabela \ref{tab:fatos-dimensoes}
+Ainda seguindo a metodologia de \cite{Kimball2002}, \citeonline{rego_monitoramento_2014} identificou fatos e dimensões no contexto de monitoramento de métricas, como mostra a Tabela \ref{tab:fatos-dimensoes}. 
 
 \begin{table}[!ht]
 	\begin{center}
@@ -190,6 +214,17 @@ Ainda seguindo a metodologia de \cite{Kimball2002}, \citeonline{rego_monitoramen
 	\end{table}	
 	\FloatBarrier
 
+Dando prosseguimento a metodologia de \cite{Kimball2002} foram identificadas mais fatos e dimensões em complemento à solução de \citeonline{rego_monitoramento_2014}, como mostra a Tabela \ref{tab:fatos-dimensoes-nilton}. 
+
+\begin{table}[!ht]
+	\begin{center}
+	
+	\input{tabelas/tabelasNilton/fatos-dimensoes-nilton.ltx} 
+	\caption{Fatos e dimensões identificadas neste trabalho}
+	\label{tab:fatos-dimensoes-nilton}
+	\end{center}
+	\end{table}	
+	\FloatBarrier 
 
 Após a identificação dos fatos e das dimensões, \citeonline{rego_monitoramento_2014} construiu o projeto físico do \textit{Data Warehouse} que pode ser visto na Figura \ref{fig:arquitetura_solucao}. A Tabela \ref{tab:tabelas-fatos-dimensoes} facilita a interpretação do projeto físico.
 
@@ -250,9 +285,9 @@ Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
 	
 	\begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.2]{figuras/figuras_nilton/pentaho-tools.eps}
-\caption{Arquitetura Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte extraído de \citeonline{rego_monitoramento_2014}}
-\label{fig:arquiteturaAmbiente}
+\includegraphics[keepaspectratio=false,scale=0.4]{figuras/figuras_nilton/arquiteturaAmbientenew.eps}
+\caption{Arquitetura Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte extraído de \citeonline{rego_monitoramento_2014} e adaptado.}
+\label{fig:arquiteturaAmbientenew}
 \end{figure}
 \FloatBarrier
 
