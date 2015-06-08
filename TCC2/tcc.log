@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  7 JUN 2015 20:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  7 JUN 2015 23:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2994,19 +2994,17 @@ LaTeX Warning: Float too large for page by 19.12498pt on input line 293.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [65] [66] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-nilton.ltx)
+[67
 
-LaTeX Warning: Reference `fig:arquiteturaAmbiente' on page 67 undefined on inpu
-t line 309.
+]
+
+LaTeX Warning: Reference `chap:verificadore' on page 68 undefined on input line
+ 323.
 
 File: figuras/figuras_nilton/arquiteturaAmbientenew.eps Graphic file (type eps)
 
-<figuras/figuras_nilton/arquiteturaAmbientenew.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[67
-
-]) (./capitulos/7-projeto-estudo-de-caso.tex [68] [69
+<figuras/figuras_nilton/arquiteturaAmbientenew.eps>)
+(./capitulos/7-projeto-estudo-de-caso.tex [68] [69] [70
 
 ]
 File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
@@ -3015,7 +3013,7 @@ File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70] [71] [72]
+[71] [72] [73]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
@@ -3046,7 +3044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[73]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
@@ -3071,7 +3069,7 @@ File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[74] [75] [76]
+[75] [76] [77]
 File: figuras/figuras_nilton/formula.eps Graphic file (type eps)
  <figuras/figuras_nilton/formula.eps>
 (./tabelas/tabelasNilton/multasdefeitos.ltx
@@ -3079,22 +3077,22 @@ Underfull \hbox (badness 1270) in paragraph at lines 8--9
 \T1/lmr/m/n/12 manda foi en-tre-gue no-va-mente
  []
 
-) [77] [78] [79] (./tabelas/tabelasNilton/cronograma.ltx)
+) [78] [79] [80] (./tabelas/tabelasNilton/cronograma.ltx)
 Overfull \hbox (14.80244pt too wide) in paragraph at lines 1--331
  [] 
  []
 
-) (./capitulos/8-Execucao-do-Estudo-de-Caso.tex [80]
+) (./capitulos/8-Execucao-do-Estudo-de-Caso.tex [81]
 File: figuras/figuras_nilton/eixosqualidade.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/eixosqualidade.eps>) (./capitulos/9-conclusao.tex
-[81
+[82
 
 ]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [82
+ [83
 
 ]
 bibitemlist
@@ -3124,11 +3122,11 @@ Underfull \hbox (badness 3354) in paragraph at lines 33--33
 [][][]$SIDOC;$[][] 
  []
 
-[83
+[84
 
-] [84] [85]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
+] [85] [86]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
 AED: lastpage setting LastPage
-[86]
+[87]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -3147,7 +3145,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 48.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 48.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: AB5560C2DC6D5C097D87F024FABF1FAB;10120.
+(rerunfilecheck)             Checksum: 5683580FB0C516A04B48D54475C338CB;10120.
 
 
 LaTeX Warning: There were undefined references.
@@ -3158,12 +3156,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 26270 strings out of 493305
- 441360 string characters out of 6139898
- 637373 words of memory out of 5000000
- 29042 multiletter control sequences out of 15000+600000
+ 26271 strings out of 493305
+ 441368 string characters out of 6139898
+ 637480 words of memory out of 5000000
+ 29043 multiletter control sequences out of 15000+600000
  114737 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,75p,1403b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (87 pages, 920204 bytes).
+Output written on tcc.dvi (88 pages, 923208 bytes).

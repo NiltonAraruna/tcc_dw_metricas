@@ -51,26 +51,26 @@
 \contentsline {subsection}{\numberline {6.4.1}Ferramentas de \textit {Data Warehousing}}{67}{subsection.6.4.1}
 \contentsline {section}{\numberline {6.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{68}{section.6.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Projeto de estudo de Caso}}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Defini\IeC {\c c}\IeC {\~a}o}{69}{section.7.1}
-\contentsline {section}{\numberline {7.2}Background}{71}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Trabalhos Antecedentes e Relacionados}{71}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Quest\IeC {\~a}o de Pesquisa}{72}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Design}{75}{section.7.3}
-\contentsline {section}{\numberline {7.4}Sele\IeC {\c c}\IeC {\~a}o}{76}{section.7.4}
-\contentsline {section}{\numberline {7.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{78}{section.7.5}
-\contentsline {section}{\numberline {7.6}Processo de an\IeC {\'a}lise dos dados}{78}{section.7.6}
-\contentsline {section}{\numberline {7.7}Amea\IeC {\c c}as a validade do estudo de caso}{79}{section.7.7}
-\contentsline {section}{\numberline {7.8}Cronograma}{80}{section.7.8}
-\contentsline {section}{\numberline {7.9}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{80}{section.7.9}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Projeto de estudo de Caso}}{70}{chapter.7}
+\contentsline {section}{\numberline {7.1}Defini\IeC {\c c}\IeC {\~a}o}{70}{section.7.1}
+\contentsline {section}{\numberline {7.2}Background}{72}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Trabalhos Antecedentes e Relacionados}{72}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Quest\IeC {\~a}o de Pesquisa}{73}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Design}{76}{section.7.3}
+\contentsline {section}{\numberline {7.4}Sele\IeC {\c c}\IeC {\~a}o}{77}{section.7.4}
+\contentsline {section}{\numberline {7.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{79}{section.7.5}
+\contentsline {section}{\numberline {7.6}Processo de an\IeC {\'a}lise dos dados}{79}{section.7.6}
+\contentsline {section}{\numberline {7.7}Amea\IeC {\c c}as a validade do estudo de caso}{80}{section.7.7}
+\contentsline {section}{\numberline {7.8}Cronograma}{81}{section.7.8}
+\contentsline {section}{\numberline {7.9}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{81}{section.7.9}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso}}{81}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sobre o SonarQube}{81}{section.8.1}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso}}{82}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sobre o SonarQube}{82}{section.8.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~a}o}}{82}{chapter.9}
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~a}o}}{83}{chapter.9}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{83}{section*.56}
+\contentsline {chapter}{Refer\^encias}{84}{section*.56}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

@@ -306,7 +306,7 @@ Após a identificação dos fatos e das dimensões deste trabalho, o projeto fí
 \subsection{Ferramentas de \textit{Data Warehousing}}
 \label{ferramentas}
 
-Entre as alternativas de código aberto que suportam um modelo dimensional, \citeonline{rego_monitoramento_2014}  utilizou o \textit{Pentaho Business Analytics Community Edition}. Esta alternativa livre apresenta soluções que cobrem as áreas de ETL, \textit{reporting}, \textit{OLAP} e mineração de dados. A Figura \ref{fig:arquiteturaAmbiente}, apresenta o modo como cada uma das ferramentas está disposta na arquitetura do ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte.
+Entre as alternativas de código aberto que suportam um modelo dimensional, \citeonline{rego_monitoramento_2014}  utilizou o \textit{Pentaho Business Analytics Community Edition}. Esta alternativa livre apresenta soluções que cobrem as áreas de ETL, \textit{reporting}, \textit{OLAP} e mineração de dados. A Figura \ref{fig:arquiteturaAmbientenew}, apresenta o modo como cada uma das ferramentas está disposta na arquitetura do ambiente de \textit{Data Warehousing} para Métricas, \textit{Bugs} e Violações de Código-Fonte.
 
 Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
 
@@ -314,10 +314,14 @@ Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
 
 	& \textbf{ETL:} Pentaho Data Integration Community Edition ou Kettle.
 	 
-	& \textbf{Implementação das Consultas OLAP e Visualização de Dados:} \textit{Pentaho BI Platform 8}, provê uma arquitetura e a infraestrutura para soluções de \textit{Business Inteligence}, \textit{Data Mining} e a camada de visualização de dados do \textit{Data Warehouse}. Junto ao \textit{Pentaho BI Platform 8} foi utilizado o \textit{plugin Saiku Analytics} que oferece serviços de apoio a operações OLAP e à visualização de dados. Na arquitetura do \textit{Saiku Analytics}, está incorporado outro software livre que realiza consulta, chamado de \textit{Mondrian OLAP}. 
+	& \textbf{Implementação das Consultas OLAP e Visualização de Dados:} \textit{Pentaho BI Platform 8}, provê uma arquitetura e a infraestrutura para soluções de \textit{Business Inteligence}, \textit{Data Mining} e a camada de visualização de dados do \textit{Data Warehouse}.
 	
-	& \textbf{Análise estática de código-fonte:}\textit{Analizo}, possibilita emitir saídas das métricas em CSV que detalham o nome da classe e as suas respectivas métrica.
+	& \textbf{Visualização de Dados:} Como visto no Capítulo \ref{chap:dashboard} foi utilizado o \textit{plugin} do \textit{Pentaho BI} CDE para a visualização de dados. O \textit{plugin} \textit{Saiku Analytics} também pode ser utilizado para visualização de dados,  ela oferece serviços de apoio a operações OLAP e à visualização de dados. Na arquitetura do \textit{Saiku Analytics}, está incorporado outro \textit{software} livre que realiza consulta, chamado de \textit{Mondrian OLAP}.
 
+	& \textbf{Análise estática de código-fonte:}\textit{Analizo}, possibilita emitir saídas das métricas em CSV que detalham o nome da classe e as suas respectivas métrica.
+	
+	& \textbf{Verificadores  de erro:} Como visto no Capítulo \ref{chap:verificadore} foram utilizados as ferramentas \textit{FindBugs} e \textit{PMD} que possibilitam uma analise de código voltadas para \textit{bugs} e violações de código.
+	
 	\end{easylist}
 	
 	\begin{figure}[h!]
@@ -330,4 +334,4 @@ Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
 
 \section{Considerações finais do capítulo}
 
-Nesse capítulo foi apresentada a solução proposta no trabalho de \citeonline{rego_monitoramento_2014}, bem como a base teórica para sua compreensão. No próximo capítulo será apresentado o projeto de estudo de caso que visa a análise da eficácia e eficiência da solução de DW proposta nesse capítulo.
+Nesse capítulo foi apresentada a solução proposta no trabalho de \citeonline{rego_monitoramento_2014} e o que foi acrescentado visando suprir os novos requisitos adicionados, bem como a base teórica para a compreensão de ambos. No próximo capítulo será apresentado o projeto de estudo de caso que visa analisar se a solução de DW proposta nesse capítulo pode assistir ao processo de aferição da qualidade de \textit{softwar}e.
