@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  7 JUN 2015 23:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  16 JUN 2015 00:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1610,13 +1610,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]) (./editaveis/agradecimentos.tex [5
 
 
-])
-(./editaveis/epigrafe.tex [6
+] [6])
+(./editaveis/epigrafe.tex [7
 
-]) (./editaveis/resumo.tex [7
+]) (./editaveis/resumo.tex [8
 
 ])
-(./editaveis/abstract.tex [8
+(./editaveis/abstract.tex [9
 
 ]) (./fixos/listasAutomaticas.tex (./tcc.lof
 
@@ -1739,7 +1739,7 @@ Package hypdvips Warning: Nested link discarded: dest = `cite.SonarQube'
 Package hypdvips Warning: Nested link discarded: dest = `cite.SonarQube'
 (hypdvips)                 on input line 22.
 
-) [9
+) [10
 
 ] (./tcc.lot
 
@@ -1910,12 +1910,12 @@ Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
 (hypdvips)                 on input line 17.
 
-) [10
+) [11
 
-]) (./editaveis/abreviaturas.tex [11
+]) (./editaveis/abreviaturas.tex [12
 
 
-] [12]) (./fixos/indiceAutomatico.tex
+] [13]) (./fixos/indiceAutomatico.tex
 (./tcc.toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 37.
@@ -1925,12 +1925,12 @@ Overfull \hbox (8.8168pt too wide) in paragraph at lines 41--41
 -VOL-VI-MENTO 
  []
 
-[13
+[14
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 49.
-) [14]) (./capitulos/1-introducao.tex [15
+) [15]) (./capitulos/1-introducao.tex [16
 
 
 ]
@@ -1941,7 +1941,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 37.
- [16]
+ [17]
 File: figuras/figuras_nilton/selecaoMetodologica.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/selecaoMetodologica.eps>
@@ -1982,7 +1982,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 Underfull \vbox (badness 10000) detected at line 16
  []
 
-) [17] [18] [19] (./tabelas/tabelasNilton/tabelaDescricaoMetodologia2.ltx
+) [18] [19] [20] (./tabelas/tabelasNilton/tabelaDescricaoMetodologia2.ltx
 Overfull \hbox (6.47667pt too wide) in paragraph at lines 4--4
 []|[]| 
  []
@@ -2012,15 +2012,15 @@ File: figuras/figuras_nilton/passosEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20
+[21
 
-] [21]) (./capitulos/2-metricas.tex [22]
+] [22]) (./capitulos/2-metricas.tex [23]
 Overfull \hbox (2.56119pt too wide) in paragraph at lines 8--9
 []\T1/lmr/m/n/12 Ainda se-gundo o [][][][][][]SOF-TEX[][][][][] ([][][][][][]20
 13b[][][][][][]), entende-se por mé-todo de me-di-ção uma sequên-
  []
 
-[23
+[24
 
 ]
 File: figuras/figuras_nilton/modeloqualidade.eps Graphic file (type eps)
@@ -2029,15 +2029,15 @@ Overfull \hbox (61.07321pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[24] [25] [26] [27] (./tabelas/tabelasNilton/percentis.ltx
+[25] [26] [27] [28] (./tabelas/tabelasNilton/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
-) [28]
+) [29]
 (./tabelas/tabelasNilton/intervalos.ltx) (./tabelas/tabelasNilton/metricas.ltx)
 
 LaTeX Warning: Float too large for page by 59.66628pt on input line 181.
 
-[29] [30] (./tabelas/tabelasNilton/conceitos-limpeza-parte1.ltx
+[30] [31] (./tabelas/tabelasNilton/conceitos-limpeza-parte1.ltx
 Underfull \hbox (badness 6658) in paragraph at lines 5--5
 []|\T1/lmr/m/n/12 Composição de
  []
@@ -2187,7 +2187,7 @@ Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--211
  [][] 
  []
 
-[31
+[32
 
 ] (./tabelas/tabelasNilton/conceitos-limpeza-parte2.ltx
 Underfull \hbox (badness 10000) in paragraph at lines 5--5
@@ -2344,7 +2344,7 @@ Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--219
  [][] 
  []
 
-[32] [33] (./tabelas/tabelasNilton/conceitos-limpeza-parte3.ltx
+[33] [34] (./tabelas/tabelasNilton/conceitos-limpeza-parte3.ltx
 Underfull \hbox (badness 3240) in paragraph at lines 5--6
 []|\T1/lmr/m/n/12 Quebrar uma classe
  []
@@ -2669,9 +2669,9 @@ Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--235
  [][] 
  []
 
-[34
+[35
 
-] [35] (./tabelas/tabelasNilton/cenarios.ltx
+] [36] (./tabelas/tabelasNilton/cenarios.ltx
 Underfull \hbox (badness 5893) in paragraph at lines 3--3
 []|\T1/lmr/m/n/12 Forma de De-tec-ção
  []
@@ -2856,41 +2856,41 @@ Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--250
  [][] 
  []
 
-[36] [37]) (./capitulos/3-Verificadores-estaticos-de-codigo.tex [38] [39
+[37] [38]) (./capitulos/3-Verificadores-estaticos-de-codigo.tex [39] [40
 
 ]
-[40]) (./capitulos/4-Dashboard.tex [41]
+[41]) (./capitulos/4-Dashboard.tex [42]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 4.
- [42
+ [43
 
-] [43]
+] [44]
 Overfull \hbox (11.83238pt too wide) in paragraph at lines 66--67
 []\T1/lmr/m/n/12 Neste tra-ba-lho foi uti-li-zado o CDE (\T1/lmr/m/it/12 com-mu
 -nity dash-bo-ard edi-tor\T1/lmr/m/n/12 ) na ver-são 14.12.10.1
  []
 
-[44]) (./capitulos/5-contratacao-fornecedores-desenvolvimento-software.tex
-[45]
+[45]) (./capitulos/5-contratacao-fornecedores-desenvolvimento-software.tex
+[46]
 File: figuras/figuras_nilton/atividadesAquisicao.eps Graphic file (type eps)
  <figuras/figuras_nilton/atividadesAquisicao.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[46
+[47
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 40.
- [47] [48]) (./capitulos/6-dwing.tex [49]
+ [48] [49]) (./capitulos/6-dwing.tex [50]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
- [50
+ [51
 
 ]
 File: figuras/figuras_nilton/etl.eps Graphic file (type eps)
 
-<figuras/figuras_nilton/etl.eps> [51] [52]
+<figuras/figuras_nilton/etl.eps> [52] [53]
 File: figuras/figuras_nilton/star.eps Graphic file (type eps)
  <figuras/figuras_nilton/star.eps>
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
@@ -2902,7 +2902,7 @@ Overfull \hbox (4.14233pt too wide) in paragraph at lines 58--59
 ]). Se-gundo [][][][][][]Sharma[][][][][]
  []
 
-[53] (./tabelas/tabelasNilton/hilmer_olap_oltp.ltx)
+[54] (./tabelas/tabelasNilton/hilmer_olap_oltp.ltx)
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
@@ -2918,7 +2918,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[54]
+[55]
 File: figuras/figuras_nilton/sliceDice.eps Graphic file (type eps)
  <figuras/figuras_nilton/sliceDice.eps>
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
@@ -2930,26 +2930,26 @@ File: figuras/figuras_nilton/drilAcross.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[55]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 File: figuras/figuras_nilton/pivoting.eps Graphic file (type eps)
-<figuras/figuras_nilton/pivoting.eps> [56] [57]
+<figuras/figuras_nilton/pivoting.eps> [57] [58]
 File: figuras/figuras_nilton/metodologiaKimball.eps Graphic file (type eps)
 
-<figuras/figuras_nilton/metodologiaKimball.eps> [58]
+<figuras/figuras_nilton/metodologiaKimball.eps> [59]
 (./tabelas/tabelasNilton/fatos-dimensoes.ltx)
-(./tabelas/tabelasNilton/fatos-dimensoes-nilton.ltx) [59]
+(./tabelas/tabelasNilton/fatos-dimensoes-nilton.ltx) [60]
 File: figuras/figuras_nilton/modelo-dw-baufaker.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/modelo-dw-baufaker.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-rego.ltx)
-[61] [62]
+[61] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-rego.ltx)
+[62] [63]
 File: figuras/figuras_nilton/metadados-baufaker.eps Graphic file (type eps)
  <figuras/figuras_nilton/metadados-baufaker.eps>
 (./tabelas/tabelasNilton/tabelaMetadadosDescricao.ltx
@@ -2962,7 +2962,7 @@ Overfull \hbox (25.44406pt too wide) in paragraph at lines 1--263
  [] 
  []
 
-[63
+[64
 
 ]
 File: figuras/figuras_nilton/project_violation.eps Graphic file (type eps)
@@ -2980,7 +2980,7 @@ Overfull \hbox (15.25687pt too wide) in paragraph at lines 282--283
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[64]
+[65]
 File: figuras/figuras_nilton/modelo-dw-nilton.eps Graphic file (type eps)
  <figuras/figuras_nilton/modelo-dw-nilton.eps>
 Overfull \hbox (50.38812pt too wide) in paragraph at lines 290--291
@@ -2993,18 +2993,18 @@ LaTeX Warning: Float too large for page by 19.12498pt on input line 293.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[65] [66] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-nilton.ltx)
-[67
+[66] [67] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-nilton.ltx)
+[68
 
 ]
 
-LaTeX Warning: Reference `chap:verificadore' on page 68 undefined on input line
+LaTeX Warning: Reference `chap:verificadore' on page 69 undefined on input line
  323.
 
 File: figuras/figuras_nilton/arquiteturaAmbientenew.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/arquiteturaAmbientenew.eps>)
-(./capitulos/7-projeto-estudo-de-caso.tex [68] [69] [70
+(./capitulos/7-projeto-estudo-de-caso.tex [69] [70] [71
 
 ]
 File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
@@ -3013,7 +3013,7 @@ File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[71] [72] [73]
+[72] [73] [74]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
@@ -3044,7 +3044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[74]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
@@ -3069,7 +3069,7 @@ File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[75] [76] [77]
+[76] [77] [78]
 File: figuras/figuras_nilton/formula.eps Graphic file (type eps)
  <figuras/figuras_nilton/formula.eps>
 (./tabelas/tabelasNilton/multasdefeitos.ltx
@@ -3077,22 +3077,22 @@ Underfull \hbox (badness 1270) in paragraph at lines 8--9
 \T1/lmr/m/n/12 manda foi en-tre-gue no-va-mente
  []
 
-) [78] [79] [80] (./tabelas/tabelasNilton/cronograma.ltx)
+) [79] [80] [81] (./tabelas/tabelasNilton/cronograma.ltx)
 Overfull \hbox (14.80244pt too wide) in paragraph at lines 1--331
  [] 
  []
 
-) (./capitulos/8-Execucao-do-Estudo-de-Caso.tex [81]
+) (./capitulos/8-Execucao-do-Estudo-de-Caso.tex [82]
 File: figuras/figuras_nilton/eixosqualidade.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/eixosqualidade.eps>) (./capitulos/9-conclusao.tex
-[82
+[83
 
 ]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [83
+ [84
 
 ]
 bibitemlist
@@ -3122,11 +3122,11 @@ Underfull \hbox (badness 3354) in paragraph at lines 33--33
 [][][]$SIDOC;$[][] 
  []
 
-[84
+[85
 
-] [85] [86]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
+] [86] [87]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
 AED: lastpage setting LastPage
-[87]
+[88]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -3145,7 +3145,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 48.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 48.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 5683580FB0C516A04B48D54475C338CB;10120.
+(rerunfilecheck)             Checksum: B02D8EBA661D2D93998915AA68C25BE2;10120.
 
 
 LaTeX Warning: There were undefined references.
@@ -3157,11 +3157,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
  26271 strings out of 493305
- 441368 string characters out of 6139898
- 637480 words of memory out of 5000000
+ 441372 string characters out of 6139898
+ 637389 words of memory out of 5000000
  29043 multiletter control sequences out of 15000+600000
  114737 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,75p,1403b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (88 pages, 923208 bytes).
+Output written on tcc.dvi (89 pages, 925376 bytes).
