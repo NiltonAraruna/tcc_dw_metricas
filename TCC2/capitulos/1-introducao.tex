@@ -26,19 +26,19 @@ A inexistência de parâmetros de aferição de qualidade para contratação de 
 
 A auditoria do acordão \cite{Acordao381_2011} reforça o problema da falta de capacidade da administração pública de aferir a qualidade interna dos produtos de software desenvolvido por terceirizadas. A partir desse problema e da solução para monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing-DWing} proposta por \citeonline{rego_monitoramento_2014}, foi formulada a questão de pesquisa geral deste trabalho que é:
 
-\textbf{O uso de um ambiente de DW para aferição da qualidade interna do software apoiado pela análise de cenários de limpeza, análise de bugs e análise de violações pode assistir ao processo de aferição da qualidade de software?}
+\textbf{O uso de um ambiente de DW para aferição da qualidade interna do software apoiado por Analisadores Estáticos Automatizados pode assistir ao processo de aferição da qualidade de um sistema adquirido pela CAIXA?}
 
 
 \section{Objetivos}
 
-O objetivo geral deste trabalho é realizar um estudo de caso onde será analisado o uso de um ambiente de \textit{Data Warehousing} para o monitoramento de métricas, bugs e violações de código fonte de forma a assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvidos por uma organização terceirizada e adquiridas por uma organização pública. Dentre os objetivos específicos deste trabalho estão:
+O objetivo geral deste trabalho é realizar um estudo de caso onde será analisado o uso de um ambiente de \textit{Data Warehousing} para o monitoramento de métricas, \textit{bugs} e violações de código fonte de forma a assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvidos por uma organização terceirizada e adquiridas por uma organização pública. Dentre os objetivos específicos deste trabalho estão:
 
 \begin{easylist}[itemize]
 & Adicionar a análise de bugs utilizando a ferramenta findbugs à solução de um ambiente de \textit{Data Warehousing-DWing} proposta por \citeonline{rego_monitoramento_2014}.
 
 & Adicionar a análise de violações utilizando a ferramenta \textit{PMD} à solução de um ambiente de \textit{Data Warehousing-DWing} proposta por \citeonline{rego_monitoramento_2014}.
 
-& Analisar um sistema adquirido por um Orgão Púlico utilizando à solução de um ambiente de \textit{Data Warehousing-DWing} já contemplando das novas análises de bugs e violações.
+& Analisar um sistema adquirido por um Orgão Púlico utilizando à solução de um ambiente de \textit{Data Warehousing-DWing} já contemplando das novas análises de \textit{bugs} e violações.
 
 & Construir \textit{Dashboards} visando demonstrar de forma visual os dados chave das análises descrita no tópico anterior.
 \end{easylist}
@@ -129,8 +129,19 @@ Esse trabalho está dividido em 5 capítulos:
 	\begin{easylist}[itemize]	
 	
 	& \textbf{Capítulo 2 - Métricas de Software:} Capítulo responsável pela explicação teórica a respeito do que são métricas de código e como elas foram utilizadas no desenvolvimento da solução que esse trabalho busca analisar.
-	& \textbf{Capítulo 3 - Contratações de Fornecedores de Desenvolvimento de Software:} Capítulo responsável por apresentar as principais informações referentes à Contratação de Fornecedores de Desenvolvimento de Software. Para isso, o capítulo é iniciado com uma visão geral sobre a importância das contratações e suas principais características. Posteriormente, é apresentado um resumo da Instrução Normativa 04.
-	& \textbf{Capítulo 4 - Data Warehouse:} Nesse capítulo, serão apresentados conceitos teóricos sobre \textit{Data Warehousing}, assim como a maneira como foi desenvolvido e como funciona o ambiente de \textit{Data Warehouse} para armazenamento de métricas de código fonte.
-	& \textbf{Capítulo 5 - Projeto de estudo de caso:} é apresentado o projeto do estudo de caso resultante do passo planejar Estudo de Caso, buscando demonstrar o escopo e elaborar um protocolo para o estudo de caso realizado. Elementos de pesquisa serão identificados e explicados como o problema a ser resolvido, os objetivos a serem alcançados no estudo de caso, quais os métodos de coleta e a análise dos dados.
-	& \textbf{Capítulo 6 - Conclusão:} Além das considerações finais dessa primeira parte do trabalho, serão descritos objetivos para o trabalho de conclusão de curso dois.
+	
+	& \textbf{Capítulo 3 - Verificadores Estáticos de Código:} Capítulo responsável pela explicação teórica a respeito dos verificadores estáticos de código e a descrição dos verificadores de erros utilizados neste trabalho.  
+	
+	& \textbf{Capítulo 4 - \textit{Dashboard}:} Capítulo responsável por apresentar a importância do \textit{Dashboard} e descrever das ferramentas utilizadas para a criação do \textit{Dashboard} deste trabalho.
+	
+	& \textbf{Capítulo 5 - Contratações de Fornecedores de Desenvolvimento de Software:} Capítulo responsável por apresentar as principais informações referentes à Contratação de Fornecedores de Desenvolvimento de Software. Para isso, o capítulo é iniciado com uma visão geral sobre a importância das contratações e suas principais características. Posteriormente, é apresentado um resumo da Instrução Normativa 04.
+	
+	& \textbf{Capítulo 6 - Data Warehouse:} Nesse capítulo, serão apresentados conceitos teóricos sobre \textit{Data Warehousing}, assim como a maneira como foi desenvolvido e como funciona o ambiente de \textit{Data Warehouse} para armazenamento de métricas de código fonte.
+	
+	& \textbf{Capítulo 7 - Projeto de estudo de caso:} É apresentado o projeto do estudo de caso resultante do passo planejar Estudo de Caso, buscando demonstrar o escopo e elaborar um protocolo para o estudo de caso realizado. Elementos de pesquisa serão identificados e explicados como o problema a ser resolvido, os objetivos a serem alcançados no estudo de caso, quais os métodos de coleta e a análise dos dados.
+	
+	& \textbf{Capítulo 8 - Execução do Estudo de Caso:} Capítulo responsável por descrever os resultados obtidos com a aplicação do ambiente em forma de estudo de caso, onde as 16 \textit{releases} do software SIGET da CAIXA Econômica Federal, foram analisadas.	
+	
+	& \textbf{Capítulo 9 - Conclusão:} Capítulo responsável por apresentar as conclusões, limitações do trabalho e trabalhos futuros.
+
 	\end{easylist}

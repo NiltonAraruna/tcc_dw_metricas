@@ -1,22 +1,22 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Metodologia de Pesquisa\relax }}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {2}{\ignorespaces Passos do Estudo de Caso\relax }}{21}{figure.caption.17}
-\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de Qualidade do Produto da \citeonline {ISO:9126}\relax }}{24}{figure.caption.18}
-\contentsline {figure}{\numberline {4}{\ignorespaces Atividades de aquisi\IeC {\c c}\IeC {\~a}o extra\IeC {\'\i }da de \citeonline {ISO:12207}\relax }}{47}{figure.caption.28}
-\contentsline {figure}{\numberline {5}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{51}{figure.caption.29}
-\contentsline {figure}{\numberline {6}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{53}{figure.caption.30}
-\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Drill Down}(direita) e \textit {Drill up}(esquerda) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{54}{figure.caption.32}
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Slice}(acima) e \textit {Dice}(embaixo) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{55}{figure.caption.33}
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Drill Across} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{56}{figure.caption.34}
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Pivoting} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{56}{figure.caption.35}
-\contentsline {figure}{\numberline {11}{\ignorespaces Metodologia de Projeto de \textit {Data Warehouse} proposta por \citeonline {Kimball2002} extra\IeC {\'\i }da de \citeonline {rego_monitoramento_2014} \relax }}{58}{figure.caption.36}
-\contentsline {figure}{\numberline {12}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{61}{figure.caption.39}
-\contentsline {figure}{\numberline {13}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{63}{figure.caption.41}
-\contentsline {figure}{\numberline {14}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao PMD\relax }}{64}{figure.caption.43}
-\contentsline {figure}{\numberline {15}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao \textit {FindBugs}\relax }}{65}{figure.caption.44}
-\contentsline {figure}{\numberline {16}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} finalizado.\relax }}{66}{figure.caption.45}
-\contentsline {figure}{\numberline {17}{\ignorespaces Arquitetura Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014} e adaptado.\relax }}{68}{figure.caption.47}
-\contentsline {figure}{\numberline {18}{\ignorespaces Escopo do Estudo de Caso\relax }}{72}{figure.caption.48}
-\contentsline {figure}{\numberline {19}{\ignorespaces Estrutura do Estudo de Caso\relax }}{76}{figure.caption.49}
-\contentsline {figure}{\numberline {20}{\ignorespaces F\IeC {\'o}rmula de \IeC {\'I}ndice de Defeitos\relax }}{78}{figure.caption.50}
-\contentsline {figure}{\numberline {21}{\ignorespaces 7 eixos da qualidade de software \citeonline {SonarQube}\relax }}{82}{figure.caption.53}
+\contentsline {figure}{\numberline {1}{\ignorespaces Metodologia de Pesquisa\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {2}{\ignorespaces Passos do Estudo de Caso\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de Qualidade do Produto da \citeonline {ISO:9126}\relax }}{25}{figure.caption.18}
+\contentsline {figure}{\numberline {4}{\ignorespaces Atividades de aquisi\IeC {\c c}\IeC {\~a}o extra\IeC {\'\i }da de \citeonline {ISO:12207}\relax }}{48}{figure.caption.28}
+\contentsline {figure}{\numberline {5}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{52}{figure.caption.29}
+\contentsline {figure}{\numberline {6}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{54}{figure.caption.30}
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Drill Down}(direita) e \textit {Drill up}(esquerda) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{55}{figure.caption.32}
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Slice}(acima) e \textit {Dice}(embaixo) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{56}{figure.caption.33}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Drill Across} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{57}{figure.caption.34}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Pivoting} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{57}{figure.caption.35}
+\contentsline {figure}{\numberline {11}{\ignorespaces Metodologia de Projeto de \textit {Data Warehouse} proposta por \citeonline {Kimball2002} extra\IeC {\'\i }da de \citeonline {rego_monitoramento_2014} \relax }}{59}{figure.caption.36}
+\contentsline {figure}{\numberline {12}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{62}{figure.caption.39}
+\contentsline {figure}{\numberline {13}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{64}{figure.caption.41}
+\contentsline {figure}{\numberline {14}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao PMD\relax }}{65}{figure.caption.43}
+\contentsline {figure}{\numberline {15}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao \textit {FindBugs}\relax }}{66}{figure.caption.44}
+\contentsline {figure}{\numberline {16}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} finalizado.\relax }}{67}{figure.caption.45}
+\contentsline {figure}{\numberline {17}{\ignorespaces Arquitetura Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014} e adaptado.\relax }}{69}{figure.caption.47}
+\contentsline {figure}{\numberline {18}{\ignorespaces Escopo do Estudo de Caso\relax }}{73}{figure.caption.48}
+\contentsline {figure}{\numberline {19}{\ignorespaces Estrutura do Estudo de Caso\relax }}{77}{figure.caption.49}
+\contentsline {figure}{\numberline {20}{\ignorespaces F\IeC {\'o}rmula de \IeC {\'I}ndice de Defeitos\relax }}{79}{figure.caption.50}
+\contentsline {figure}{\numberline {21}{\ignorespaces 7 eixos da qualidade de software \citeonline {SonarQube}\relax }}{83}{figure.caption.53}
