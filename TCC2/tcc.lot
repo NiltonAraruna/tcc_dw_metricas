@@ -1,19 +1,19 @@
 \select@language {brazil}
 \contentsline {table}{\numberline {2}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o das classifica\IeC {\c c}\IeC {\~o}es adotadas de pesquisa, conceitos extra\IeC {\'\i }dos de \citeonline {metodologia_edna} parte 1.\relax }}{20}{table.caption.15}
 \contentsline {table}{\numberline {4}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o das classifica\IeC {\c c}\IeC {\~o}es adotadas de pesquisa, conceitos extra\IeC {\'\i }dos de \citeonline {metodologia_edna} parte 2.\relax }}{21}{table.caption.16}
-\contentsline {table}{\numberline {5}{\ignorespaces Percentis para m\IeC {\'e}trica NOC em projetos Java extra\IeC {\'\i }dos de \citeonline {Meirelles2013}\relax }}{29}{table.caption.19}
-\contentsline {table}{\numberline {6}{\ignorespaces Nome dos Intervalos de Frequ\IeC {\^e}ncia extra\IeC {\'\i }dos de \citeonline {rego_monitoramento_2014}\relax }}{30}{table.caption.20}
-\contentsline {table}{\numberline {7}{\ignorespaces Configura\IeC {\c c}\IeC {\~o}es para os Intervalos das M\IeC {\'e}tricas para Java extra\IeC {\'\i }das de \citeonline {rego_monitoramento_2014}\relax }}{31}{table.caption.21}
-\contentsline {table}{\numberline {8}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 1.\relax }}{33}{table.caption.22}
-\contentsline {table}{\numberline {9}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 2.\relax }}{34}{table.caption.23}
-\contentsline {table}{\numberline {10}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 3.\relax }}{35}{table.caption.24}
-\contentsline {table}{\numberline {11}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 4.\relax }}{36}{table.caption.25}
-\contentsline {table}{\numberline {12}{\ignorespaces Cen\IeC {\'a}rios de Limpeza extra\IeC {\'\i }dos de \citeonline {rego_monitoramento_2014}\relax }}{38}{table.caption.27}
-\contentsline {table}{\numberline {13}{\ignorespaces Diferen\IeC {\c c}as entre OLTP e OLAP extra\IeC {\'\i }das de \citeonline {hilmer2002}\relax }}{55}{table.caption.31}
-\contentsline {table}{\numberline {14}{\ignorespaces Fatos e dimens\IeC {\~o}es identificadas por \citeonline {rego_monitoramento_2014}\relax }}{60}{table.caption.37}
-\contentsline {table}{\numberline {15}{\ignorespaces Fatos e dimens\IeC {\~o}es identificadas neste trabalho.\relax }}{61}{table.caption.38}
-\contentsline {table}{\numberline {16}{\ignorespaces Tabelas fatos e tabelas dimens\IeC {\~o}es elaboradas por \citeonline {rego_monitoramento_2014}\relax }}{63}{table.caption.40}
-\contentsline {table}{\numberline {17}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o das Tabelas do Metadados do \textit {Data Warehouse} \relax }}{64}{table.caption.42}
-\contentsline {table}{\numberline {18}{\ignorespaces Tabelas fatos e tabelas dimens\IeC {\~o}es adicionadas \IeC {\`a} solu\IeC {\c c}\IeC {\~a}o de \citeonline {rego_monitoramento_2014}\relax }}{68}{table.caption.46}
-\contentsline {table}{\numberline {19}{\ignorespaces Multa por defeitos\relax }}{79}{table.caption.51}
-\contentsline {table}{\numberline {20}{\ignorespaces Cronograma\relax }}{82}{table.caption.52}
+\contentsline {table}{\numberline {5}{\ignorespaces Percentis para m\IeC {\'e}trica NOC em projetos Java extra\IeC {\'\i }dos de \citeonline {Meirelles2013}\relax }}{30}{table.caption.20}
+\contentsline {table}{\numberline {6}{\ignorespaces Nome dos Intervalos de Frequ\IeC {\^e}ncia extra\IeC {\'\i }dos de \citeonline {rego_monitoramento_2014}\relax }}{31}{table.caption.21}
+\contentsline {table}{\numberline {7}{\ignorespaces Configura\IeC {\c c}\IeC {\~o}es para os Intervalos das M\IeC {\'e}tricas para Java extra\IeC {\'\i }das de \citeonline {rego_monitoramento_2014}\relax }}{32}{table.caption.22}
+\contentsline {table}{\numberline {8}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 1.\relax }}{34}{table.caption.23}
+\contentsline {table}{\numberline {9}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 2.\relax }}{35}{table.caption.24}
+\contentsline {table}{\numberline {10}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 3.\relax }}{36}{table.caption.25}
+\contentsline {table}{\numberline {11}{\ignorespaces Conceitos de Limpeza levantados por \citeonline {Machini2010} e adaptados por \citeonline {rego_monitoramento_2014} parte 4.\relax }}{37}{table.caption.26}
+\contentsline {table}{\numberline {12}{\ignorespaces Cen\IeC {\'a}rios de Limpeza extra\IeC {\'\i }dos de \citeonline {rego_monitoramento_2014}\relax }}{39}{table.caption.28}
+\contentsline {table}{\numberline {13}{\ignorespaces Diferen\IeC {\c c}as entre OLTP e OLAP extra\IeC {\'\i }das de \citeonline {hilmer2002}\relax }}{56}{table.caption.32}
+\contentsline {table}{\numberline {14}{\ignorespaces Fatos e dimens\IeC {\~o}es identificadas por \citeonline {rego_monitoramento_2014}\relax }}{61}{table.caption.38}
+\contentsline {table}{\numberline {15}{\ignorespaces Fatos e dimens\IeC {\~o}es identificadas neste trabalho.\relax }}{62}{table.caption.39}
+\contentsline {table}{\numberline {16}{\ignorespaces Tabelas fatos e tabelas dimens\IeC {\~o}es elaboradas por \citeonline {rego_monitoramento_2014}\relax }}{64}{table.caption.41}
+\contentsline {table}{\numberline {17}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o das Tabelas do Metadados do \textit {Data Warehouse} \relax }}{65}{table.caption.43}
+\contentsline {table}{\numberline {18}{\ignorespaces Tabelas fatos e tabelas dimens\IeC {\~o}es adicionadas \IeC {\`a} solu\IeC {\c c}\IeC {\~a}o de \citeonline {rego_monitoramento_2014}\relax }}{69}{table.caption.47}
+\contentsline {table}{\numberline {19}{\ignorespaces Multa por defeitos\relax }}{80}{table.caption.52}
+\contentsline {table}{\numberline {20}{\ignorespaces Cronograma\relax }}{83}{table.caption.53}
