@@ -41,51 +41,54 @@
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Contrata\IeC {\c c}\IeC {\~o}es de Fornecedores de Desenvolvimento de Software}}{50}{chapter.5}
 \contentsline {section}{\numberline {5.1}Import\IeC {\^a}ncia da Contrata\IeC {\c c}\IeC {\~a}o de Fornecedores de Desenvolvimento de Software}{50}{section.5.1}
 \contentsline {section}{\numberline {5.2}Instru\IeC {\c c}\IeC {\~a}o Normativa N\IeC {\textordmasculine } 04}{52}{section.5.2}
+\contentsline {section}{\numberline {5.3}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{54}{section.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {\textit {Data Warehouse}}}{54}{chapter.6}
-\contentsline {section}{\numberline {6.1}Defini\IeC {\c c}\IeC {\~a}o}{54}{section.6.1}
-\contentsline {section}{\numberline {6.2}\textit {Extraction-Transformation-Load}}{55}{section.6.2}
-\contentsline {section}{\numberline {6.3}Modelagem Dimensional}{56}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}OLAP \textit {(On-Line Analytic Processing)}}{57}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas, \textit {bugs} e viola\IeC {\c c}\IeC {\~o}es de C\IeC {\'o}digo-Fonte}{60}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Ferramentas de \textit {Data Warehousing}}{71}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{73}{section.6.5}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {\textit {Data Warehouse}}}{55}{chapter.6}
+\contentsline {section}{\numberline {6.1}Defini\IeC {\c c}\IeC {\~a}o}{55}{section.6.1}
+\contentsline {section}{\numberline {6.2}\textit {Extraction-Transformation-Load}}{56}{section.6.2}
+\contentsline {section}{\numberline {6.3}Modelagem Dimensional}{57}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}OLAP \textit {(On-Line Analytic Processing)}}{58}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas, \textit {bugs} e viola\IeC {\c c}\IeC {\~o}es de C\IeC {\'o}digo-Fonte}{61}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Ferramentas de \textit {Data Warehousing}}{72}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{74}{section.6.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Projeto de estudo de Caso}}{74}{chapter.7}
-\contentsline {section}{\numberline {7.1}Defini\IeC {\c c}\IeC {\~a}o}{74}{section.7.1}
-\contentsline {section}{\numberline {7.2}Background}{76}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Trabalhos Antecedentes e Relacionados}{76}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Quest\IeC {\~a}o de Pesquisa}{77}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Design}{80}{section.7.3}
-\contentsline {section}{\numberline {7.4}Sele\IeC {\c c}\IeC {\~a}o}{81}{section.7.4}
-\contentsline {section}{\numberline {7.5}O Software Analisado}{83}{section.7.5}
-\contentsline {section}{\numberline {7.6}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{84}{section.7.6}
-\contentsline {section}{\numberline {7.7}Processo de an\IeC {\'a}lise dos dados}{84}{section.7.7}
-\contentsline {section}{\numberline {7.8}Amea\IeC {\c c}as a validade do estudo de caso}{84}{section.7.8}
-\contentsline {section}{\numberline {7.9}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{85}{section.7.9}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Projeto de estudo de Caso}}{75}{chapter.7}
+\contentsline {section}{\numberline {7.1}Defini\IeC {\c c}\IeC {\~a}o}{75}{section.7.1}
+\contentsline {section}{\numberline {7.2}Background}{77}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Trabalhos Antecedentes e Relacionados}{77}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Quest\IeC {\~a}o de Pesquisa}{78}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Design}{81}{section.7.3}
+\contentsline {section}{\numberline {7.4}Sele\IeC {\c c}\IeC {\~a}o}{82}{section.7.4}
+\contentsline {section}{\numberline {7.5}O Software Analisado}{84}{section.7.5}
+\contentsline {section}{\numberline {7.6}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{85}{section.7.6}
+\contentsline {section}{\numberline {7.7}Processo de an\IeC {\'a}lise dos dados}{85}{section.7.7}
+\contentsline {section}{\numberline {7.8}Amea\IeC {\c c}as a validade do estudo de caso}{85}{section.7.8}
+\contentsline {section}{\numberline {7.9}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{86}{section.7.9}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso e An\IeC {\'a}lise dos Dados}}{86}{chapter.8}
-\contentsline {section}{\numberline {8.1}Analise do SIGET}{86}{section.8.1}
-\contentsline {section}{\numberline {8.2}Analise do Question\IeC {\'a}rio}{91}{section.8.2}
-\contentsline {section}{\numberline {8.3}Analise do Erro Quadr\IeC {\'a}tico M\IeC {\'e}dio}{91}{section.8.3}
-\contentsline {section}{\numberline {8.4}Analise do Coeficiente de Correla\IeC {\c c}\IeC {\~a}o}{96}{section.8.4}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso e An\IeC {\'a}lise dos Dados}}{87}{chapter.8}
+\contentsline {section}{\numberline {8.1}Analise do SIGET}{87}{section.8.1}
+\contentsline {section}{\numberline {8.2}Analise do Question\IeC {\'a}rio}{92}{section.8.2}
+\contentsline {section}{\numberline {8.3}Analise do Erro Quadr\IeC {\'a}tico M\IeC {\'e}dio}{92}{section.8.3}
+\contentsline {section}{\numberline {8.4}Analise do Coeficiente de Correla\IeC {\c c}\IeC {\~a}o}{97}{section.8.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~a}o}}{99}{chapter.9}
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~a}o}}{100}{chapter.9}
+\contentsline {section}{\numberline {9.1}Limita\IeC {\c c}\IeC {\~o}es}{100}{section.9.1}
+\contentsline {section}{\numberline {9.2}Trabalhos Futuros}{100}{section.9.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{100}{section*.68}
+\contentsline {chapter}{Refer\^encias}{101}{section*.68}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{104}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{105}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Implementa\IeC {\c c}\IeC {\~a}o do \textit {Dashboard}}}{105}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Implementa\IeC {\c c}\IeC {\~a}o do \textit {Dashboard}}}{106}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Question\IeC {\'a}rio}}{106}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Question\IeC {\'a}rio}}{107}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

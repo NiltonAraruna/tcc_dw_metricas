@@ -1,5 +1,13 @@
 % INICIO PERSONALIZACAO Nilton
 
+@book{Wasserman2010,
+ author = {Wasserman, Larry},
+ title = {All of Statistics: A Concise Course in Statistical Inference},
+ year = {2010},
+ isbn = {1441923225, 9781441923226},
+ publisher = {Springer Publishing Company, Incorporated},
+}
+
 @book{few2006,
 	address = {Beijing ; Cambride [MA]},
 	edition = {1st ed},
