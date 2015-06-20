@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="quantidadeViolationTipo" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="quantidaViolationserevidade" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="tabelnomeclasseviolation" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="releaseselectorQuery" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="quantidadeViolationTipo"
+               id="quantidadeViolationTipo"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select 
+    s.severite_name as "Severidade",
+	sum(fpv.quantiy_Violation) as "Quantidade"
+from 
+	F_Project_Violation fpv,
+	D_Release re,
+	D_Severite s
+where
+	fpv.D_Release_idRelease = re.idRelease
+	and fpv.D_Class_Violation_idSeverite = s.idSeverite
+	and re.release_name = ${release_param}
+group by
+	s.severite_name</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="quantidaViolationserevidade"
+               id="quantidaViolationserevidade"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select 
+    s.severite_name as "Severidade",
+	r.rule_set as "Tipo",
+	sum(fpv.quantiy_Violation) as "Quantidade"
+from 
+	F_Project_Violation fpv,
+	D_Release re,
+	D_Severite s,
+	D_Rules r
+where
+	fpv.D_Release_idRelease = re.idRelease
+	and fpv.D_Class_Violation_idSeverite = s.idSeverite
+	and fpv.D_Class_Violation_idRules = r.idRules
+	and re.release_name = ${release_param}
+group by
+	s.severite_name,
+	r.rule_name</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="tabelnomeclasseviolation"
+               id="tabelnomeclasseviolation"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select
+    dcv.violation_file_class,
+	r.rule_set as "Tipo",
+	r.rule_name as "Nome",
+	dcv.violation_line_class as "Linha"
+	
+from 
+	F_Project_Violation fpv,
+	D_Release re,
+	D_Severite s,
+	D_Rules r,
+	D_Class_Violation dcv
+where
+	fpv.D_Release_idRelease = re.idRelease
+	and fpv.D_Class_Violation_idSeverite = s.idSeverite
+	and fpv.D_Class_Violation_idRules = r.idRules
+	and dcv.idClass_violation = fpv.D_Class_Violation_idClass_violation
+	and re.release_name = ${release_param}</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="releaseselectorQuery"
+               id="releaseselectorQuery"
+               type="sql">
+      <Columns/>
+      <Parameters/>
+      <Query>select DISTINCT re.release_name
+
+from D_Release re, F_Project_Violation fpv
+
+where
+
+re.idRelease = fpv.D_Release_idRelease;</Query>
+   </DataAccess>
+</CDADescriptor>

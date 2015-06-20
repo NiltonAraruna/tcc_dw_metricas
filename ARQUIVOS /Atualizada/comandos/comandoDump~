@@ -1,0 +1,5 @@
+entrar no diretorio que vc quer fazer o dump:
+
+mysqldump -h localhost -u root -proot source_info> dumpfile.sql
+
+

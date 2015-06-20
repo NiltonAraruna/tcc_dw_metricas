@@ -1,9 +1,0 @@
-select  c.class_name, dsc.scenario_name, dsc.recomendations, re.release_name
-
-from D_Project pj, D_Release re, F_Scenario_Class fsc, D_Scenario_Clean_Code dsc, D_Class c
-
-where
-
-pj.idProject = fsc.D_Project_idProject and re.idRelease = fsc.D_Release_idRelease 
-and fsc.D_Scenario_Clean_Code_idScenario = dsc.idScenario and c.idClass = fsc.D_Class_idClass 
-and re.release_name = "912";

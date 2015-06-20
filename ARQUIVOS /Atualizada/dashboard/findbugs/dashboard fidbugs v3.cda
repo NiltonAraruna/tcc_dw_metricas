@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="quantidadeseveridade" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="quantidadetiposeveridade" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="tabelasql" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+      <Connection id="releaseselectorQuery" type="sql.jndi">
+         <Jndi>source_info</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="quantidadeseveridade"
+               id="quantidadeseveridade"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select 
+    p.priority_name as "Prioridade", -- Para alterar o nome da coluna basta alterar a string entre aspas
+	sum(fpb.quantiy_Bug) as "Quantidade"
+from 
+	F_Project_Bug fpb,
+	D_Priority p,
+	D_Release re 
+where	
+	fpb.D_Class_Bug_idPriority = p.idPriority
+	and re.idRelease = fpb.D_Release_idRelease
+	and re.release_name = ${release_param} -- Colocar o parametro com a release desejada aqui
+group by 
+	p.priority_name</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="quantidadetiposeveridade"
+               id="quantidadetiposeveridade"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select
+    p.priority_name as "Prioridade",
+    t.type_category,
+    sum(fpb.quantiy_Bug) as "Quantidade"
+from 
+	F_Project_Bug fpb,
+	D_Priority p,
+	D_Release re,
+	D_Type t
+where	
+	fpb.D_Class_Bug_idPriority = p.idPriority
+	and re.idRelease = fpb.D_Release_idRelease
+	and fpb.D_Class_Bug_idType = t.idType
+	and re.release_name = ${release_param} 
+group by
+    p.priority_name,
+    t.type_category;</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600" connection="tabelasql"
+               id="tabelasql"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="release_param" name="release_param" type="String"/>
+      </Parameters>
+      <Query>select  c.bug_file_class as "Classe", ty.type_category as "Tipo", ty.type_name as "Nome", c.bug_line_class as "Linha"
+
+from  D_Class_Bug c, F_Project_Bug fpb, D_Type ty, D_Release re
+
+where
+
+c.idClass_bug = fpb.D_Class_Bug_idClass_Bug and ty.idType = fpb.D_Class_Bug_idType and re.idRelease = fpb.D_Release_idRelease
+and re.release_name = ${release_param};</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="releaseselectorQuery"
+               id="releaseselectorQuery"
+               type="sql">
+      <Columns/>
+      <Parameters/>
+      <Query>select DISTINCT re.release_name
+
+from D_Release re, F_Project_Bug fpb
+
+where
+
+re.idRelease = fpb.D_Release_idRelease;</Query>
+   </DataAccess>
+</CDADescriptor>
