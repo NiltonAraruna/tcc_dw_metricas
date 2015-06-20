@@ -1,0 +1,8 @@
+select  c.bug_file_class, ty.type_name, c.bug_line_class, re.release_name, t.Month, t.Year
+
+from D_Project pj, D_Release re, D_Class_Bug c, D_Time t, F_Project_Bug fpb, D_Type ty
+
+where
+
+pj.idProject = fpb.D_Project_idProject and re.idRelease = fpb.D_Release_idRelease 
+and c.idClass_bug = fpb.D_Class_Bug_idClass_Bug and ty.idType = fpb.D_Class_Bug_idType;

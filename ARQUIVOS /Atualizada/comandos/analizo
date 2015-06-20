@@ -1,0 +1,5 @@
+entrar no diretorio do da revision a ser analisada e rodar o comando abaixo:
+
+analizo metrics-batch
+
+utilizar o arquivo gerado de nome "src-details.csv"

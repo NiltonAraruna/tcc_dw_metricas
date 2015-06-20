@@ -1,0 +1,278 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Basili, Caldiera e Rombach 1996]{Basili96b}
+\abntrefinfo{Basili, Caldiera e Rombach}{BASILI; CALDIERA; ROMBACH}{1996}
+{BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. \emph{{The Goal Question Metric
+  Approach}}. [S.l.]: Encyclopedia of Software Engineering, 1996.}
+
+\bibitem[Basili e Rombach 1987]{Basili1987}
+\abntrefinfo{Basili e Rombach}{BASILI; ROMBACH}{1987}
+{BASILI, V.~R.; ROMBACH, H.~D. \emph{{TAME: Integrating Measurement into
+  Software Environments}}. 1987.
+Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
+
+\bibitem[Beck 1999]{beck1999}
+\abntrefinfo{Beck}{BECK}{1999}
+{BECK, K. \emph{Extreme Programming Explained}. [S.l.]: Addison Wesley, 1999.}
+
+\bibitem[Beck 2007]{Beck2007}
+\abntrefinfo{Beck}{BECK}{2007}
+{BECK, K. \emph{{Implementation Patterns}}. 1. ed. [S.l.]: Addison-Wesley
+  Professional, 2007.}
+
+\bibitem[BRASIL 2011]{Acordao381_2011}
+\abntrefinfo{BRASIL}{BRASIL}{2011}
+{BRASIL. \emph{{Acórdão}-381/2011-TCU-Plenário}.
+[S.l.], 2011. Dispon{\'\i}vel em:
+  \url{https://contas.tcu.gov.br/juris/SvlHighLight?key=ACORDAO-LEGADO-89657&texto=2b4e554d41434f5244414f2533413338312b414e442b2b4e554d414e4f41434f5244414f25334132303131&sort=&ordem=&bases=ACORDAO-LEGADO;RELACAO-LEGADO;DECISAO-LEGADO;SIDOC;ACORDAO-RELACAO-LEGADO;}.}
+
+\bibitem[Brereton, Kitchenham e Budgen 2008]{case-study-template-2008}
+\abntrefinfo{Brereton, Kitchenham e Budgen}{BRERETON; KITCHENHAM; BUDGEN}{2008}
+{BRERETON, P.; KITCHENHAM, B.; BUDGEN, D. Using a protocol template for case
+  study planning. In:  \emph{Proceedings of EASE 2008}. [S.l.]: BCS-eWiC,
+  2008.}
+
+\bibitem[Budd 2002]{budd_introduction_2002}
+\abntrefinfo{Budd}{BUDD}{2002}
+{BUDD, T. \emph{An introduction to object-oriented programming}. 3rd ed. ed.
+  Boston: Addison-Wesley, 2002.
+ISBN 0201760312.}
+
+\bibitem[Cruz, Andrade e Figueiredo 2011]{processoContratacao}
+\abntrefinfo{Cruz, Andrade e Figueiredo}{CRUZ; ANDRADE; FIGUEIREDO}{2011}
+{CRUZ, C.; ANDRADE, E.; FIGUEIREDO, R. \emph{Processo de contratação de
+  Serviços de Tecnologia da Informação para Organizações Públicas}.
+  [S.l.]: PBPQ Software, 2011.}
+
+\bibitem[Fenton e Pfleeger 1998]{Fenton98}
+\abntrefinfo{Fenton e Pfleeger}{FENTON; PFLEEGER}{1998}
+{FENTON, N.~E.; PFLEEGER, S.~L. \emph{{Software Metrics: A Rigorous and
+  Practical Approach}}. 2 edition. ed. [S.l.]: Course Technology, 1998. 656~p.}
+
+\bibitem[Fowler 1999]{fowler1999refactoring}
+\abntrefinfo{Fowler}{FOWLER}{1999}
+{FOWLER, M. \emph{Refactoring: improving the design of existing code}. [S.l.]:
+  Addison-Wesley Professional, 1999.}
+
+\bibitem[Gil 2002]{gil_como_2002}
+\abntrefinfo{Gil}{GIL}{2002}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. [S.l.]: Atlas, 2002.
+ISBN 9788522431694 8522431698.}
+
+\bibitem[Golfarelli 2009]{golfarelli_data_2009}
+\abntrefinfo{Golfarelli}{GOLFARELLI}{2009}
+{GOLFARELLI, M. \emph{Data warehouse design: modern principles and
+  methodologies}. New York: {McGraw}-Hill, 2009.
+ISBN 9780071610391.}
+
+\bibitem[Guti\'{e}rrez e Marotta 2000]{marotta2000}
+\abntrefinfo{Guti\'{e}rrez e Marotta}{GUTI\'{e}RREZ; MAROTTA}{2000}
+{GUTI\'{e}RREZ, A.; MAROTTA, A. An overview of data warehouse design approaches
+  and techniques.
+2000.}
+
+\bibitem[Harman 2010]{harman}
+\abntrefinfo{Harman}{HARMAN}{2010}
+{HARMAN, M. Why source code analysis and manipulation will always be important.
+  In:  IEEE. \emph{Source Code Analysis and Manipulation (SCAM), 2010 10th IEEE
+  Working Conference on}. [S.l.], 2010.}
+
+\bibitem[Honglei, Wei e Yanan 2009]{honglei_research_2009}
+\abntrefinfo{Honglei, Wei e Yanan}{HONGLEI; WEI; YANAN}{2009}
+{HONGLEI, T.; WEI, S.; YANAN, Z. The research on software metrics and software
+  complexity metrics. In:  . {IEEE}, 2009.
+ISBN 978-1-4244-5422-8, 978-0-7695-3930-0. Dispon{\'\i}vel em:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5385114}.}
+
+\bibitem[IN4 2014]{Normativa4}
+\abntrefinfo{IN4}{IN4}{2014}
+{IN4. Instrução normativa número 4.
+2014.}
+
+\bibitem[Inmon 2002]{Inmon2002}
+\abntrefinfo{Inmon}{INMON}{2002}
+{INMON, W.~H. \emph{Building the Data Warehouse}. 3rd. ed. New York, NY, USA:
+  John Wiley \& Sons, Inc., 2002.}
+
+\bibitem[{ISO/IEC 15939} 2002]{ISO:15939}
+\abntrefinfo{{ISO/IEC 15939}}{{ISO/IEC 15939}}{2002}
+{{ISO/IEC 15939}. \emph{{ISO/IEC} 15939: {S}oftware {E}ngineering - {S}oftware
+  {M}easurement {P}rocess}.
+[S.l.], 2002.}
+
+\bibitem[{ISO/IEC 15939} 2008]{ISO:12207}
+\abntrefinfo{{ISO/IEC 15939}}{{ISO/IEC 15939}}{2008}
+{{ISO/IEC 15939}. \emph{{ISO/IEC} 12207: {S}ystem and {S}oftware {E}ngineering
+  - {S}oftware {L}ife {C}ycle {P}rocesses}.
+[S.l.], 2008.}
+
+\bibitem[{ISO/IEC 9126} 2001]{ISO:9126}
+\abntrefinfo{{ISO/IEC 9126}}{{ISO/IEC 9126}}{2001}
+{{ISO/IEC 9126}. \emph{{ISO/IEC} 9126-1: Software Engineering - Product
+  Quality}.
+[S.l.], 2001.}
+
+\bibitem[Kan 2002]{metricsandmodels}
+\abntrefinfo{Kan}{KAN}{2002}
+{KAN, S.~H. \emph{Metrics and models in software quality engineering}. [S.l.]:
+  Addison Wesley, 2002.}
+
+\bibitem[Kimball 1998]{kimball1998data}
+\abntrefinfo{Kimball}{KIMBALL}{1998}
+{KIMBALL, R. \emph{The data warehouse lifecycle toolkit: expert methods for
+  designing, developing, and deploying data warehouses}. [S.l.]: Wiley. com,
+  1998.}
+
+\bibitem[Kimball e Ross 2002]{Kimball2002}
+\abntrefinfo{Kimball e Ross}{KIMBALL; ROSS}{2002}
+{KIMBALL, R.; ROSS, M. \emph{The Data Warehouse Toolkit: The Complete Guide to
+  Dimensional Modeling}. 2nd. ed. New York, NY, USA: John Wiley \& Sons, Inc.,
+  2002.
+ISBN 0471200247, 9780471200246.}
+
+\bibitem[Laird 2006]{softwaremeasurementandestimation}
+\abntrefinfo{Laird}{LAIRD}{2006}
+{LAIRD, M. C.~B. L.~M. \emph{Software measurement and estimation: A practical
+  approach}. [S.l.]: Wiley-IEEE Computer Society Press, 2006.}
+
+\bibitem[Leite 1997]{leite_terceirizacao}
+\abntrefinfo{Leite}{LEITE}{1997}
+{LEITE, J.~C. Terceirização em informática sob a ótica do prestador de
+  serviços.
+\emph{Revista de Administração de Empresas}, v.~37, n.~4, 1997.
+Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rae/v37n4/a08v37n4}.}
+
+\bibitem[Machini et al. 2010]{Machini2010}
+\abntrefinfo{Machini et al.}{MACHINI et al.}{2010}
+{MACHINI, J.~a. et al. \emph{{C\'{o}digo Limpo e seu Mapeamento para
+  M\'{e}tricas de C\'{o}digo-Fonte}}. [S.l.]: Universidade de S\~{a}o Paulo,
+  2010.}
+
+\bibitem[Marinescu 2005]{marinescu2005measurement}
+\abntrefinfo{Marinescu}{MARINESCU}{2005}
+{MARINESCU, R. Measurement and quality in object-oriented design. In:  IEEE.
+  \emph{Software Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE
+  International Conference on}. [S.l.], 2005. p. 701--704.}
+
+\bibitem[Martin 2008]{Martin2008}
+\abntrefinfo{Martin}{MARTIN}{2008}
+{MARTIN, R.~C. \emph{Clean Code: A Handbook of Agile Software Craftsmanship}.
+  [s.n.], 2008. 464~p.
+ISBN 9780132350884. Dispon{\'\i}vel em:
+  \url{http://portal.acm.org/citation.cfm?id=1388398}.}
+
+\bibitem[McCabe 1976]{McCabe76}
+\abntrefinfo{McCabe}{MCCABE}{1976}
+{MCCABE, T.~J. {A Complexity Measure}.
+\emph{IEEE Transactions Software Engineering}, v.~2, n.~4, p. 308--320,
+  December 1976.}
+
+\bibitem[Meirelles 2013]{Meirelles2013}
+\abntrefinfo{Meirelles}{MEIRELLES}{2013}
+{MEIRELLES, P. R.~M.
+\emph{Monitoramento de métricas de código-fonte em projetos de software
+  livre}.
+Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
+  São Paulo (IME/USP), 2013.}
+
+\bibitem[Mills 1999]{Mills:1999}
+\abntrefinfo{Mills}{MILLS}{1999}
+{MILLS, E.~E. Metrics in the software engineering curriculum.
+\emph{Ann. Softw. Eng.}, J. C. Baltzer AG, Science Publishers, Red Bank, NJ,
+  USA, v.~6, n.~1-4, abr. 1999.
+ISSN 1022-7091.}
+
+\bibitem[Neri 2002]{hilmer2002}
+\abntrefinfo{Neri}{NERI}{2002}
+{NERI, H.~R. \emph{Análise, Projeto e Implementação de um Esquema MOLAP de
+  Data Warehouse utilizando SGBD-OR Oracle 8.1}. Universidade Federal da
+  Paraíba - UFPB: [s.n.], 2002.}
+
+\bibitem[Novello 2006]{novello_uma_2006}
+\abntrefinfo{Novello}{NOVELLO}{2006}
+{NOVELLO, T.~C.
+\emph{Uma abordagem de Data Warehouse para análise de processos de
+  desenvolvimento de software}.
+phdthesis --- Pontifícia Universidade Católica do Rio Grande do Sul, 2006.
+Dispon{\'\i}vel em: \url{http://tardis.pucrs.br/dspace/handle/10923/1570}.}
+
+\bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
+\abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
+{R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um
+  ambiente de data warehousing: um estudo de caso em uma autarquia da
+  administração pública federal.
+2014.
+Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
+
+\bibitem[Rocha 2000]{andre2000}
+\abntrefinfo{Rocha}{ROCHA}{2000}
+{ROCHA, A.~B.
+\emph{Guardando Históricos de Dimensões em Data Warehouses}.
+Disserta\c{c}\~{a}o (Mestrado), Universidade Federal da Paraíba - Centro de
+  Ciências e Tecnologia, 2000.}
+
+\bibitem[Ruiz et al. 2005]{Ruiz2005}
+\abntrefinfo{Ruiz et al.}{RUIZ et al.}{2005}
+{RUIZ, D. D.~A. et al. A data warehousing environment to monitor metrics in
+  software development processes. In:  \emph{16th International Workshop on
+  Database and Expert Systems Applications (DEXA 2005), 22-26 August 2005,
+  Copenhagen, Denmark}. [S.l.]: IEEE Computer Society, 2005. p. 936--940.
+ISBN 0-7695-2424-9.}
+
+\bibitem[Sharma 2011]{neeraj_sharma_2011}
+\abntrefinfo{Sharma}{SHARMA}{2011}
+{SHARMA, N. \emph{Getting started with data warehousing}. [S.l.]: {IBM}
+  Redbooks, 2011.}
+
+\bibitem[Silva e Menezes 2005]{metodologia_edna}
+\abntrefinfo{Silva e Menezes}{SILVA; MENEZES}{2005}
+{SILVA, E.; MENEZES, E. Metodologia da pesquisa e elaboração de
+  dissertação.
+2005.
+Dispon{\'\i}vel em:
+  \url{https://projetos.inf.ufsc.br/arquivos/Metodologia\_de\_pesquisa\_e\_elaboracao\_de\_teses\_e\_dissertacoes\_4ed.pdf}.}
+
+\bibitem[SOFTEX 2013]{GuiaAquisicao}
+\abntrefinfo{SOFTEX}{SOFTEX}{2013a}
+{SOFTEX. \emph{{MPS}. {BR}-Guia de Aquisição}.
+[S.l.], 2013. Dispon{\'\i}vel em:
+  \url{http://www.softex.br/wp-content/uploads/2013/07/MPS.BR\_Guia\_de\_Implementacao\_SV\_Parte\_2\_20132.pdf}.}
+
+\bibitem[SOFTEX 2013]{Guiaimplementacao}
+\abntrefinfo{SOFTEX}{SOFTEX}{2013b}
+{SOFTEX. {MPS} {BR}-guia de implementação – parte 2: Fundamentação para
+  implementação do nível f do mr-mps-sv:2012.
+2013.}
+
+\bibitem[Stake 1995]{stake_art_1995}
+\abntrefinfo{Stake}{STAKE}{1995}
+{STAKE, R.~E. \emph{The art of case study research}. Thousand Oaks: Sage
+  Publications, 1995.
+ISBN 0803957661.}
+
+\bibitem[Times 2012]{valeria2012}
+\abntrefinfo{Times}{TIMES}{2012}
+{TIMES, V.~C. \emph{Sistemas de DW}. 2012. Universidade Federal de Pernambuco -
+  UFPE. Dispon{\'\i}vel em: \url{www.cin.ufpe.br/~if695/bda\_dw.pdf}.}
+
+\bibitem[WILLCOCKS e LACITY 2001]{WillcocksTercerizacao}
+\abntrefinfo{WILLCOCKS e LACITY}{WILLCOCKS; LACITY}{2001}
+{WILLCOCKS, L.; LACITY, M. \emph{Global information technology outsourcing}.
+  [S.l.: s.n.], 2001.}
+
+\bibitem[Wohlin et al. 2012]{wohlin2012experimentation}
+\abntrefinfo{Wohlin et al.}{WOHLIN et al.}{2012}
+{WOHLIN, C. et al. \emph{Experimentation in software engineering}. [S.l.]:
+  Springer, 2012.}
+
+\bibitem[Yin 2001]{yin2001estudo}
+\abntrefinfo{Yin}{YIN}{2001}
+{YIN, R. \emph{Estudo de caso: planejamento e m{\'e}todos}. [S.l.]: Bookman,
+  2001.}
+
+\end{thebibliography}
