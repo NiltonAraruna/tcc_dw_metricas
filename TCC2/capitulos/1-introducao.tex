@@ -22,25 +22,25 @@ Segundo \cite{beck1999}\cite{fowler1999refactoring}, a qualidade de \textit{soft
 
 Com foco na avaliação de controles gerais de Tecnologia da Informação nos Órgãos públicos, em 2011, o Tribunal de Contas da União-TCU detectou, por meio de auditorias de governança de TI em diversos Órgãos, uma considerável frequência de irregularidades relacionadas à inexistência, deficiências e a falhas de processos de \textit{software} que comprometem a eficácia e eficiência das contratações de desenvolvimento de sistemas \cite{Acordao381_2011}. 
 
-A inexistência de parâmetros de aferição de qualidade para contratação de desenvolvimento de sistemas e a deficiência no processo de contratação, decorrente da inexistência de metodologia que assegure boa contratação de desenvolvimento de sistemas foram listados nas auditorias como consequências da inexistência e falha de processos de \textit{software} nos Órgãos públicos. Os critérios indicados pelo TCU no acórdão \cite{Acordao381_2011} foram : Constituição Federal, art. 37, caput; Instrução Normativa 4/2008, SLTI/MPOG, art. 12, inciso II; Lei 8666/1993, art. 6º, inciso IX; Norma Técnica - ITGI - Cobit 4.1, PO8.3 - Padrões de desenvolvimento e de aquisições; Norma Técnica - NBR ISO/IEC - 12.207 e 15.504;e Resolução 90/2009, CNJ, art. 10. 
+A inexistência de parâmetros de referência que para aferição da qualidade interna de código-fonte em contratações públicas expõe uma fragilidade nesse processo, decorrente da falta de uma metodologia que assegure a análise e interpretação dessas medidas. Os critérios indicados pelo TCU no acórdão \cite{Acordao381_2011} foram : Constituição Federal, art. 37, caput; Instrução Normativa 4/2008, SLTI/MPOG, art. 12, inciso II; Lei 8666/1993, art. 6º, inciso IX; Norma Técnica - ITGI - Cobit 4.1, PO8.3 - Padrões de desenvolvimento e de aquisições; Norma Técnica - NBR ISO/IEC - 12.207 e 15.504;e Resolução 90/2009, CNJ, art. 10. 
 
-A auditoria do acordão \cite{Acordao381_2011} reforça o problema da falta de capacidade da administração pública de aferir a qualidade interna dos produtos de software desenvolvido por terceirizadas. A partir desse problema e da solução para monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing-DWing} proposta por \citeonline{rego_monitoramento_2014}, foi formulada a questão de pesquisa geral deste trabalho que é:
+A auditoria do acordão \cite{Acordao381_2011} reforça o problema da falta de capacidade da administração pública em aferir a qualidade interna dos produtos de software desenvolvido por terceirizadas. Tendo esse problema  como motivação desta investigação científica, a questão geral de pesquisa deste trabalho é:
 
-\textbf{O uso de um ambiente de \textit{Data Warehouse} para aferição da qualidade interna do software apoiado por Analisadores Estáticos Automatizados pode assistir ao processo de aferição da qualidade de um sistema adquirido pela CAIXA?}
+\textbf{O uso de um ambiente de \textit{Data Warehousing} para aferição da qualidade interna de software, apoiado por ferramentas de análise estática de código-fonte,  pode assistir ao processo de aferição da qualidade interna em uma organização pública federal?}
 
 
 \section{Objetivos}
 
-O objetivo geral deste trabalho é realizar um estudo de caso onde será analisado o uso de um ambiente de \textit{Data Warehousing} para o monitoramento de métricas, \textit{bugs} e violações de código fonte de forma a assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvidos por uma organização terceirizada e adquiridas por uma organização pública. Dentre os objetivos específicos deste trabalho estão:
+O objetivo geral deste trabalho é evoluir a solução proposta por \citeonline{paperrego} e utilizá-la para assistir ao processo de aferição de qualidade interna de um produto de software desenvolvido em um contrato de prestação de serviço para uma organização pública. Dentre os objetivos específicos deste trabalho estão:
 
 \begin{easylist}[itemize]
-& Adicionar a análise de bugs utilizando a ferramenta findbugs à solução de um ambiente de \textit{Data Warehousing-DWing} proposta por \citeonline{rego_monitoramento_2014}.
 
-& Adicionar a análise de violações utilizando a ferramenta \textit{PMD} à solução de um ambiente de \textit{Data Warehousing-DWing} proposta por \citeonline{rego_monitoramento_2014}.
+& Adicionar à solução de \textit{DWing} a análise de erros e violações de código-fonte fornecidas por ferramentas já em uso na organização pública analisada, de forma a prover uma ambiente integrado e automatizado para análise, interpretação e visualização de dados de código-fonte;
 
-& Analisar um sistema adquirido por um Orgão Púlico utilizando à solução de um ambiente de \textit{Data Warehousing-DWing} já contemplando das novas análises de \textit{bugs} e violações.
+& Construir uma camada de visualização de dados de forma a demonstrar as medidas e/ou suas interpretações, por meio de painéis informativos no ambiente de DWing.
 
-& Construir \textit{Dashboards} visando demonstrar de forma visual os dados chave das análises descrita no tópico anterior.
+& Analisar um sistema adquirido por um Orgão Púlico utilizando à solução de \textit{DWing} evoluída.
+
 \end{easylist}
 
 \section{Metodologia de pesquisa}
