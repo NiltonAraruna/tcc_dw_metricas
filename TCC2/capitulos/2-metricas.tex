@@ -251,7 +251,92 @@ Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Int
 \label{tab:cenarios}
 \end{table}
 \FloatBarrier
-\end{sidewaystable}  
+\end{sidewaystable} 
+
+\subsection{Verificadores de Erro}
+\label{chap:verificadores}
+Os verificadores estáticos de código, são ferramentas automáticas para a verificação de código, que podem verificar estilos de programação, erros ou ambos. O verificador de erro é uma ferramenta de análise estática voltada para a detecção automática de erros, tomando como base as tendências comuns dos desenvolvedores em atrair defeitos que, em sua maioria, não são visíveis aos compiladores. \cite{Louridas2006}
+
+Segundo \citeonline{Pugh}, análise Estática de Código é a análise de um sistema de computador que é realizada sem a sua execução, já a análise realizada com a execução dos programas é conhecida como análise dinâmica. O termo Análise Estática de Código pode se referir à análise automatizada, que é uma das técnicas estáticas de inspeção de software no processo de validação e verificação de software. A Inspeção é uma forma de análise estática na qual você examina o programa sem executá-lo que identificam erros comuns em diferentes linguagens de programação. A possibilidade de automatizar o processo de verificação de programas resultou no desenvolvimento de analisadores estáticos automatizados.
+
+Analisadores estáticos automatizados são ferramentas de software que varrem o texto-fonte, entretanto os verificadores estáticos de código podem trabalhar diretamente sobre o código-fonte do programa ou trabalhar sobre o código objeto, no caso da linguagem Java, sobre o \textit{bytecode} \cite{sommerville200}. Segundo \citeonline{Louridas2006}, a intenção da análise estática automatizada é chamar a atenção para anomalias do programa. As anomalias são resultados de erros de programação ou omissões, de tal modo que onde possa ocasionar erros durante a execução do programa é enfatizado, porém nem todas as anomalias são necessariamente defeitos de programa.
+
+\citeonline{Jelliffe}, destacou alguns dos benefícios da utilização de analisadores estáticos: 
+
+\begin{easylist}[itemize]
+
+& Encontra erros e códigos de risco; 
+
+& Fornece um retorno objetivo aos programadores para ajudá-los a reconhecer onde eles foram precisos ou desatentos; 
+
+& Fornece a um líder de projeto uma oportunidade para estudar o código, o projeto e a equipe de uma perspectiva diferente; 
+
+& Retira certas classes de defeitos, o que possibilita que a equipe concentre-se mais nas deficiências do projeto.
+
+\end{easylist}
+
+\subsection{Ferramentas de verificação de Erro}
+
+Neste trabalho foram utilizadas duas ferramentas de verificação de erros, o FindBugs na versão 3.0.1 e o PMD na versão 5.0.0. 
+
+O FindBugs é uma ferramenta de código aberto utilizado pelos desenvolvedores de software para fazer uma  inspeção no código de forma automatizada. Esta ferramenta examina as sua classes procurando por possíveis erros em potencial no código durante a fase de desenvolvimento. O FindBugs analisa o código fonte ou mesmo o código objeto, \textit{bytecode} para programas Java. Segundo \citeonline{Louridas2006}, é um popular verificador estático de código para a linguagem Java e considera a ferramenta como um patrocinador na fortificação da qualidade do software. Atualmente, ela pode analisar programas compilados em qualquer versão da linguagem Java.
+
+O FindBugs trabalha, basicamente, com as seguintes categorias de bug:
+
+\begin{easylist}[itemize]
+
+& Más práticas (\textit{Bad practice}) 
+
+& Corretude (\textit{Correctness}) 
+f
+& Erros de concorrência (\textit{Multithreaded correctness}) 
+
+& Internacionalização (\textit{Internationalization})
+
+& Experimental (\textit{Experimental})
+
+& Vulnerabilidade de código malicioso (\textit{Malicious code vulnerability}) 
+
+& Potenciais problemas de desempenho (\textit{Performance}) 
+
+& Segurança (\textit{Security})
+
+& Código Confuso (\textit{Dodgy code})
+
+\end{easylist}
+
+O PMD é um analisador de código Java que procura em uma base de código por possíveis problemas voltados às más práticas de desenvolvimento, tais como variáveis não utilizadas, código duplicado, trechos de código de elevada complexidade, criação desnecessária de objetos. Segundo \cite{Hovemeyer2004} é uma ferramenta de extrema valia em forçar os desenvolvedores a seguir um estilo de programação e em tornar o código mais fácil para ser entendido pelo desenvolvedores.
+
+O PMD trabalha, basicamente, com os seguintes conjunto de regras para linguagem java:
+
+\begin{easylist}[itemize]
+
+& \textit{Basic rules} - Regras básicas gerais. 
+
+& \textit{Braces rules} - Regras relacionadas ao uso de chaves.
+
+& \textit{Code size rules} - Regras que avaliam questões relacionadas ao tamanho do código.
+
+& \textit{Controversial rules} - Regras de aplicação geral, mas de aplicação controversa.
+
+& \textit{Coupling rules} - Regras relacionadas ao acoplamento entre objetos e pacotes.
+
+& \textit{Design rules} - Regras que avaliam o design do código.
+
+& \textit{Import statement rules} - Regras relacionadas ao uso de import.
+
+& \textit{Naming rules} - Regras que avaliam nomes de variáveis e métodos.
+
+& \textit{Optimization rules} - Regras relacionadas à otimização.
+
+& \textit{Strict Exception rules} - Regras relacionadas ao lançamento e captura de exceções.
+
+& \textit{String and StringBuffer rules} - Regras que verificam o bom uso das classes \textit{String} e \textit{StringBuffer}.
+
+& \textit{Unused code rules} - Regras que detectam código não utilizado.
+
+\end{easylist}
+ 
 
 \section{Considerações Finais do Capítulo}  
 

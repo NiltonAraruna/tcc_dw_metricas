@@ -125,6 +125,100 @@ Entre as operações OLAP estão:
 	
 	\end{easylist}
 	
+
+\section{Visualização de Dados}
+\label{visualizacaodashboard} 
+
+A orientação visual dos \textit{dashboards} é importante devido à velocidade da percepção de que é geralmente necessária para monitorar informações. Quanto mais rápido se deseja avaliar o que está acontecendo, mais deve-se confiar no meio gráfico para mostrar a informação. O texto deve ser lido, o que envolve um processo relativamente lento, sendo que certas propriedades visuais, no entanto, pode ser percebida de relance, sem pensamento consciente.  
+
+O processo de monitorização visual envolve uma série de passos sequenciais que o \textit{dashboard} deve ser concebido para apoio. O usuário ao começar a obter uma visão geral do que está acontecendo deve rapidamente identificar o que precisa de atenção, para que em seguida, o usuário olhe mais de perto cada uma dessas áreas que precisam de atenção para entendê-las bem o suficiente para determinar se algo deve ser feito sobre eles. O monitoramento é uma atividade cognitiva que recebe a entrada principalmente através do canal visual, porque este é o sentido mais poderoso, que é capaz de trabalhar em altas velocidades de entrada, capaz de detectar diferenças sutis e complexas.\cite{few2006}
+
+Segundo \citeonline{few2006}, um \textit{dashboard} é um display visual das informações mais importantes necessárias para alcançar um ou mais objetivos, consolidados e organizados em uma única tela para que a informação possa ser monitorada em um piscar de olhos. \citeonline{few2006} categorizou  diversos tipos de \textit{dashboards} sendo estratégicas, analíticas, ou operacionais, e as características do design no que tange à sugestão de organização variam para dar suporte às necessidades de cada categoria:
+
+\begin{easylist}[itemize]
+
+& fins estratégicos - O uso primários de \textit{dashboards} nos dias de hoje é para propósitos estratégicos, oferecem uma rápida visão que os tomadores de decisão precisam para monitorar a saúde e as oportunidades de um negócio.
+
+& fins analíticos - Mais sofisticação para as mídias de exibição, para que os analistas possam examinar melhor dados complexos e relacionamentos. \textit{Dashboards} analíticos devem suportar interações com os dados, como aprofundamentos em camadas detalhadas, não apenas para ver o que está acontecendo, mas para examinar as causas. 
+
+& fins operacionais - \textit{Dashboards} que monitorem operações devem manter consciência das atividades e eventos que estão mudando constantemente e podem demandar atenção e resposta.
+
+\end{easylist}
+
+Além de categorizar os tipos de \textit{dashboards}, \citeonline{few2006} também evidencia o primordial para se obter um \textit{dashboard} de qualidade:
+
+\begin{easylist}[itemize]
+
+& Disponibilizar a informação diretamente relacionada num único ecrã, ou seja, evitar partir a informação por várias páginas; 
+
+& Evitar a necessidade de \textit{scrolling}; 
+
+& Contextualizar a informação disponibilizada; 
+
+& Incluir fatores de comparação e sugerir ações na visualização dos indicadores; 
+
+& Utilizar escalas adequadas, que devem dar uma perspectiva real das quantidades apresentadas e não podem iludir os utilizadores; 
+
+& Utilizar níveis de precisão adequados nos indicadores, pois evita perdas de tempo com leituras e interpretações de informação desnecessárias e pouco relevantes;
+
+& Escolher os indicadores mais adequados, que facilitem e acelerem a interpretação da informação disponibilizada;
+
+& Escolher soluções gráficas flexíveis e adequadas que facilitem e acelerem a interpretação da informação disponibilizada; 
+ 
+& Uniformizar a leitura ao longo do \textit{dashboard};
+
+& Facilitar a interpretação da informação disponível para acelerar a sua leitura. Por exemplo, evitar cores berrantes, muito próximas, muito apagadas ou um número muito elevado de cores; 
+
+& Apresentar a informação de forma equilibrada, dado que o espaço utilizado num \textit{dashboard} desce de importância do canto superior esquerdo para o canto inferior direito, e por esta razão, a informação que se destaca na visualização deverá ser a mais importante; 
+
+& Os títulos não devem ser mais apelativos que os indicadores; 
+
+& Destacar a informação mais importante e não cair no erro de chamar a atenção para tudo; 
+
+& Aproveitar bem o espaço disponível, ou seja evitar decorações desnecessárias e ainda evitar soluções de pesada implementação para responder a pormenores visuais; 
+
+& Utilizar cores de forma ponderada, ou seja, utilizar cores apelativas apenas para a informação mais importante, podendo utilizar contrastes; 
+
+& Manter as cores para os mesmos indicadores ao longo do \textit{dashboard} ou para o mesmo tipo de indicador associado; 
+
+& Podem ser utilizadas figuras geométricas para além das cores, tais como o círculo, triângulo ou quadrado como forma de ajudar utilizadores que sofram de daltonismo; 
+
+& Criar uma apresentação apelativa, baseando-se no nossa intuição e naquilo que consideramos que a maioria das pessoas aceita e tolera positivamente.
+
+\end{easylist}
+
+\subsection{Ferramenta para criação de \textit{Dashboards}}
+
+Neste trabalho foi utilizado o CDE (\textit{community dashboard editor}) na versão 14.12.10.1 para a criação dos \textit{dashboards}. O CDE é um \textit{plugin} para o \textit{Pentaho Business Intelligence}.
+
+O CDE permite o desenvolvimento e a implantação de \textit{dashboards} no \textit{Pentaho Business Intelligence}. O CDE nasceu para simplificar a criação e edição de \textit{dashboards} e é uma ferramenta muito poderosa e completa, combinando \textit{front end} com fontes de dados e componentes personalizados de uma forma perfeita. \cite{CDE}
+
+O CDE possui algumas tecnologia por trás dela:
+
+\begin{easylist}[itemize]
+
+& CDF (\textit{Community Dashboard Framework}) - É um \textit{framework} HTML/javascript que permite criar páginas com relatórios, gráficos e tabelas.
+
+& CDA (\textit{Community Dashboard Access}) - São vários componentes que dão acesso à diferentes tipos de fontes de dados.
+
+& CCC (\textit{Community Chart Components}) - É uma biblioteca de gráficos, que possui um poderoso conjunto de ferramentas de visualização livre e de código aberto. O objetivo do CCC é fornecer aos desenvolvedores o caminho para incluir em seus \textit{dashboards} os tipos de gráficos básicos, sem perder o princípio fundamental: a extensibilidade.
+
+\end{easylist}
+
+Para o design do \textit{dashboard}, o CDE oferece três perspectivas:
+
+\begin{easylist}[itemize]
+
+& \textit{Layout} - Para projetar o layout do seu {dashboard} a partir do zero ou de um templete, ao definir o layout é possível aplicar estilos e adicionar elementos HTML para descrever páginas Web, CSS para controlar o estilo do layout, \textit{JavaScript} para adicionar interatividade e \textit{jQuery} para simplificar todas essas tarefas.
+
+& \textit{Components} - Para adicionar e configurar os diferentes componentes que compõem o seu \textit{dashboard}: Componentes Visuais (caixas de texto, tabelas e gráficos, seletores e relatórios), parâmetros que representam os valores que são partilhados pelos componentes e \textit{Scripts}, que permitem personalizar a aparência ou o comportamento de outros componentes.
+
+& \textit{Datasources} - Define os dados usados pelos componentes. \textit{Dashboards} podem ser povoados por uma variedade de fontes como: Bases de dados, cubos do \textit{Mondrian}, metadados do Pentaho , arquivos XML, \textit{ad-hoc datasource} e transformações do \textit{Kettle}.
+
+\end{easylist}
+
+A descrição completa da implementação do \textit{dashboard} foi descrita no Apêndice \ref{sec:implementação-dashboard}.
+
 \section{Ambiente de \textit{Data Warehousing} para Métricas, \textit{bugs} e violações de Código-Fonte}
 
 
@@ -314,9 +408,9 @@ Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
 
 	& \textbf{ETL:} Pentaho Data Integration Community Edition ou Kettle.
 	 
-	& \textbf{Implementação das Consultas OLAP e Visualização de Dados:} \textit{Pentaho BI Platform 8}, provê uma arquitetura e a infraestrutura para soluções de \textit{Business Inteligence}, \textit{Data Mining} e a camada de visualização de dados do \textit{Data Warehouse}.
+	& \textbf{Implementação das Consultas OLAP:} \textit{Pentaho BI Platform 8}, provê uma arquitetura e a infraestrutura para soluções de \textit{Business Inteligence}, \textit{Data Mining}.
 	
-	& \textbf{Visualização de Dados:} Como visto no Capítulo \ref{chap:dashboard} foi utilizado o \textit{plugin} do \textit{Pentaho BI} CDE para a visualização de dados. O \textit{plugin} \textit{Saiku Analytics} também pode ser utilizado para visualização de dados,  ela oferece serviços de apoio a operações OLAP e à visualização de dados. Na arquitetura do \textit{Saiku Analytics}, está incorporado outro \textit{software} livre que realiza consulta, chamado de \textit{Mondrian OLAP}.
+	& \textbf{Visualização de Dados:} Como visto na subseção \ref{visualizacaodashboard} foi utilizado o \textit{plugin} do \textit{Pentaho BI} CDE para a visualização de dados. O \textit{plugin} \textit{Saiku Analytics} também pode ser utilizado para visualização de dados,  ela oferece serviços de apoio a operações OLAP e à visualização de dados. Na arquitetura do \textit{Saiku Analytics}, está incorporado outro \textit{software} livre que realiza consulta, chamado de \textit{Mondrian OLAP}.
 
 	& \textbf{Análise estática de código-fonte:}\textit{Analizo}, possibilita emitir saídas das métricas em CSV que detalham o nome da classe e as suas respectivas métrica.
 	
@@ -333,8 +427,8 @@ Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
 \FloatBarrier
 
 A descrição completa da implementação do processo de \textit{Extraction-Transformation-
-Load} na ferramenta \textit{Kettle} foi descrita no Apêndice \ref{sec:implementação-etl}. Já o Apêndice \ref{sec:implementação-dashboard} traz a descrição da implementação do \textit{dashboard}.
+Load} na ferramenta \textit{Kettle} foi descrita no Apêndice \ref{sec:implementação-etl}. 
 
 \section{Considerações finais do capítulo}
 
-Nesse capítulo foi apresentada a solução proposta no trabalho de \citeonline{rego_monitoramento_2014} e o que foi acrescentado visando suprir os novos requisitos adicionados, bem como a base teórica para a compreensão de ambos. No próximo capítulo será apresentado o projeto de estudo de caso que visa analisar se a solução de DW proposta nesse capítulo pode assistir ao processo de aferição da qualidade de \textit{softwar}e.
+Nesse capítulo foi apresentada a solução proposta no trabalho de \citeonline{rego_monitoramento_2014} e o que foi acrescentado visando suprir os novos requisitos adicionados, bem como a base teórica para a compreensão de ambos. No próximo capítulo será apresentado o projeto de estudo de caso que visa analisar se a solução de DW proposta nesse capítulo pode assistir ao processo de aferição da qualidade de \textit{software}.

@@ -1,5 +1,25 @@
 % INICIO PERSONALIZACAO Nilton
 
+@article{rego_monitoramento_2014,
+  author = {Neri, Hilmer and R\^{e}go, Guilherme and Santos, Aline and 1,1 },
+  journal = {WBMA},
+  month = {Novembro},
+  number = 5,
+  title = {Aferição da Qualidade do Código-Fonte com apoio de um ambiente de Data Warehousing na gestao de contrato ágil: um estudo de caso preliminar em uma autarquia da Administracão Plública Federa},
+  year = 2014
+}
+
+@article{Lehman1980b,
+  author = {Lehman, Meir M.},
+  journal = {Proc. IEEE},
+  month = {September},
+  number = 9,
+  pages = {1060--1076},
+  title = {Programs, life cycles, and laws of software evolution},
+  volume = 68,
+  year = 1980
+}
+
 @book{Wasserman2010,
  author = {Wasserman, Larry},
  title = {All of Statistics: A Concise Course in Statistical Inference},
@@ -157,7 +177,7 @@ title = {{Acórdão}-381/2011-TCU-Plenário},
 url = {https://contas.tcu.gov.br/juris/SvlHighLight?key=ACORDAO-LEGADO-89657&texto=2b4e554d41434f5244414f2533413338312b414e442b2b4e554d414e4f41434f5244414f25334132303131&sort=&ordem=&bases=ACORDAO-LEGADO;RELACAO-LEGADO;DECISAO-LEGADO;SIDOC;ACORDAO-RELACAO-LEGADO;},
 urldate = {2014-10-16},
 month = {maio},
-author = {BRASIL},
+author = {TCU},
 year = {2011},
 }
 
@@ -185,7 +205,7 @@ year = {2011},
     year = {2002}
 }
 
-@article{rego_monitoramento_2014,
+@article{rego_monitoramento_2014TCC,
   title = {Monitoramento de Métricas de Código-Fonte com suporte de um ambiente de Data Warehousing: um Estudo de Caso em uma Autarquia da Administração Pública Federal},
   shorttitle = {Monitoramento de Métricas de Código-Fonte com suporte de um ambiente de Data Warehousing},
   url = {http://bdm.unb.br/handle/10483/8069},

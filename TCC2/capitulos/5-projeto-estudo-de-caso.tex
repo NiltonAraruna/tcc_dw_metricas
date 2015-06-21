@@ -1,9 +1,9 @@
-\chapter{Projeto de estudo de Caso}
+\chapter{Estudo de Caso}
 \label{estudo de caso}
 
-Neste capítulo será apresentado o projeto do estudo de caso. Isso  consiste na elaboração de um protocolo para o estudo de caso, na identificação do problema e na definição das questões e objetivos de pesquisa. O método para coleta dos dados e como eles foram analisados também serão apresentados neste capítulo.
+Neste capítulo será apresentado o projeto e a execução do estudo de caso, as análises dos dados quantitativos e qualitativos e a discussão dos resultados. Isso consiste na elaboração de um protocolo para o estudo de caso, na identificação do problema e na definição das questões e objetivos de pesquisa. O método para coleta dos dados e como eles foram analisados também serão apresentados neste capítulo.
 
-\section{Definição}
+\section{Planejamento do Estudo de Caso}
 
 Segundo \citeonline{yin2001estudo}, o estudo de caso é um conjunto de procedimentos 
 pré-especificados para se realizar um estudo empírico que investiga um fenômeno contemporâneo dentro de seu contexto da vida real, especialmente quando os limites entre o fenômeno e o contexto não estão claramente definidos. Uma grande vantagem do estudo de caso é a sua capacidade de lidar com uma ampla variedade de evidências, documentos, artefatos, entrevistas e observações. Além disso, em algumas situações, como na observação participante, pode ocorrer manipulação informal.
@@ -86,71 +86,71 @@ Outros trabalhos relacionados ao conceito de métricas de software utilizados ne
 
 A questão de pesquisa a seguir foi proveniente do problema da falta de capacidade da administração pública em aferir, de forma sistemática e automatizada, a qualidade interna dos produtos de software adquiridos e desenvolvidos por organizações contratadas, que foi identificado na seção \ref{problema} do capítulo \ref{chap:introdução}. 
 
-\textbf{O uso de um ambiente de \textit{Data Warehouse} para aferição da qualidade interna do software apoiado por Analisadores estáticos automatizados pode assistir ao processo de aferição da qualidade de um sistema adquirido pela CAIXA?}
+\textbf{O uso de um ambiente de \textit{Data Warehousing} para aferição da qualidade interna de software, apoiado por ferramentas de análise estática de código-fonte,  pode assistir ao processo de aferição da qualidade interna em uma organização pública federal?}
 
 Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-question-metrics} conforme ilustrado na figura \ref{EstruturaEstudoCaso}. Segundo \cite{Basili96b}, o resultado da aplicação do GQM é a especificação de um sistema de medida destinada a um conjunto especifico de questões e um conjunto de regras para a interpretação dos dados da medição. O GQM é uma estrutura hierárquica que começa com um objetivo que especifica o propósito da medição, objeto a ser medido, questão a ser medida e o ponto de vista de quem a observa. O objetivo é refinado em várias questões, onde para cada questão é definida uma métrica(objetiva ou subjetiva)\cite{Basili96b}. A estrutura do GQM está a seguir.
 
-\textbf{Objetivo 01:} Realizar um estudo de caso onde será analisado o uso de um ambiente de Data Warehousing para o monitoramento de métricas, \textit{bugs }e violações de código fonte de forma a assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvidos por uma organização terceirizada e adquerido pela CAIXA.\\
+\textbf{Objetivo 01:} Realizar um estudo de caso na CAIXA onde será analisado a capacidade de aferição da qualidade interna de software do ambiente de Data Warehousing apoiado por ferramentas de análise estática de código-fonte.\\
 
 
 % Questão 01
 
 \textbf{QE01:} Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de cenários de limpeza de código através da solução DW?
 
-\textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
+\textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
-\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim. \\
+\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim, Não possui opinião. \\
 
 
 % Questão 02
 
 \textbf{QE02: } Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de bugs no código(findbugs) através da solução DW?
 
-\textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
+\textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
-\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim.\\
+\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim, Não possui opinião.\\
 
 
 % Questão 03
 
 \textbf{QE03: } Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de violações de código(PMD) através da solução DW?
 
-\textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
+\textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
-\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim.\\
+\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim, Não possui opinião.\\
 
 
 % Questão 04
 
 \textbf{QE04: } Qual a opinião da equipe do CETEC/GITECGO quanto a visualização dos cenários  de limpeza através do \textit{dashboard}?
 
-\textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
+\textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
-\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim.\\
+\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim, Não possui opinião.\\
 
 
 % Questão 05
 
-\textbf{QE05: } Qual a opinião da equipe do CETEC/GITECGO quanto a visualização de violações de código(PMD) através do \textit{dashboard}?
+\textbf{QE05: } Qual a opinião da equipe da CETEC/GITECGO quanto a visualização de violações de código(PMD) através do \textit{dashboard}?
 
-\textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
+\textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
-\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim.\\
+\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim, Não possui opinião.\\
 
 
 % Questão 06
 
-\textbf{QE06: } Qual a opinião da equipe do CETEC/GITECGO quanto a visualização de bugs(findbugs) através do \textit{dashboard}?
+\textbf{QE06: } Qual a opinião da equipe da CETEC/GITECGO quanto a visualização de bugs(findbugs) através do \textit{dashboard}?
 
 \textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
 
-\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim.\\
+\textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim, Não possui opinião.\\
 
 
 
 % Questão 07
 
-\textbf{QE07: } Qual a opinião da equipe do CETEC/GITECGO do uso do DW em comparação à solução do sonarQube?
+\textbf{QE07: } Em relação a visualizações de erros e violações, qual a opinião da equipe da CETEC/GITECGO do uso do DW em comparação à solução do sonarQube?
 
 \textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
 
@@ -163,7 +163,7 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 
 \textbf{Fonte:} {\color{red}anexo X}.
 
-\textbf{Métrica:} Coeficiente de correlação Linear e Diagramas de Dispersão.\\
+\textbf{Métrica:} Coeficiente de correlação Linear.\\
 
 
 % Questão 09
@@ -174,24 +174,6 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 
 \textbf{Métrica:} Erro quadrático médio.\\
 
-% Objetivo 02
-\textbf{Objetivo 02:} Automatizar o processo de análise de \textit{bugs} e violações de código- fonte.\\
-
-% Questão 01
-
-\textbf{QE01: } Como automatizar a análise de violações de código- fonte?
-
-\textbf{Fonte:} {\color{red}capitulo X}.
-
-\textbf{Métrica:} Quantidade de passos automatizados.\\
-
-% Questão 02
-
-\textbf{QE02: } Como automatizar a análise de \textit{bugs} de código- fonte? 
-
-\textbf{Fonte:} {\color{red}capitulo X}.
-
-\textbf{Métrica:} Quantidade de passos automatizados.\\
 	
 \begin{figure}[h!]
 \centering
@@ -356,7 +338,160 @@ A triangulação de dados se dará pelas medidas extraídas do código-fonte por
 
 \end{easylist}	
 
+\section{Execução do Estudo de Caso e Análise dos Dados}
+\label{chap:execucao}
+
+Para cada uma das \textit{releases} do SIGET, coletou-se o código-fonte, conforme a disponibilidade, no repositório da CAIXA. Após a obtenção do código-fonte,foi realizado a análise estática cada \textit{release} utilizando as ferramentas analizo, findbugs e PMD. Posteriormente, os resultados das análises foram extraídos, transformados e carregados no ambiente de Data Warehousing proposto no Capítulo \ref{chap:arquitetura}. Dessa forma, foi possível obter:
+
+\begin{easylist}[itemize]
+
+& O intervalo qualitativo para cada uma das Métricas de Código-Fonte por \textit{index} e por \textit{release}; 
+
+& Quantidade de Cenários de Limpeza total, por tipo e por \textit{release}; 
+
+& Classe, nome e recomendação para cada cenário de limpeza; 
+
+& Quantidade de \textit{bugs} total,por tipo, por \textit{index} e por \textit{release};
+
+& Classe, tipo, nome e linha para cada \textit{bug}; 
+
+& Quantidade de violações total,por tipo, por \textit{index} e por \textit{release};
+
+& Classe, tipo, nome e linha para cada violação; 
+
+\end{easylist}
+
+Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dashboardFindbugs} e \ref{dashboardCenarios}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.4]{figuras/figuras_nilton/DashboardTotal.eps}
+\caption{\textit{Dashboard} Quantidade Total}
+\label{dashboardtotal}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/DashboardPMD.eps}
+\caption{\textit{Dashboard PMD}}
+\label{dashboardPMD}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/DashboardCenarios.eps}
+\caption{\textit{Dashboard} Cenários}
+\label{dashboardFindbugs}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/DashboardFindbugs.eps}
+\caption{\textit{Dashboard FindBugs}}
+\label{dashboardCenarios}
+\end{figure}
+
+\subsection{Analise do Questionário}
+
+
+
+\subsection{Analise do Erro Quadrático Médio}
+
+Com o objetivo de validar a corretude dos dados apresentados pela solução de DW foi realizado o calculo do EQM (Erro Quadrático Médio). EQM é a soma das diferenças entre
+o valor estimado e o valor real dos dados, ponderados pelo número de termos: 
+
+$ EQM = \sum\limits_{i}\frac{(x{i}-y{i})^{2}}{n} $
+
+Quanto mais próximo o valor do EQM de 0, maior a corretude e menor é a diferença entre os valores estimados e os valores reais.
+
+Tomando como referência o valor estimado como os valores apresentados pela a solução de DW e o valor real como os valores apresentados pelas ferramentas \textit{FindBugs} e PMD utilizadas individualmente. Foi calculado o EQM de cada conjunto de regra do FindBugs e do PMD de todas as \textit{releases}, as Figuras \ref{EQMFindBugs}, \ref{EQMPMD1}, \ref{EQMPMD2} e \ref{EQMPMD3} mostram os resultados do EQM. Os valores apresentados pelas ferramentas utilizadas individualmente foram coletados de arquivos do tipo csv por elas geradas, que estão disponíveis para consulta no repositório deste trabalho no \textit{github} \footnote{https://github.com/NiltonAraruna/}. Os valores da solução de DW foram coletados a partir dos \textit{Dashboards} da própria solução.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMFindBugs.eps}
+\caption{\textit{Resultados do EQM do FindBugs}}
+\label{EQMFindBugs}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMPMD1.eps}
+\caption{\textit{Resultados do EQM do PMD}}
+\label{EQMPMD1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMPMD2.eps}
+\caption{\textit{Continuação Resultados do EQM do PMD}}
+\label{EQMPMD2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMPMD3.eps}
+\caption{\textit{Continuação Resultados do EQM do PMD}}
+\label{EQMPMD3}
+\end{figure}
+
+Como pode ser observado os resultados obtidos do EQM foram todos igual a 0, significando a corretude entre os valores obtidos através do \textit{FindBugs} e PMD e os valores apresentados pela solução de DW. A corretude dos valores dos cenários de limpeza não foram validados porque algumas correções e adaptações tiveram que ser feitas na solução de DW de \cite{rego_monitoramento_2014} para que possibilitasse as análises do SIGET, como a adição das função \textit{ROUND} no step "Inserindo os Fatos na $F_Project_Metric $" da transformação "Percentiles Analizo".  
+
+
+\subsection{Analise do Coeficiente de Correlação}
+
+Segundo \cite{Wasserman2010}, o coeficiente de correlação linear r, proposto por Karl Pearson, é calculado a partir de uma amostra de n pares de observações de X e Y, e mede a intensidade e a direção da relação linear entre duas variáveis quantitativas e o grau de correlação entre as variáveis:
+
+$ r = \frac{\sum(X-X')(Y-Y')}{\sqrt{[\sum(X-X')^{2}][\sum(Y-Y')^{2}]}} $
+
+
+Correlação entre duas variáveis é quando uma delas está, de alguma forma, relacionada com a outra. A Tabela \ref{tab:correlacao} mostra a significância de índice de Correlação segundo \cite{Wasserman2010}.
+
+\begin{table}[!ht]
+	\begin{center}
+\input{tabelas/tabelasNilton/correlacao.ltx} 
+	\caption{Significância de índice de Correlação}
+	\label{tab:correlacao}
+	\end{center}
+	\end{table}	
+	\FloatBarrier
+
+Um diagrama de dispersão também demostra a relação entre duas variáveis quantitativas, medidas sobre os mesmos indivíduos. Se a reta do gráfico for mais próxima de
+uma reta de 45 graus, maior será a correlação positiva, se a reta apresentada for mais próxima de 135 graus, maior será a correlação negativa. 
+
+Não querendo generalizar o resultado de uma possível correlação entre \textit{bugs}, violações e cenários de limpeza por se tratar de um estudo de apenas um estudo de caso, uma instituição e um sistema foi calculado o coeficiente de correlação linear entre \textit{bugs} e violações, entre \textit{bugs} e cenários de limpeza e entre cenários de limpeza e violações. O resultado do cálculo do coeficiente de correlação linear pode ser vista na Figura \ref{correlacao}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.40,angle=90]{figuras/figuras_nilton/correlacao.eps}
+\caption{Resultado do cálculo do coeficiente de correlação linear}
+\label{correlacao}
+\end{figure}
+
+Analisando os resultados do coeficiente de correlação linear em conformidade com a Tabela \ref{tab:correlacao} podemos notar que a correlação entre cenários de limpeza e violações, entre violações e \textit{bugs} e correlação entre cenários e \textit{bugs} é uma correlação direta e muito forte. Os gráficos de dispersão das Figuras \ref{dispercaocenariosbugs}, \ref{dispersaocenariosviolacoes} e \ref{dispersaoviolacoesbugs} também demonstra uma correlação direta e muito forte pois as retas dos gráficos se aproximam de 45 graus.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.40]{figuras/figuras_nilton/dispercaocenariosbugs.eps}
+\caption{Gráfico de Dispersão entre Cenários de Limpeza e \textit{Bugs}}
+\label{dispercaocenariosbugs}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.40]{figuras/figuras_nilton/dispersaocenariosviolacoes.eps}
+\caption{Gráfico de Dispersão entre Cenários de Limpeza e Violações}
+\label{dispersaocenariosviolacoes}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.40]{figuras/figuras_nilton/dispersaoviolacoesbugs.eps}
+\caption{Gráfico de Dispersão entre Violações e \textit{Bugs}}
+\label{dispersaoviolacoesbugs}
+\end{figure}
+
 
 \section{Considerações finais do capítulo}
 
-Esse capítulo teve como objetivo apresentar o protocolo de estudo de caso que foi adotado neste trabalho. No próximo capítulo será apresentado a execução do Estudo de Caso e a análise dos Dados.
+Esse capítulo teve como objetivo apresentar o protocolo de estudo de caso que foi adotado neste trabalho, sua execução, as análises dos dados quantitativos e qualitativos e a discussão dos resultados. No próximo capítulo será apresentado a conclusão, limitações e trabalhos futuros.
