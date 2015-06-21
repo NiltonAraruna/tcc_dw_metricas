@@ -52,15 +52,15 @@
 \contentsline {subsection}{\numberline {5.2.1}Trabalhos Antecedentes e Relacionados}{73}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Quest\IeC {\~a}o de Pesquisa}{74}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Design}{77}{section.5.3}
-\contentsline {section}{\numberline {5.4}Sele\IeC {\c c}\IeC {\~a}o}{78}{section.5.4}
-\contentsline {section}{\numberline {5.5}O Software Analisado}{80}{section.5.5}
-\contentsline {section}{\numberline {5.6}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{81}{section.5.6}
+\contentsline {section}{\numberline {5.4}Sele\IeC {\c c}\IeC {\~a}o}{77}{section.5.4}
+\contentsline {section}{\numberline {5.5}O Software Analisado}{79}{section.5.5}
+\contentsline {section}{\numberline {5.6}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{80}{section.5.6}
 \contentsline {section}{\numberline {5.7}Processo de an\IeC {\'a}lise dos dados}{81}{section.5.7}
 \contentsline {section}{\numberline {5.8}Amea\IeC {\c c}as a validade do estudo de caso}{81}{section.5.8}
 \contentsline {section}{\numberline {5.9}Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso e An\IeC {\'a}lise dos Dados}{82}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}Analise do Question\IeC {\'a}rio}{83}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}Analise do Erro Quadr\IeC {\'a}tico M\IeC {\'e}dio}{83}{subsection.5.9.2}
-\contentsline {subsection}{\numberline {5.9.3}Analise do Coeficiente de Correla\IeC {\c c}\IeC {\~a}o}{85}{subsection.5.9.3}
+\contentsline {subsection}{\numberline {5.9.1}Analise do Question\IeC {\'a}rio}{82}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Analise do Erro Quadr\IeC {\'a}tico M\IeC {\'e}dio}{82}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Analise do Coeficiente de Correla\IeC {\c c}\IeC {\~a}o}{83}{subsection.5.9.3}
 \contentsline {section}{\numberline {5.10}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{94}{section.5.10}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{95}{chapter.6}
