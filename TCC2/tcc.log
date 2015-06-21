@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  20 JUN 2015 20:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  20 JUN 2015 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3059,40 +3059,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
 File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
-<figuras/figuras_nilton/EstruturaEstudoCaso.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[76] [77] [78]
+<figuras/figuras_nilton/EstruturaEstudoCaso.eps> [76] [77]
 File: figuras/figuras_nilton/formula.eps Graphic file (type eps)
- <figuras/figuras_nilton/formula.eps>
+
+<figuras/figuras_nilton/formula.eps>
 (./tabelas/tabelasNilton/multasdefeitos.ltx
 Underfull \hbox (badness 1270) in paragraph at lines 8--9
 \T1/lmr/m/n/12 manda foi en-tre-gue no-va-mente
  []
 
-) [79] [80] [81] [82]
+) [78] [79] [80] [81]
 File: figuras/figuras_nilton/DashboardTotal.eps Graphic file (type eps)
  <figuras/figuras_nilton/DashboardTotal.eps>
-Overfull \hbox (26.39114pt too wide) in paragraph at lines 386--387
+Overfull \hbox (26.39114pt too wide) in paragraph at lines 368--369
  [][] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figuras/figuras_nilton/DashboardPMD.eps Graphic file (type eps)
 <figuras/figuras_nilton/DashboardPMD.eps>
@@ -3109,7 +3094,7 @@ File: figuras/figuras_nilton/DashboardFindbugs.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[83]
+[82]
 File: figuras/figuras_nilton/EQMFindBugs.eps Graphic file (type eps)
  <figuras/figuras_nilton/EQMFindBugs.eps>
 
@@ -3130,10 +3115,10 @@ File: figuras/figuras_nilton/EQMPMD3.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[84] (./tabelas/tabelasNilton/correlacao.ltx) [85] [86] [87] [88] [89] [90]
+[83] (./tabelas/tabelasNilton/correlacao.ltx) [84] [85] [86] [87] [88] [89]
+[90]
 File: figuras/figuras_nilton/correlacao.eps Graphic file (type eps)
-
-<figuras/figuras_nilton/correlacao.eps>
+ <figuras/figuras_nilton/correlacao.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3222,14 +3207,9 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
  (./tcc.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package rerunfilecheck Info: File `tcc.brf' has not changed.
+(rerunfilecheck)             Checksum: 47FB703C4CC87DA2ED8113F5D4D86567;10174.
 
-
-Package rerunfilecheck Warning: File `tcc.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 43C59D3353861A06739C0728AA277EA2;10174
-(rerunfilecheck)             After:  618DD11B5B8A0DB15DF48A80C9202C50;10174.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -3238,10 +3218,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
 Here is how much of TeX's memory you used:
  26312 strings out of 493305
  441968 string characters out of 6139898
- 638987 words of memory out of 5000000
+ 639754 words of memory out of 5000000
  29082 multiletter control sequences out of 15000+600000
  114737 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,75p,1403b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (103 pages, 981052 bytes).
+Output written on tcc.dvi (103 pages, 980456 bytes).
