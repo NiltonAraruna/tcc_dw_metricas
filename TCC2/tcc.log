@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  20 JUN 2015 23:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  21 JUN 2015 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1936,13 +1936,13 @@ Overfull \hbox (1.5877pt too wide) detected at line 84
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 37.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 37.
  [18]
 File: figuras/figuras_nilton/selecaoMetodologica.eps Graphic file (type eps)
 
@@ -3207,9 +3207,14 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
  (./tcc.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
-Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 47FB703C4CC87DA2ED8113F5D4D86567;10174.
 
+
+Package rerunfilecheck Warning: File `tcc.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `tcc.brf':
+(rerunfilecheck)             Before: E3927B9B889D57FCD0EF5E2A8E38B576;10174
+(rerunfilecheck)             After:  47FB703C4CC87DA2ED8113F5D4D86567;10174.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -3218,10 +3223,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
 Here is how much of TeX's memory you used:
  26312 strings out of 493305
  441968 string characters out of 6139898
- 639754 words of memory out of 5000000
+ 638985 words of memory out of 5000000
  29082 multiletter control sequences out of 15000+600000
  114737 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,75p,1403b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (103 pages, 980456 bytes).
+Output written on tcc.dvi (103 pages, 979728 bytes).
