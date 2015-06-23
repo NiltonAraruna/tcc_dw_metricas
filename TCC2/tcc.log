@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  21 JUN 2015 22:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  22 JUN 2015 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1727,9 +1727,9 @@ Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
 (hypdvips)                 on input line 19.
 
-) [10
+[10
 
-] [11] (./tcc.lot
+]) [11] (./tcc.lot
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.metodologia_edna'
 
@@ -1918,23 +1918,26 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 42.
 
+Overfull \hbox (1.5877pt too wide) detected at line 76
+ \T1/lmss/bx/n/12 102
+ []
+
+
 Overfull \hbox (1.5877pt too wide) detected at line 80
- \T1/lmss/bx/n/12 100
+ \T1/lmss/bx/n/12 103
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 84
- \T1/lmss/bx/n/12 101
+ \T1/lmss/bx/n/12 104
  []
 
 ) [16]) (./capitulos/1-introducao.tex [17
 
 
 ]
-
-LaTeX Warning: Citation `paperrego' on page 18 undefined on input line 34.
-
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 38.
+
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -3112,8 +3115,18 @@ File: figuras/figuras_nilton/EQMPMD3.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+File: figuras/figuras_nilton/comparacaodash.eps Graphic file (type eps)
+<figuras/figuras_nilton/comparacaodash.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figuras/figuras_nilton/comparacaoexcell.eps Graphic file (type eps)
+<figuras/figuras_nilton/comparacaoexcell.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [83] (./tabelas/tabelasNilton/correlacao.ltx) [84] [85] [86] [87] [88] [89]
-[90]
+[90] [91]
 File: figuras/figuras_nilton/correlacao.eps Graphic file (type eps)
  <figuras/figuras_nilton/correlacao.eps>
 
@@ -3136,22 +3149,20 @@ File: figuras/figuras_nilton/dispersaoviolacoesbugs.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[91
+[92
 
-] [92] [93]) (./capitulos/6-conclusao.tex [94
-
-]) (./tcc.bbl (./tcc.brf)
+] [93] [94] [95]) (./capitulos/6-conclusao.tex [96]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
 
-[95
+[97
 
 ]
 bibitemlist
-[96
+[98
 
-] [97] [98]
+] [99] [100]
 Underfull \hbox (badness 1577) in paragraph at lines 304--304
 []\T1/lmr/m/n/12 TCU. \T1/lmr/m/it/12 Acórdão-381/2011-TCU-Plenário\T1/lmr/m/n/
 12 . [S.l.], 2011. Dis- 
@@ -3177,17 +3188,37 @@ Underfull \hbox (badness 3354) in paragraph at lines 304--304
 [][][]$SIDOC;$[][] 
  []
 
-) (./apendices/apendices.tex [99] [100
+) (./apendices/apendices.tex [101] [102
 
-] [101
+] [103
 
-]) (./editaveis/anexos.tex)
+]
+File: figuras/figuras_nilton/questionario1.eps Graphic file (type eps)
+
+<figuras/figuras_nilton/questionario1.eps>
+File: figuras/figuras_nilton/questionario2.eps Graphic file (type eps)
+
+<figuras/figuras_nilton/questionario2.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figuras/figuras_nilton/questionario3.eps Graphic file (type eps)
+<figuras/figuras_nilton/questionario3.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figuras/figuras_nilton/questionario4.eps Graphic file (type eps)
+<figuras/figuras_nilton/questionario4.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./editaveis/anexos.tex)
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[102
+[104
 
-]
+] [105] [106] [107]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -3205,16 +3236,8 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
  (./tcc.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
-
-
-Package rerunfilecheck Warning: File `tcc.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: C5443C7DA75F306DDAAFDF95996A0E2C;10040
-(rerunfilecheck)             After:  62157E40B065FDA7A4D453EBD6409580;10040.
-
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Info: File `tcc.brf' has not changed.
+(rerunfilecheck)             Checksum: 70A346E9E308FCF393139F8125238AA7;10054.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3222,12 +3245,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 26315 strings out of 493305
- 442026 string characters out of 6139898
- 638475 words of memory out of 5000000
- 29087 multiletter control sequences out of 15000+600000
+ 26331 strings out of 493305
+ 442417 string characters out of 6139898
+ 640527 words of memory out of 5000000
+ 29097 multiletter control sequences out of 15000+600000
  114737 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,75p,1403b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (103 pages, 976920 bytes).
+Output written on tcc.dvi (108 pages, 994884 bytes).

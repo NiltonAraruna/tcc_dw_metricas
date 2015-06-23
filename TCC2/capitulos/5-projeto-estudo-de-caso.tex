@@ -161,7 +161,7 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 
 \textbf{QE08: } Existe alguma correlação entre \textit{bugs}, violações e cenários analisados? 
 
-\textbf{Fonte:} {\color{red}anexo X}.
+\textbf{Fonte:} Total de \textit{bugs}, violações e cenários de limpeza encontrados pela solução de DW.
 
 \textbf{Métrica:} Coeficiente de correlação Linear.\\
 
@@ -170,8 +170,8 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 
 \textbf{QE09: } É possível provar a corretude dos resultados das análises? 
 
-\textbf{Fonte:} {\color{red}anexo X}.
-
+\textbf{Fonte:} Valores das análises apresentados pela solução de DW e valores das análises apresentados pelas ferramentas FindBugs e PMD utilizadas individualmente.
+ 
 \textbf{Métrica:} Erro quadrático médio.\\
 
 	
@@ -391,9 +391,6 @@ Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dash
 \label{dashboardCenarios}
 \end{figure}
 
-\subsection{Analise do Questionário}
-
-
 
 \subsection{Analise do Erro Quadrático Médio}
 
@@ -404,7 +401,9 @@ $ EQM = \sum\limits_{i}\frac{(x{i}-y{i})^{2}}{n} $
 
 Quanto mais próximo o valor do EQM de 0, maior a corretude e menor é a diferença entre os valores estimados e os valores reais.
 
-Tomando como referência o valor estimado como os valores apresentados pela a solução de DW e o valor real como os valores apresentados pelas ferramentas \textit{FindBugs} e PMD utilizadas individualmente. Foi calculado o EQM de cada conjunto de regra do FindBugs e do PMD de todas as \textit{releases}, as Figuras \ref{EQMFindBugs}, \ref{EQMPMD1}, \ref{EQMPMD2} e \ref{EQMPMD3} mostram os resultados do EQM. Os valores apresentados pelas ferramentas utilizadas individualmente foram coletados de arquivos do tipo csv por elas geradas, que estão disponíveis para consulta no repositório deste trabalho no \textit{github} \footnote{https://github.com/NiltonAraruna/}. Os valores da solução de DW foram coletados a partir dos \textit{Dashboards} da própria solução.
+Tomando como referência o valor estimado como os valores apresentados pela a solução de DW e o valor real como os valores apresentados pelas ferramentas \textit{FindBugs} e PMD utilizadas individualmente. Foi calculado o EQM de cada conjunto de regra do FindBugs e do PMD de todas as \textit{releases}, as Figuras \ref{EQMFindBugs}, \ref{EQMPMD1}, \ref{EQMPMD2} e \ref{EQMPMD3} mostram os resultados do EQM. Os valores apresentados pelas ferramentas utilizadas individualmente foram coletados de arquivos do tipo csv por elas geradas, que estão disponíveis para consulta no repositório deste trabalho no \textit{github} \footnote{https://github.com/NiltonAraruna/}. Os valores da solução de DW foram coletados a partir dos \textit{Dashboards} da própria solução. 
+
+As Figuras \ref{comparacaodash} e \ref{comparacaoexcell} exemplificam como os dados foram coletados para o cálculo do EQM. A Figura \ref{comparacaodash} demonstra a quantidade de violações do tipo \textit{Basic} da \textit{release} 914 no \textit{dashboard} do PMD, já a Figura \ref{comparacaoexcell} demonstra a quantidade de violações do tipo \textit{Basic} da mesma \textit{release} no arquivo gerado pela ferramenta PMD.
 
 \begin{figure}[h!]
 \centering
@@ -432,6 +431,20 @@ Tomando como referência o valor estimado como os valores apresentados pela a so
 \includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMPMD3.eps}
 \caption{\textit{Continuação Resultados do EQM do PMD}}
 \label{EQMPMD3}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.28]{figuras/figuras_nilton/comparacaodash.eps}
+\caption{Exemplo dos dados coletados a partir do \textit{dashboard}}
+\label{comparacaodash}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.3]{figuras/figuras_nilton/comparacaoexcell.eps}
+\caption{Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD}
+\label{comparacaoexcell}
 \end{figure}
 
 Como pode ser observado os resultados obtidos do EQM foram todos igual a 0, significando a corretude entre os valores obtidos através do \textit{FindBugs} e PMD e os valores apresentados pela solução de DW. A corretude dos valores dos cenários de limpeza não foram validados porque algumas correções e adaptações tiveram que ser feitas na solução de DW de \cite{rego_monitoramento_2014} para que possibilitasse as análises do SIGET, como a adição das função \textit{ROUND} no step "Inserindo os Fatos na $F_Project_Metric $" da transformação "Percentiles Analizo".  
@@ -491,6 +504,98 @@ Analisando os resultados do coeficiente de correlação linear em conformidade c
 \label{dispersaoviolacoesbugs}
 \end{figure}
 
+\subsection{Analise do Questionário}
+
+O questionário aplicado pode ser encontrado no Apêndice \ref{sec:questionário}. Vale ressaltar que esse questionário foi aplicado não só para caracterização do conhecimento sobre qualidade dos envolvidos do estudo de caso na CAIXA como também para coleta de dados qualitativos necessários para responder questões específicas do GQM. 
+
+Das 15 pessoas que realizaram o questionário todas trabalham na CETEC, sendo 4 do núcleo de inovação, 2 do núcleo qualidade, 3 do núcleo de governança, 3 do núcleo de banco de dados, 1 analista, 1 coordenador e 1 gerente de projetos. Do total 46,7\% trabalham na mesma área de atuação entre 3 a 5 anos, 33,3\% a mais de 5 anos e 20\% a menos de 2 anos. 
+
+Em relação a QE01 e QE04: 20\% definiram como Ótimo, 73,3\% como Muito Bom e 6.7\% como sem opinião. Sendo que 80\% dos entrevistados entenderam o conceito sobre cenários de limpeza.
+
+Em relação a QE02: 53.3\% definiram como imparcial, 26.7\% Melhor e 20\% Muito Melhor a solução de DW em relação ao FindBugs. Sendo que 66.7\% nunca utilizaram a ferramenta FindBugs.
+
+Em relação a QE03: 80\% definiram como imparcial, 13.3\% Melhor e 6.7\% Muito Melhor a solução de DW em relação ao PMD. Sendo que 99.3\% nunca utilizaram a ferramenta PMD.
+
+Em relação a QE05 e QE06: 40\% definiram como Ótimo, 46.7\% Muito Bom e 13.3\% Bom a opinião quanto a visualização das análises através do \textit{dashboard} da solução de DW. 
+
+Em relação a QE07: 26.7\% definiram como Melhor e 76.3\% como Imparcial. Sendo que 73.3\% nunca utilizaram a ferramenta sonarQube. 
+
+Pontos fortes da solução de DW levantados pelo questionário:
+
+\begin{easylist}[itemize]
+
+& A forma pratica na apresentação dos \textit{bugs};
+
+& Apresentação de Cenários de limpeza;
+
+& Apresentação de informações de forma direcionada;
+
+& Simplicidade na visualização;
+
+& Apresentar de forma gráfica os \textit{bugs}, violações e cenários de limpeza detectados e auxiliar na tomada de decisões;
+
+& Possibilidade de trabalhar com grande diversidade de dados;
+
+& Concentrar os dados em um local proporcionando novas analises;
+
+& Permitir a prevenção dos sistemas já em produção e agregar qualidade nas aferições por parte da empresa pública;
+
+& Uma visão gerencial, Ferramental que auxilia na tomada de decisões;
+
+& Traduz de forma simples os resultados das análises, facilitando o dia a dia do usuário;
+
+& Dar visibilidade quanto a qualidade dos produtos entregues e auxiliar na tomada de decisões.
+
+\end{easylist}
+
+
+Pontos fracos da solução de DW levantados pelo questionário:
+
+\begin{easylist}[itemize]
+
+& Caso precise, a manutenção seria custosa  e teria que ter uma equipe com conhecimentos técnicos sobre a solução;
+
+& Recomendações para violações e \textit{bugs};
+
+& Layout mais atrativo e recomendações conceituais;
+
+& Tempo necessário para visualização das análises; 
+
+& Detalhar melhor as recomendações para os cenários de limpeza;
+
+& Necessidade de outras ferramentas para fazer as análises.
+
+\end{easylist}
+
+De todos que responderam o questionário, 100\% definiram que a solução de DW traria benefícios para a CAIXA, benefícios apontados:
+
+\begin{easylist}[itemize]
+
+& Com a visualização de \textit{bugs}, violações e cenários de limpeza a Caixa teria maior visibilidade da qualidade dos softwares que são entregues pelas tercerizadas;
+
+& Agilidade na validação e refatoração do código;
+
+& Melhora na identificação do nível de qualidade dos produtos entregues pelas fábricas de software;
+
+& Apoio na devolução de entregas com inconsistências para a fábrica e na aplicação de multas.
+
+& Visualização do Percentual de \textit{bugs}, violações e cenários de limpeza encontrados nas aplicações;
+
+& Apresenta maior quantidade de informações que outras ferramentas;
+
+& A solução apoia a melhoria contínua da qualidade;
+
+& Automação da validação de código-fonte;
+
+& O ganho da qualidade do software entregue
+
+& Agregar qualidade nos recebimentos.
+
+& Facilidade na visualização e acesso a dados importantes para a refatoração;
+
+& Apoio na aferição de qualidade dos projetos desenvolvidos pelas fábricas que hoje está abaixo da média esperada.
+
+\end{easylist}
 
 \section{Considerações finais do capítulo}
 
