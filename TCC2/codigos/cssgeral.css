@@ -1,0 +1,38 @@
+body{
+    margin-top: 0.5cm;
+} 
+paneltitle{
+    vertical-align: top; 
+}
+.dashboardHeading{
+     height:10px;
+}
+
+.releaseTextCss{
+    /*top:-2px;*/  
+    text-align:right;
+} 
+.releaseSelectorCss{
+   /*top:-2px;*/  
+    text-align:right;
+}
+.panel1Css{
+    /*padding-right:30px;*/
+    text-align: center;  
+}
+.panel2Css{
+    padding-left:0px;
+     text-align: center;  
+}
+.panel3Css{
+     text-align: center;  
+      overflow:auto; 
+}
+.panel4Css{
+    padding-left:0px;
+     text-align: center;  
+} 
+.panel5css{
+    padding-left:0px;
+     text-align: center;  
+} 

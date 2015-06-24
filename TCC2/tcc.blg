@@ -27,45 +27,45 @@ Warning--faltando school em andre2000
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 54 entries,
+You've used 55 entries,
             6711 wiz_defined-function locations,
-            1510 strings with 17707 characters,
-and the built_in function-call counts, 55599 in all, are:
-= -- 5796
-> -- 1185
-< -- 1018
-+ -- 1474
-- -- 370
-* -- 3477
-:= -- 7234
-add.period$ -- 206
-call.type$ -- 54
-change.case$ -- 443
-chr.to.int$ -- 89
-cite$ -- 54
-duplicate$ -- 4785
-empty$ -- 3080
-format.name$ -- 1742
-if$ -- 11764
+            1515 strings with 17984 characters,
+and the built_in function-call counts, 56809 in all, are:
+= -- 5935
+> -- 1200
+< -- 1054
++ -- 1515
+- -- 375
+* -- 3545
+:= -- 7391
+add.period$ -- 210
+call.type$ -- 55
+change.case$ -- 450
+chr.to.int$ -- 90
+cite$ -- 55
+duplicate$ -- 4920
+empty$ -- 3126
+format.name$ -- 1765
+if$ -- 11991
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 951
-newline$ -- 266
-num.names$ -- 260
-pop$ -- 1205
+missing$ -- 967
+newline$ -- 272
+num.names$ -- 265
+pop$ -- 1227
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 190
 quote$ -- 0
-skip$ -- 4943
+skip$ -- 5078
 stack$ -- 1
-substring$ -- 2050
-swap$ -- 1758
-text.length$ -- 32
+substring$ -- 2103
+swap$ -- 1800
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 19
 warning$ -- 1
-while$ -- 338
+while$ -- 345
 width$ -- 0
-write$ -- 815
+write$ -- 829
 (There were 3 warnings)

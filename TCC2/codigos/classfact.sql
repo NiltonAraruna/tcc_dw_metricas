@@ -1,0 +1,195 @@
+
+SET @release_number = (SELECT substring_index('?','.',1));
+
+SET @idRelease = (SELECT max(idRelease) from D_Release);
+
+SET @Project_Language = (SELECT project_language from D_Project where idProject = @idProject);
+
+SET @idProject = (SELECT max(idProject) from D_Project);
+
+
+SET @idACCM = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='ACCM' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+SET @idAMLOC = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='AMLOC' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+SET @idANPM = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='ANPM' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+SET @idCBO = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='CBO' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+SET @idLCOM4 = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='LCOM4' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+SET @idNPA = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='NPA' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+SET @idNOC = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='NOC' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+
+SET @idRFC = (SELECT idMetricRange FROM Meta_Metric_Ranges
+where language_name =  @Project_Language 
+and metric_name='RFC' and ? <= max AND ? >= min and configuration_name like '%Open JDK8 Metrics%');
+
+
+
+
+SET @idClassePoucoCoesa = (SELECT `Meta_Scenario`.`idMeta_Scenario`
+FROM `Meta_Metric_Ranges_Meta_Scenario` INNER JOIN Meta_Scenario ON Meta_Scenario.idMeta_Scenario = Meta_Metric_Ranges_Meta_Scenario.Meta_Scenario_idMeta_Scenario where 
+Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange1 = @idLCOM4 
+and  Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange2 = @idRFC);
+
+
+
+
+SET @idInterfaceMetodos = (SELECT `Meta_Scenario`.`idMeta_Scenario`
+FROM `Meta_Metric_Ranges_Meta_Scenario` INNER JOIN Meta_Scenario ON Meta_Scenario.idMeta_Scenario = Meta_Metric_Ranges_Meta_Scenario.Meta_Scenario_idMeta_Scenario where 
+Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange1 = @idANPM);
+
+
+
+
+SET @idClasseFilhos = (SELECT `Meta_Scenario`.`idMeta_Scenario`
+FROM `Meta_Metric_Ranges_Meta_Scenario` INNER JOIN Meta_Scenario ON Meta_Scenario.idMeta_Scenario = Meta_Metric_Ranges_Meta_Scenario.Meta_Scenario_idMeta_Scenario where 
+Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange1 = @idNOC);
+
+
+
+SET @idClasseGrande = (SELECT `Meta_Scenario`.`idMeta_Scenario`
+FROM `Meta_Metric_Ranges_Meta_Scenario` INNER JOIN Meta_Scenario ON Meta_Scenario.idMeta_Scenario = Meta_Metric_Ranges_Meta_Scenario.Meta_Scenario_idMeta_Scenario where 
+Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange1 = @idACCM 
+and Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange2 = @idAMLOC);
+
+
+
+SET @idClasseExposta = (SELECT `Meta_Scenario`.`idMeta_Scenario`
+FROM `Meta_Metric_Ranges_Meta_Scenario` INNER JOIN Meta_Scenario ON Meta_Scenario.idMeta_Scenario = Meta_Metric_Ranges_Meta_Scenario.Meta_Scenario_idMeta_Scenario where 
+Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange1 = @idNPA);
+
+
+
+SET @idComplexidadeEstrutural = (SELECT `Meta_Scenario`.`idMeta_Scenario`
+FROM `Meta_Metric_Ranges_Meta_Scenario` INNER JOIN Meta_Scenario ON Meta_Scenario.idMeta_Scenario = Meta_Metric_Ranges_Meta_Scenario.Meta_Scenario_idMeta_Scenario where 
+Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange1 = @idCBO 
+and  Meta_Metric_Ranges_Meta_Scenario.Meta_Metric_Ranges_idMetricRange2 = @idLCOM4);
+
+
+
+DROP TABLE IF EXISTS Temporary_F_Scenario_Class ;
+CREATE Temporary TABLE  `source_info`.`Temporary_F_Scenario_Class` (
+  `idScenarioFact` INT NOT NULL AUTO_INCREMENT,
+  `quantity_Scenario` INT NULL,
+  `D_Scenario_Clean_Code_idScenario` INT NULL,
+  `D_Project_idProject` INT NULL,
+  `D_Release_idRelease` INT NULL,
+  `D_Class_idClass` INT  NULL,
+  PRIMARY KEY (`idScenarioFact`))
+ENGINE = InnoDB;
+
+
+
+INSERT INTO `source_info`.`Temporary_F_Scenario_Class`
+(`quantity_Scenario`,`D_Scenario_Clean_Code_idScenario`,
+`D_Project_idProject`,
+`D_Release_idRelease`,
+`D_Class_idClass`)
+VALUES
+(1, @idClassePoucoCoesa, @idProject, @idRelease, ?);
+
+
+
+INSERT INTO `source_info`.`Temporary_F_Scenario_Class`
+(`quantity_Scenario`,`D_Scenario_Clean_Code_idScenario`,
+`D_Project_idProject`,
+`D_Release_idRelease`,
+`D_Class_idClass`)
+VALUES
+(1, @idInterfaceMetodos, @idProject, @idRelease, ?);
+
+
+
+INSERT INTO `source_info`.`Temporary_F_Scenario_Class`
+(`quantity_Scenario`,`D_Scenario_Clean_Code_idScenario`,
+`D_Project_idProject`,
+`D_Release_idRelease`,
+`D_Class_idClass`)
+VALUES
+(1, @idClasseFilhos, @idProject, @idRelease, ?);
+
+
+
+INSERT INTO `source_info`.`Temporary_F_Scenario_Class`
+(`quantity_Scenario`,`D_Scenario_Clean_Code_idScenario`,
+`D_Project_idProject`,
+`D_Release_idRelease`,
+`D_Class_idClass`)
+VALUES
+(1, @idClasseGrande, @idProject, @idRelease, ?);
+
+
+
+INSERT INTO `source_info`.`Temporary_F_Scenario_Class`
+(`quantity_Scenario`,`D_Scenario_Clean_Code_idScenario`,
+`D_Project_idProject`,
+`D_Release_idRelease`,
+`D_Class_idClass`)
+VALUES
+(1, @idClasseExposta, @idProject, @idRelease, ?);
+
+
+INSERT INTO `source_info`.`Temporary_F_Scenario_Class`
+(`quantity_Scenario`,`D_Scenario_Clean_Code_idScenario`,
+`D_Project_idProject`,
+`D_Release_idRelease`,
+`D_Class_idClass`)
+VALUES
+(1, @idComplexidadeEstrutural, @idProject, @idRelease, ?);
+
+
+
+INSERT INTO F_Scenario_Class (`F_Scenario_Class`.`quantity_Scenario`,`F_Scenario_Class`.`D_Scenario_Clean_Code_idScenario`,
+`F_Scenario_Class`.`D_Project_idProject`,
+`F_Scenario_Class`.`D_Release_idRelease`,
+`F_Scenario_Class`.`D_Class_idClass`) SELECT`Temporary_F_Scenario_Class`.`quantity_Scenario`,`Temporary_F_Scenario_Class`.`D_Scenario_Clean_Code_idScenario`,
+`Temporary_F_Scenario_Class`.`D_Project_idProject`,
+`Temporary_F_Scenario_Class`.`D_Release_idRelease`,
+`Temporary_F_Scenario_Class`.`D_Class_idClass` FROM Temporary_F_Scenario_Class where Temporary_F_Scenario_Class.D_Scenario_Clean_Code_idScenario is not null;
+
+SET @total_scenarios = (SELECT COUNT(*)FROM source_info.F_Scenario_Class where D_Release_idRelease= @idRelease);
+
+SET @rate = (@total_scenarios/?);
+
+DROP TABLE IF EXISTS `Temporary_F_Rate_Scenario`;
+CREATE Temporary TABLE `Temporary_F_Rate_Scenario` (
+  `idRateScenario` int(11) NOT NULL AUTO_INCREMENT,
+  `RateScenario` double DEFAULT NULL,
+  `Quantiy_Scenarios` double DEFAULT NULL,
+  `numberOfClasses` int(11) DEFAULT NULL,
+  `D_Project_idProject` int(11) NOT NULL,
+  `D_Release_idRelease` int(11) NOT NULL,
+  PRIMARY KEY (`idRateScenario`))
+ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `source_info`.`Temporary_F_Rate_Scenario`
+(`RateScenario`,`Quantiy_Scenarios`, `numberOfClasses`,
+`D_Project_idProject`, `D_Release_idRelease`)
+VALUES
+(@rate,@total_scenarios,?,@idProject, @idRelease);
+
+SET @quantiy_Violation = (SELECT COUNT(*)FROM source_info.F_Project_Violation where D_Release_idRelease= @idRelease);
+SET @quantiy_Bug = (SELECT COUNT(*)FROM source_info.F_Project_Bug where D_Release_idRelease= @idRelease);
+
+
+REPLACE INTO `source_info`.`F_Rate_Scenario`
+SET `RateScenario` = @rate, `numberOfClasses`= ?, `Quantiy_Scenarios` = @total_scenarios, 
+`D_Release_idRelease` = @idRelease, `D_Project_idProject`=@idProject, `Quantiy_Violations` = @quantiy_Violation, `Quantiy_Bugs` = @quantiy_Bug ;
