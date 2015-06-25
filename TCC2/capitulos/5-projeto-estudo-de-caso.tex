@@ -60,9 +60,9 @@ Esta seção contém referências sobre os trabalhos que antecederam esse estudo
 
 \subsection{Trabalhos Antecedentes e Relacionados}
 
-O principal trabalho que antecede essa ideia foi desenvolvido por \citeonline{rego_monitoramento_2014}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida.
+O principal trabalho que antecede essa ideia foi desenvolvido por \citeonline{rego_monitoramento_2014TCC}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida.
 
-Anteriormente ao trabalho realizado por \citeonline{rego_monitoramento_2014}, \citeonline{marinescu2005measurement} mostrou em seu trabalho que a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a aplicabilidade da medição feita. Além disso, o autor ainda afirma que a métrica por si só não contém informação o suficiente para motivar uma transformação no código que que melhore sua qualidade. Buscando trabalhar nesse contexto, \citeonline{marinescu2005measurement} apresentou o conceito de interpretação das métricas em um nível de abstração maior que o adquirido ao observar apenas o valor da métrica.
+Anteriormente ao trabalho realizado por \citeonline{rego_monitoramento_2014TCC}, \citeonline{marinescu2005measurement} mostrou em seu trabalho que a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a aplicabilidade da medição feita. Além disso, o autor ainda afirma que a métrica por si só não contém informação o suficiente para motivar uma transformação no código que que melhore sua qualidade. Buscando trabalhar nesse contexto, \citeonline{marinescu2005measurement} apresentou o conceito de interpretação das métricas em um nível de abstração maior que o adquirido ao observar apenas o valor da métrica.
 
 Outro trabalho antecedente a ser destacado é a tese desenvolvida por \citeonline{Meirelles2013}, em que se buscou responder como métricas de código-fonte podem influir na atratividade de projetos de software livre e quais métricas devem ser controladas ao longo do tempo. Além disso, \citeonline{Meirelles2013} também inseriu como questão de pesquisa se as métricas de código-fonte melhoram com o amadurecimento dos projetos. Durante a execução de seu trabalho, foi observado que, a partir dos resultados obtidos para cada métrica de
 código-fonte em uma análise realizada no código-fonte de trinta e oito projetos de software livre, para uma determinada linguagem de programação, é possível definir um intervalo qualitativo a partir de um determinado percentil ao observar o conjunto de valores que são frequentemente obtidos.
@@ -91,7 +91,7 @@ A questão de pesquisa a seguir foi proveniente do problema da falta de capacida
 
 Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-question-metrics} conforme ilustrado na figura \ref{EstruturaEstudoCaso}. Segundo \cite{Basili96b}, o resultado da aplicação do GQM é a especificação de um sistema de medida destinada a um conjunto especifico de questões e um conjunto de regras para a interpretação dos dados da medição. O GQM é uma estrutura hierárquica que começa com um objetivo que especifica o propósito da medição, objeto a ser medido, questão a ser medida e o ponto de vista de quem a observa. O objetivo é refinado em várias questões, onde para cada questão é definida uma métrica(objetiva ou subjetiva)\cite{Basili96b}. A estrutura do GQM está a seguir.
 
-\textbf{Objetivo 01:} Realizar um estudo de caso na CAIXA onde será analisado a capacidade de aferição da qualidade interna de software do ambiente de Data Warehousing apoiado por ferramentas de análise estática de código-fonte.\\
+\textbf{Objetivo 01:} Realizar um estudo de caso na CAIXA onde será analisado a capacidade do monitoramento, interpretação e de suporte à tomada de decisão acerca da qualidade interna de software do ambiente de Data Warehousing apoiado por ferramentas de análise estática de código-fonte.\\
 
 
 % Questão 01
@@ -328,14 +328,14 @@ A análise de dados coletados durante o estudo de caso foi feita através de 4 e
 
 \begin{easylist}[itemize]	
 
-& \textbf{Validade de constructo: } A validade de construção está presente na fase de coleta de dados, quando devem ser evidenciadas as múltiplas fontes de evidência e a coleta de um conjunto de métricas para que se possa saber exatamente o que medir e quais dados são relevantes para o estudo, de forma a responder as questões de pesquisa \cite{yin2001estudo}. O uso do GQM mitiga a validade de construção, uma vez que estabelece uma lógica entre a questão de pesquisa e as métricas que serão analisadas para respondê-la.
+& \textbf{Validade de construção: } A validade de construção está presente na fase de coleta de dados, quando devem ser evidenciadas as múltiplas fontes de evidência e a coleta de um conjunto de métricas para que se possa saber exatamente o que medir e quais dados são relevantes para o estudo, de forma a responder as questões de pesquisa \cite{yin2001estudo}. O uso do GQM mitiga a validade de construção, uma vez que estabelece uma lógica entre a questão de pesquisa e as métricas que serão analisadas para respondê-la.
 
 & \textbf{Validade interna: } Para \citeonline{yin2001estudo}, o uso de várias fontes de dados e métodos de coleta permite a triangulação, uma técnica para confirmar se os resultados de diversas fontes e de diversos métodos convergem. Dessa forma é possível aumentar a validade interna do estudo e aumentar a força das conclusões.
 A triangulação de dados se dará pelas medidas extraídas do código-fonte por meio da solução de \textit{Data Warehousing} (explicada no capítulo \ref{chap:arquitetura}), pela análise de questionários e pelos dados coletados através de entrevistas.
 
 & \textbf{Validade externa: } \citeonline{yin2001estudo} recomenda a replicação do estudo em múltiplos casos. Por esse ser um caso único, a generalização não poderá ser alcançada. Este trabalho é o primeiro a analisar a solução para o estudo de caso na CAIXA, portanto não há como correlacionar os resultados obtidos a nenhum outro estudo.
 
-& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho, o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados coletados e analisados, garantem a repetibilidade desse trabalho e,  consequentemente, a validade relacionada à confiabilidade.
+& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho, o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados coletados e analisados e a corretude dos dados validada na Seção \ref{eqm},  garantem a repetibilidade desse trabalho e,  consequentemente, a validade relacionada à confiabilidade.
 
 \end{easylist}	
 
@@ -393,7 +393,8 @@ Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dash
 \end{figure}
 
 
-\subsection{Analise do Erro Quadrático Médio}
+\subsection{Análise do Erro Quadrático Médio}
+\label{eqm}
 
 Com o objetivo de validar a corretude dos dados apresentados pela solução de DW foi realizado o calculo do EQM (Erro Quadrático Médio). EQM é a soma das diferenças entre
 o valor estimado e o valor real dos dados, ponderados pelo número de termos: 
@@ -448,7 +449,7 @@ As Figuras \ref{comparacaodash} e \ref{comparacaoexcell} exemplificam como os da
 \label{comparacaoexcell}
 \end{figure}
 
-Como pode ser observado os resultados obtidos do EQM foram todos igual a 0, significando a corretude entre os valores obtidos através do \textit{FindBugs} e PMD e os valores apresentados pela solução de DW. A corretude dos valores dos cenários de limpeza não foram validados porque algumas correções e adaptações tiveram que ser feitas na solução de DW de \cite{rego_monitoramento_2014} para que possibilitasse as análises do SIGET, como a adição das função \textit{ROUND} no step "Inserindo os Fatos na $F_Project_Metric $" da transformação "Percentiles Analizo".  
+Como pode ser observado os resultados obtidos do EQM foram todos igual a 0, significando a corretude entre os valores obtidos através do \textit{FindBugs} e PMD e os valores apresentados pela solução de DW. A corretude dos valores dos cenários de limpeza não foram validados porque algumas correções e adaptações tiveram que ser feitas na solução de DW de \cite{rego_monitoramento_2014TCC} para que possibilitasse as análises do SIGET, como a adição das função \textit{ROUND} no step "Inserindo os Fatos na $F_Project_Metric $" da transformação "Percentiles Analizo".  
 
 
 \subsection{Análise do Coeficiente de Correlação}

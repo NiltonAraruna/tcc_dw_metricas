@@ -2,24 +2,19 @@
 
 Neste trabalho, foi apresentado o problema do processo de aferição da qualidade interna dos produtos de \textit{software} desenvolvidos por terceirizadas em órgãos públicos brasileiros. Para realizar uma investigação empírica deste problema, com vistas à proposição de uma solução, foi realizado um estudo do uso de uma solução de \textit{Data Warehouse} para o monitoramento de métricas, cenários de limpeza, bugs e violações de código-fonte no contexto das unidades da  CETEC e GITECBR da CAIXA Econômica Federal.
 
-A solução de DW proposta por \citeonline{rego_monitoramento_2014} foi utilizada, adaptada, melhorada e evoluída neste trabalho com o objetivo de aumentar o valor de aferição da qualidade interna de software monitorando métricas, cenários de limpeza, \textit{bugs} e violações de código-fonte. Também foi construído um \textit{dashboard} gerencial visando dar maior visibilidade das medidas analisadas pela solução.
+A solução de DW proposta por \citeonline{rego_monitoramento_2014TCC} foi utilizada, adaptada e evoluída neste trabalho com o objetivo de aumentar o valor de aferição da qualidade interna de \textit{software} monitorando métricas, cenários de limpeza, \textit{bugs} e violações de código-fonte. Também foi construído um \textit{dashboard} gerencial visando dar maior visibilidade das medidas analisadas pela solução.
 
 Antes da solução de DW ser apresentada, foi realizada uma revisão bibliográfica a respeito de qualidade interna de software, de métricas, de \textit{Data Warehouse} e acerca da definição de estudo de caso. Os conceitos levantados na revisão bibliográfica foram apresentados com o objetivo de facilitar na compreensão da solução adotada. Foi apresentada a plataforma da solução, quer sejam: o ambiente e as ferramentas utilizadas na solução de DW. 
 
 Também foi exibido o projeto de pesquisa do estudo realizado. Conceitos fundamentais do projeto de pesquisa, como qual o problema a ser resolvido e a questão que o caracteriza, foram identificados e apresentados. Em seguida, utilizou-se da  técnica GQM para, através de objetivos, questões específicas e métricas, responder a questão de pesquisa. As etapas pelas quais o estudo de caso atravessou foram descritas e modeladas de forma sequencial, de tal forma a obedecer a revisão bibliográfica sobre o estudo de caso.
 
-Por fim, foi exibido a parte referente a execução do estudo de caso, coleta e análise dos dados obtidos. A execução, coleta e a análise dos dados serviram para evidenciarmos a corretude e a correlação dos dados apresentados pela solução de \textit{Data Warehouse} monitorando as métricas, cenários de limpeza, \textit{bugs} e violações de código-fonte do sistema SIGET adquerido pela CAIXA, com o objetivo de responder a questão de pesquisa definida.
+Por fim, foi exibido a parte referente a execução do estudo de caso, coleta e análise dos dados obtidos. A execução, coleta e a análise dos dados serviram para evidenciarmos a corretude e a correlação dos dados apresentados pela solução de \textit{Data Warehousing} monitorando as métricas, cenários de limpeza, \textit{bugs} e violações de código-fonte do sistema SIGET adquerido pela CAIXA, com o objetivo de responder a questão de pesquisa definida.
 
+Para responder a questão de pesquisa foi elaborado uma análise da corretude e correlação dos dados apresentados pela solução de DW. O erro quadrático entre os dados apresentados pela solução e os dados apresentados pelas ferramentas findbugs e PMD quando utilizadas individualmente. O valor do erro quadrático foi igual a zero para todas as análises, indicando a corretude dos dados apresentados pela solução de DW. As ferramentas findbugs e PMD são ferramentas reconhecidas e já validadas pelo mercado do mundo inteiro, a corretude entre os dados apresentados por estas ferramentas e a solução de DW foi uma das validações da solução de DW.
 
+A análise do coeficiente de correlação, visou investigar a existência de uma possível correlação entre os cenários de limpeza e bugs, bugs e violações e entre cenários de limpeza e violações. Os resultados do coeficiente de correlação indicaram uma correlação forte entre todos, porém, por se tratar de uma análise realizado em apenas uma organização e em apenas um sistema, esta análise não pode ser generalizada.
 
-
-O uso de um ambiente de Data Warehousing para aferição da qualidade interna de software, apoiado por ferramentas de análise estática de
-código-fonte, pode assistir ao processo de aferição da qualidade interna em
-uma organização pública federal?
-
-
-
-
+Por a solução não ter sido utilizada em uma situação real em um processo de desenvolvimento da CAIXA, foi elaborado um questionário visando dar um maior suporte para a validação científica da solução, além de servir como fonte das métricas das questões específicas do GQM. O questionário foi respondido por quinze funcionários da equipe CETEC da CAIXA, envolvendo membros de todos os núcleos: inovação, qualidade, governança, banco de dados, analista, um coordenador e um gerente de projetos. Todos os quinze funcionários responderam que a solução traria benefícios para a CAIXA e destacaram pontos fortes da solução de DW.  
 
 Quanto aos trabalhos futuros, a possibilidade imediata seria a utilização real da solução de DW apresentada neste trabalho, durante todo o processo de desenvolvimento da CAIXA, objetivando-se na validação e refinamentos do protocolo deste estudo de caso, e em seguida, a ampliação deste estudo para outras organizações públicas brasileiras.  
 

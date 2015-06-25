@@ -9,7 +9,7 @@ Ainda segundo o \citeonline{Guiaimplementacao}, entende-se por método de mediç
 
 \begin{easylist}[itemize]	
 	
-	& \textbf{Nominal:} A ordem não possui significado na interpretação dos valores \cite{Meirelles2013}
+	& \textbf{Nominal:} A ordem não possui significado na interpretação dos valores.\\ 				    \cite{Meirelles2013}
 	& \textbf{Ordinal:} A ordem dos valores possui significado, porém a distância entre os valores não. \cite{Meirelles2013}
 	& \textbf{Intervalo:}  A ordem dos valores possui significado e a distância entre os valores também. Porém, a proporção entre os valores não necessariamente possui significado. \cite{Meirelles2013}
 	& \textbf{Racional:} Semelhante a medida com escala do tipo intervalo, porém, a proporção possui significado. \cite{Meirelles2013}
@@ -46,7 +46,7 @@ As métricas de software são medidas resultantes da medição do produto ou do 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.65]{figuras/figuras_nilton/modeloqualidade.eps}
+\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/modeloqualidade.png}
 \caption{Modelo de Qualidade do Produto da \citeonline{ISO:9126}}
 \label{modelodequalidade}
 \end{figure}
@@ -158,24 +158,24 @@ Após a aplicação da técnica percentil na série de dados das métricas de c�
 
 Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} observou que era possível identificar valores frequentes analisando os percentis. Na tabela \ref{tab:percentil}, por exemplo, considerando o projeto \textbf{Open JDK8} como referência, foram observados os intervalos de valores de 0, como muito frequente, 1 e 2 como frequente, 3 como pouco frequente e acima de 3 como não frequente \cite{Meirelles2013}. 
 
-\citeonline{rego_monitoramento_2014}, observando o trabalho de análise de percentis de \citeonline{Meirelles2013}, percebeu que é possível utilizar os intervalos de frequência obtidos como uma evidência empírica de qualidade do código-fonte. \citeonline{rego_monitoramento_2014} também renomeou os intervalos de frequência obtidos por \citeonline{Meirelles2013}, como na Tabela \ref{tab:nomes}, a fim de facilitar a interpretação de métricas de código-fonte. 
+\citeonline{rego_monitoramento_2014TCC}, observando o trabalho de análise de percentis de \citeonline{Meirelles2013}, percebeu que é possível utilizar os intervalos de frequência obtidos como uma evidência empírica de qualidade do código-fonte. \citeonline{rego_monitoramento_2014TCC} também renomeou os intervalos de frequência obtidos por \citeonline{Meirelles2013}, como na Tabela \ref{tab:nomes}, a fim de facilitar a interpretação de métricas de código-fonte. 
 
 \begin{table}[!ht]
 	\begin{center}
 	\input{tabelas/tabelasNilton/intervalos.ltx}
-	\caption{Nome dos Intervalos de Frequência extraídos de \citeonline{rego_monitoramento_2014}}
+	\caption{Nome dos Intervalos de Frequência extraídos de \citeonline{rego_monitoramento_2014TCC}}
 	\label{tab:nomes}
 	\end{center}
 	\end{table}
 	\FloatBarrier
 	
-\citeonline{rego_monitoramento_2014} observando a diferença dos valores das métricas entre os projetos analisados e na tentativa de diminuir tamanha diferença, considerou dois cenários. Foram utilizado dois produtos de \textit{software} como referências para cada uma das
+\citeonline{rego_monitoramento_2014TCC} observando a diferença dos valores das métricas entre os projetos analisados e na tentativa de diminuir tamanha diferença, considerou dois cenários. Foram utilizado dois produtos de \textit{software} como referências para cada uma das
 métricas na linguagem de programação Java. Em um primeiro cenário, foi analisado o \textit{Open JDK8}, software que contia os menores valores percentis para as métricas. Já em um segundo cenário, foi considerado o Tomcat, contendo os valores percentis mais altos. A tabela \ref{tab:good-metrics} mostra o resultado desta análise:
 
 \begin{table}[!ht]
 	\begin{center}
 	\input{tabelas/tabelasNilton/metricas.ltx}	
-	\caption{Configurações para os Intervalos das Métricas para Java extraídas de \citeonline{rego_monitoramento_2014}}
+	\caption{Configurações para os Intervalos das Métricas para Java extraídas de \citeonline{rego_monitoramento_2014TCC}}
 	\label{tab:good-metrics}
 	\end{center}
 	\end{table}
@@ -208,7 +208,7 @@ Segundo \citeonline{Beck2007}, um código limpo está inserido em um estilo de p
 \begin{table}[!ht]
 \centering
 \input{tabelas/tabelasNilton/conceitos-limpeza-parte1.ltx}
-\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 1.}
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014TCC} parte 1.}
 \label{tab:conceitos1}
 \end{table}
 \FloatBarrier
@@ -216,7 +216,7 @@ Segundo \citeonline{Beck2007}, um código limpo está inserido em um estilo de p
 \begin{table}[!ht]
 \centering
 \input{tabelas/tabelasNilton/conceitos-limpeza-parte2.ltx}
-\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 2.}
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014TCC} parte 2.}
 \label{tab:conceitos2}
 \end{table}
 \FloatBarrier
@@ -224,7 +224,7 @@ Segundo \citeonline{Beck2007}, um código limpo está inserido em um estilo de p
 \begin{table}[!ht]
 \centering
 \input{tabelas/tabelasNilton/conceitos-limpeza-parte3.ltx}
-\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 3.} 
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014TCC} parte 3.} 
 \label{tab:conceitos3}
 \end{table}
 \FloatBarrier
@@ -232,22 +232,22 @@ Segundo \citeonline{Beck2007}, um código limpo está inserido em um estilo de p
 \begin{table}[!ht]
 \centering
 \input{tabelas/tabelasNilton/conceitos-limpeza-parte4.ltx}
-\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 4.} 
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014TCC} parte 4.} 
 \label{tab:conceitos4}
 \end{table}
 \FloatBarrier
 
 Após apresentar as técnicas para obtenção de um código limpo, \citeonline{Machini2010}   adota uma abordagem baseada em cenários para identificar trechos de código com características indesejáveis. Os cenários devem possuir um contexto criado a partir de poucos conceitos de código limpo no qual um pequeno conjunto de métricas é analisado e interpretado através da combinação de seus valores. A ideia principal desta abordagem é facilitar melhorias de implementação e a procura por problemas quanto a limpeza de código através da aproximação dos valores das métricas com os esperados nos contextos de interpretação \cite{Machini2010}.
 
-\citeonline{rego_monitoramento_2014} utiliza a mesma abordagem de cenários que \citeonline{Machini2010}, onde algumas técnicas de limpeza de código apresentadas nas tabelas \ref{tab:conceitos1}, \ref{tab:conceitos2}, \ref{tab:conceitos3} e \ref{tab:conceitos4} são correlacionadas com as métricas da Seção \ref{sec:metricascodigo}. Adicionalmente, utiliza-se a configuração do \textit{ Open JDK8 } considerando como valores altos os valores obtidos pelos intervalos Regular e Ruim tal como mostrados na Tabela \ref{tab:good-metrics}.
+\citeonline{rego_monitoramento_2014TCC} utiliza a mesma abordagem de cenários que \citeonline{Machini2010}, onde algumas técnicas de limpeza de código apresentadas nas tabelas \ref{tab:conceitos1}, \ref{tab:conceitos2}, \ref{tab:conceitos3} e \ref{tab:conceitos4} são correlacionadas com as métricas da Seção \ref{sec:metricascodigo}. Adicionalmente, utiliza-se a configuração do \textit{ Open JDK8 } considerando como valores altos os valores obtidos pelos intervalos Regular e Ruim tal como mostrados na Tabela \ref{tab:good-metrics}.
 
-Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Interface dos métodos} extraídos de  \citeonline{Machini2010}, \citeonline{rego_monitoramento_2014} elaborou mais alguns cenários de limpeza. O resultado dessa atividade pode ser visto na tabela \ref{tab:cenarios}:
+Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Interface dos métodos} extraídos de  \citeonline{Machini2010}, \citeonline{rego_monitoramento_2014TCC} elaborou mais alguns cenários de limpeza. O resultado dessa atividade pode ser visto na tabela \ref{tab:cenarios}:
 
 \begin{sidewaystable}
 \begin{table}[H]
 \centering
 \input{tabelas/tabelasNilton/cenarios.ltx}
-\caption{Cenários de Limpeza extraídos de \citeonline{rego_monitoramento_2014}}
+\caption{Cenários de Limpeza extraídos de \citeonline{rego_monitoramento_2014TCC}}
 \label{tab:cenarios}
 \end{table}
 \FloatBarrier
