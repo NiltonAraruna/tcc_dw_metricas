@@ -1,3 +1,4 @@
+
 \chapter{Estudo de Caso}
 \label{estudo de caso}
 
@@ -48,7 +49,7 @@ fenômeno com foco em um caso singular enquanto o estudo de caso múltiplo envol
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/EscopoEstudoCaso.eps}
+\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/EscopoEstudoCaso.png}
 \caption{Escopo do Estudo de Caso}
 \label{EscopoEstudoCaso}
 \end{figure}
@@ -363,30 +364,30 @@ Para cada uma das \textit{releases} do SIGET, coletou-se o código-fonte, confor
 
 Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dashboardFindbugs} e \ref{dashboardCenarios}.
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.4]{figuras/figuras_nilton/DashboardTotal.eps}
+\includegraphics[keepaspectratio=false,scale=0.4,trim=3cm 1cm 0cm 0cm]{figuras/figuras_nilton/DashboardTotal.png}
 \caption{\textit{Dashboard} Quantidade Total}
 \label{dashboardtotal}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/DashboardPMD.eps}
+\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/DashboardPMD.png}
 \caption{\textit{Dashboard PMD}}
 \label{dashboardPMD}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/DashboardCenarios.eps}
+\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/DashboardCenarios.png}
 \caption{\textit{Dashboard} Cenários}
 \label{dashboardFindbugs}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/DashboardFindbugs.eps}
+\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/DashboardFindbugs.png}
 \caption{\textit{Dashboard FindBugs}}
 \label{dashboardCenarios}
 \end{figure}
@@ -435,14 +436,14 @@ As Figuras \ref{comparacaodash} e \ref{comparacaoexcell} exemplificam como os da
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.28]{figuras/figuras_nilton/comparacaodash.eps}
+\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/comparacaodash1.png}
 \caption{Exemplo dos dados coletados a partir do \textit{dashboard}}
 \label{comparacaodash}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.3]{figuras/figuras_nilton/comparacaoexcell.eps}
+\includegraphics[keepaspectratio=false,scale=0.4]{figuras/figuras_nilton/comparacaoexcell.png}
 \caption{Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD}
 \label{comparacaoexcell}
 \end{figure}
@@ -473,7 +474,7 @@ uma reta de 45 graus, maior será a correlação positiva, se a reta apresentada
 
 Não querendo generalizar o resultado de uma possível correlação entre \textit{bugs}, violações e cenários de limpeza por se tratar de um estudo de apenas um estudo de caso, uma instituição e um sistema, foi calculado o coeficiente de correlação linear entre \textit{bugs} e violações, entre \textit{bugs} e cenários de limpeza e entre cenários de limpeza e violações. O resultado do cálculo do coeficiente de correlação linear pode ser vista na Figura \ref{correlacao}.
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.40,angle=90]{figuras/figuras_nilton/correlacao.eps}
 \caption{Resultado do cálculo do coeficiente de correlação linear}
@@ -482,24 +483,24 @@ Não querendo generalizar o resultado de uma possível correlação entre \texti
 
 Analisando os resultados do coeficiente de correlação linear em conformidade com a Tabela \ref{tab:correlacao} podemos notar que a correlação entre cenários de limpeza e violações, entre violações e \textit{bugs} e correlação entre cenários e \textit{bugs} é uma correlação direta e muito forte. Os gráficos de dispersão das Figuras \ref{dispercaocenariosbugs}, \ref{dispersaocenariosviolacoes} e \ref{dispersaoviolacoesbugs} também demonstra uma correlação direta e muito forte pois as retas dos gráficos se aproximam de 45 graus.
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.40]{figuras/figuras_nilton/dispercaocenariosbugs.eps}
+\includegraphics[keepaspectratio=false,scale=0.7]{figuras/figuras_nilton/dispercaocenariosbugs.eps}
 \caption{Gráfico de Dispersão entre Cenários de Limpeza e \textit{Bugs}}
 \label{dispercaocenariosbugs}
 \end{figure}
 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.40]{figuras/figuras_nilton/dispersaocenariosviolacoes.eps}
+\includegraphics[keepaspectratio=false,scale=0.7]{figuras/figuras_nilton/dispersaocenariosviolacoes.eps}
 \caption{Gráfico de Dispersão entre Cenários de Limpeza e Violações}
 \label{dispersaocenariosviolacoes}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.40]{figuras/figuras_nilton/dispersaoviolacoesbugs.eps}
+\includegraphics[keepaspectratio=false,scale=0.7]{figuras/figuras_nilton/dispersaoviolacoesbugs.eps}
 \caption{Gráfico de Dispersão entre Violações e \textit{Bugs}}
 \label{dispersaoviolacoesbugs}
 \end{figure}

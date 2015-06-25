@@ -1,45 +1,48 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Metodologia de Pesquisa\relax }}{21}{figure.caption.14}
-\contentsline {figure}{\numberline {2}{\ignorespaces Passos do Estudo de Caso\relax }}{24}{figure.caption.17}
-\contentsline {figure}{\numberline {3}{\ignorespaces Estrutura do \textit {Kanban}.\relax }}{25}{figure.caption.18}
-\contentsline {figure}{\numberline {4}{\ignorespaces Modelo de Qualidade do Produto da \citeonline {ISO:9126}\relax }}{28}{figure.caption.19}
-\contentsline {figure}{\numberline {5}{\ignorespaces Atividades de aquisi\IeC {\c c}\IeC {\~a}o extra\IeC {\'\i }da de \citeonline {ISO:12207}\relax }}{45}{figure.caption.29}
-\contentsline {figure}{\numberline {6}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{50}{figure.caption.30}
-\contentsline {figure}{\numberline {7}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{52}{figure.caption.31}
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Drill Down}(direita) e \textit {Drill up}(esquerda) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{53}{figure.caption.33}
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Slice}(acima) e \textit {Dice}(embaixo) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{54}{figure.caption.34}
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Drill Across} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{55}{figure.caption.35}
-\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Pivoting} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{55}{figure.caption.36}
-\contentsline {figure}{\numberline {12}{\ignorespaces Metodologia de Projeto de \textit {Data Warehouse} proposta por \citeonline {Kimball2002} extra\IeC {\'\i }da de \citeonline {rego_monitoramento_2014} \relax }}{60}{figure.caption.37}
-\contentsline {figure}{\numberline {13}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{63}{figure.caption.40}
-\contentsline {figure}{\numberline {14}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{65}{figure.caption.42}
-\contentsline {figure}{\numberline {15}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao PMD\relax }}{66}{figure.caption.44}
-\contentsline {figure}{\numberline {16}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao \textit {FindBugs}\relax }}{67}{figure.caption.45}
-\contentsline {figure}{\numberline {17}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} finalizado.\relax }}{68}{figure.caption.46}
-\contentsline {figure}{\numberline {18}{\ignorespaces Arquitetura Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014} e adaptado.\relax }}{70}{figure.caption.48}
-\contentsline {figure}{\numberline {19}{\ignorespaces Escopo do Estudo de Caso\relax }}{73}{figure.caption.49}
-\contentsline {figure}{\numberline {20}{\ignorespaces Estrutura do Estudo de Caso\relax }}{77}{figure.caption.50}
-\contentsline {figure}{\numberline {21}{\ignorespaces F\IeC {\'o}rmula de \IeC {\'I}ndice de Defeitos\relax }}{79}{figure.caption.51}
-\contentsline {figure}{\numberline {22}{\ignorespaces \textit {Dashboard} Quantidade Total\relax }}{84}{figure.caption.53}
-\contentsline {figure}{\numberline {23}{\ignorespaces \textit {Dashboard PMD}\relax }}{85}{figure.caption.54}
-\contentsline {figure}{\numberline {24}{\ignorespaces \textit {Dashboard} Cen\IeC {\'a}rios\relax }}{86}{figure.caption.55}
-\contentsline {figure}{\numberline {25}{\ignorespaces \textit {Dashboard FindBugs}\relax }}{87}{figure.caption.56}
-\contentsline {figure}{\numberline {26}{\ignorespaces \textit {Resultados do EQM do FindBugs}\relax }}{88}{figure.caption.57}
-\contentsline {figure}{\numberline {27}{\ignorespaces \textit {Resultados do EQM do PMD}\relax }}{89}{figure.caption.58}
-\contentsline {figure}{\numberline {28}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{90}{figure.caption.59}
-\contentsline {figure}{\numberline {29}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{91}{figure.caption.60}
-\contentsline {figure}{\numberline {30}{\ignorespaces Exemplo dos dados coletados a partir do \textit {dashboard}\relax }}{92}{figure.caption.61}
-\contentsline {figure}{\numberline {31}{\ignorespaces Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD\relax }}{92}{figure.caption.62}
-\contentsline {figure}{\numberline {32}{\ignorespaces Resultado do c\IeC {\'a}lculo do coeficiente de correla\IeC {\c c}\IeC {\~a}o linear\relax }}{94}{figure.caption.64}
-\contentsline {figure}{\numberline {33}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e \textit {Bugs}\relax }}{95}{figure.caption.65}
-\contentsline {figure}{\numberline {34}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e Viola\IeC {\c c}\IeC {\~o}es\relax }}{95}{figure.caption.66}
-\contentsline {figure}{\numberline {35}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Viola\IeC {\c c}\IeC {\~o}es e \textit {Bugs}\relax }}{95}{figure.caption.67}
-\contentsline {figure}{\numberline {36}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{104}{figure.caption.71}
-\contentsline {figure}{\numberline {37}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{105}{figure.caption.72}
-\contentsline {figure}{\numberline {38}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{105}{figure.caption.73}
-\contentsline {figure}{\numberline {39}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{119}{figure.caption.74}
-\contentsline {figure}{\numberline {40}{\ignorespaces Quarta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{124}{figure.caption.75}
-\contentsline {figure}{\numberline {41}{\ignorespaces Quinta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{127}{figure.caption.76}
-\contentsline {figure}{\numberline {42}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{128}{figure.caption.77}
-\contentsline {figure}{\numberline {43}{\ignorespaces \textit {Job} deste Trabalho\relax }}{129}{figure.caption.78}
-\contentsline {figure}{\numberline {44}{\ignorespaces \textit {Dashboard} Geral\relax }}{130}{figure.caption.79}
+\contentsline {figure}{\numberline {1}{\ignorespaces Metodologia de Pesquisa\relax }}{20}{figure.caption.11}
+\contentsline {figure}{\numberline {2}{\ignorespaces Passos do Estudo de Caso\relax }}{23}{figure.caption.14}
+\contentsline {figure}{\numberline {3}{\ignorespaces Estrutura do \textit {Kanban}.\relax }}{24}{figure.caption.15}
+\contentsline {figure}{\numberline {4}{\ignorespaces Modelo de Qualidade do Produto da \citeonline {ISO:9126}\relax }}{27}{figure.caption.16}
+\contentsline {figure}{\numberline {5}{\ignorespaces Atividades de aquisi\IeC {\c c}\IeC {\~a}o extra\IeC {\'\i }da de \citeonline {ISO:12207}\relax }}{44}{figure.caption.26}
+\contentsline {figure}{\numberline {6}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{49}{figure.caption.27}
+\contentsline {figure}{\numberline {7}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{51}{figure.caption.28}
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Drill Down}(direita) e \textit {Drill up}(esquerda) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{52}{figure.caption.30}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Slice}(acima) e \textit {Dice}(embaixo) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{53}{figure.caption.31}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Drill Across} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{54}{figure.caption.32}
+\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Pivoting} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{54}{figure.caption.33}
+\contentsline {figure}{\numberline {12}{\ignorespaces Metodologia de Projeto de \textit {Data Warehouse} proposta por \citeonline {Kimball2002} extra\IeC {\'\i }da de \citeonline {rego_monitoramento_2014} \relax }}{59}{figure.caption.34}
+\contentsline {figure}{\numberline {13}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{62}{figure.caption.37}
+\contentsline {figure}{\numberline {14}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{64}{figure.caption.39}
+\contentsline {figure}{\numberline {15}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao PMD\relax }}{65}{figure.caption.41}
+\contentsline {figure}{\numberline {16}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao \textit {FindBugs}\relax }}{66}{figure.caption.42}
+\contentsline {figure}{\numberline {17}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} finalizado.\relax }}{67}{figure.caption.43}
+\contentsline {figure}{\numberline {18}{\ignorespaces Arquitetura Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014} e adaptado.\relax }}{69}{figure.caption.45}
+\contentsline {figure}{\numberline {19}{\ignorespaces Escopo do Estudo de Caso\relax }}{73}{figure.caption.46}
+\contentsline {figure}{\numberline {20}{\ignorespaces Estrutura do Estudo de Caso\relax }}{77}{figure.caption.47}
+\contentsline {figure}{\numberline {21}{\ignorespaces F\IeC {\'o}rmula de \IeC {\'I}ndice de Defeitos\relax }}{79}{figure.caption.48}
+\contentsline {figure}{\numberline {22}{\ignorespaces \textit {Dashboard} Quantidade Total\relax }}{83}{figure.caption.50}
+\contentsline {figure}{\numberline {23}{\ignorespaces \textit {Dashboard PMD}\relax }}{84}{figure.caption.51}
+\contentsline {figure}{\numberline {24}{\ignorespaces \textit {Dashboard} Cen\IeC {\'a}rios\relax }}{85}{figure.caption.52}
+\contentsline {figure}{\numberline {25}{\ignorespaces \textit {Dashboard FindBugs}\relax }}{86}{figure.caption.53}
+\contentsline {figure}{\numberline {26}{\ignorespaces \textit {Resultados do EQM do FindBugs}\relax }}{88}{figure.caption.54}
+\contentsline {figure}{\numberline {27}{\ignorespaces \textit {Resultados do EQM do PMD}\relax }}{89}{figure.caption.55}
+\contentsline {figure}{\numberline {28}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{90}{figure.caption.56}
+\contentsline {figure}{\numberline {29}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{91}{figure.caption.57}
+\contentsline {figure}{\numberline {30}{\ignorespaces Exemplo dos dados coletados a partir do \textit {dashboard}\relax }}{92}{figure.caption.58}
+\contentsline {figure}{\numberline {31}{\ignorespaces Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD\relax }}{92}{figure.caption.59}
+\contentsline {figure}{\numberline {32}{\ignorespaces Resultado do c\IeC {\'a}lculo do coeficiente de correla\IeC {\c c}\IeC {\~a}o linear\relax }}{94}{figure.caption.61}
+\contentsline {figure}{\numberline {33}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e \textit {Bugs}\relax }}{95}{figure.caption.62}
+\contentsline {figure}{\numberline {34}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e Viola\IeC {\c c}\IeC {\~o}es\relax }}{95}{figure.caption.63}
+\contentsline {figure}{\numberline {35}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Viola\IeC {\c c}\IeC {\~o}es e \textit {Bugs}\relax }}{96}{figure.caption.64}
+\contentsline {figure}{\numberline {36}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{105}{figure.caption.68}
+\contentsline {figure}{\numberline {37}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{106}{figure.caption.69}
+\contentsline {figure}{\numberline {38}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{107}{figure.caption.70}
+\contentsline {figure}{\numberline {39}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{120}{figure.caption.71}
+\contentsline {figure}{\numberline {40}{\ignorespaces Quarta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{126}{figure.caption.72}
+\contentsline {figure}{\numberline {41}{\ignorespaces Quinta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{128}{figure.caption.73}
+\contentsline {figure}{\numberline {42}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{129}{figure.caption.74}
+\contentsline {figure}{\numberline {43}{\ignorespaces \textit {Job} deste Trabalho\relax }}{130}{figure.caption.75}
+\contentsline {figure}{\numberline {44}{\ignorespaces \textit {Dashboard} Geral\relax }}{131}{figure.caption.76}
+\contentsline {figure}{\numberline {45}{\ignorespaces \textit {Dashboard} Cen\IeC {\'a}rios\relax }}{136}{figure.caption.77}
+\contentsline {figure}{\numberline {46}{\ignorespaces \textit {Dashboard FindBugs}\relax }}{137}{figure.caption.78}
+\contentsline {figure}{\numberline {47}{\ignorespaces \textit {Dashboard} PMD\relax }}{138}{figure.caption.79}
