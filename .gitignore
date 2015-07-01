@@ -1,1 +1,14 @@
 *.ps
+*.brf
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.synctex.gz
+*.toc
+*.dvi
