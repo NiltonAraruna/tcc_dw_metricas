@@ -56,8 +56,8 @@ Na figura \ref{modelodequalidade} também pode ser notada a classificação das 
 
 \begin{easylist}[itemize]
 
- & \textbf{Métricas internas:} Aplicadas em um produto de software não executável, como código fonte. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto antes que ele seja executável.
-& \textbf{Métricas externas:} Aplicadas a um produto de software executável, medindo o comportamento do sistema do qual o software é uma parte através de teste, operação ou mesmo obervação. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto durante seu processo de teste ou operação.
+ & \textbf{Métricas de qualidade interna:} Aplicadas em um produto de software não executável, como código fonte. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto antes que ele seja liberado para o uso.
+& \textbf{Métricas de qualidade externa:} Aplicadas a um produto de software executável, medindo o comportamento do sistema, do qual o software é uma parte, por meio de testes, operação ou mesmo obervação. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto durante seu processo de teste ou operação.
 & \textbf{Métricas de qualidade em uso:} Aplicadas para medir o quanto um produto atende as necessidades de um usuário para que sejam atingidas metas especificadas como eficácia, produtividade, segurança e satisfação.
 
 \end{easylist}
@@ -79,7 +79,7 @@ Neste capítulo, serão evidenciadas, em duas categorias as métricas de código
 
 Cada produto do desenvolvimento de software é uma entidade física, como tal, pode ser descrito em termos de tamanho. Desde outros objetos físicos são facilmente mensuráveis (em comprimento, volume, massa, ou outra medida padrão), medir o tamanho do software deve ser relativamente simples e coerente de acordo com os princípios da teoria da medição. No entanto, na prática, a medição de tamanho apresenta grandes dificuldades \cite{Fenton98}. 
 
-Segundo \citeonline{honglei_research_2009}, as métricas de complexidade de  \textit{software} pertencem as principais medições de software e é o principal método para assegurar a qualidade do \textit{software}. Quanto menor a complexidade dos programas, melhor eles são, assim, as métricas de complexidade também podem ser usadas para prever os defeitos ou erros. A seguir são apresentadas algumas métricas de tamanho e complexidade.
+Segundo \citeonline{honglei_research_2009}, as métricas de complexidade de  \textit{software} pertencem as principais medições de software e é o principal método para assegurar a qualidade do \textit{software}. Quanto menor a complexidade dos programas, melhor eles são. Assim, as métricas de complexidade também podem ser usadas para prever os defeitos ou erros. A seguir são apresentadas algumas métricas de tamanho e complexidade.
 
 \begin{easylist}[itemize]
 
@@ -93,7 +93,7 @@ Segundo \citeonline{honglei_research_2009}, as métricas de complexidade de  \te
 
 \subsection{Métricas de Orientação a Objetos}
 
-Segundo \citeonline{budd_introduction_2002}, a programação orientada a objetos tornou-se extremamente popular nos últimos anos, inúmeros livros e edições especiais de revistas acadêmicas e comerciais têm surgido sobre o assunto. A julgar por essa atividade frenética, a programação orientada a objeto está sendo recebido com ainda mais entusiasmo do que vimos em ideias revolucionárias mais antigas, tais como programação estruturada "ou sistemas especialistas." 
+Segundo \citeonline{budd_introduction_2002}, a programação orientada a objetos tornou-se extremamente popular nos últimos anos, inúmeros livros e edições especiais de revistas acadêmicas e comerciais têm surgido sobre o assunto. A julgar por essa atividade frenética, a programação orientada a objeto está sendo recebida com ainda mais entusiasmo do que vimos em ideias revolucionárias mais antigas, tais como programação estruturada "ou sistemas especialistas." 
 
 Há uma série de razões importantes pelas quais, nas últimas duas décadas, a  
 programação orientada a objetos tornou-se o paradigma de programação dominante. A programação orientada a objeto possui uma ótima escala, desde o mais trivial dos problemas para a maioria das tarefas complexas. Ele fornece uma forma de abstração que reflete em técnicas de como pessoas usam para resolver problemas em sua vida cotidiana. E para a maioria das linguagens orientadas a objeto dominante há um número cada vez maior de bibliotecas que auxiliam no desenvolvimento de aplicações para muitos domínios \cite{budd_introduction_2002}.
@@ -137,11 +137,11 @@ Serão adotadas neste trabalho as seguintes métricas de orientação a objetos:
 
 \section{Configurações de qualidade para métricas de código fonte} 
 
-\citeonline{Meirelles2013} apresentou uma abordagem para a observação das métricas de código-fonte em seu doutorado, onde estas métricas foram estudadas através de suas distribuições e associações. Foram avaliados a distribuição e correlações dos valores das métricas de 38 projetos de software livre, sendo coletados e analisados valores para cada métrica em mais de 344.872 classes e módulos. Segundo o próprio \citeonline{Meirelles2013}, entre as principais contribuições de sua tese foi a análise detalhada, em relação ao comportamento, valores e estudos de caso, de 15 métricas de código-fonte. 
+\citeonline{Meirelles2013} apresentou uma abordagem para a observação e interpretação das métricas de código-fonte em sua tese de doutorado, onde estas métricas foram estudadas através de suas distribuições estatísticas e associações. Foram avaliados a distribuição e correlações dos valores das métricas de 38 projetos de software livre, sendo coletados e analisados valores para cada métrica em mais de 344.872 classes e módulos. Segundo o próprio \citeonline{Meirelles2013}, entre as principais contribuições de sua tese foi a análise detalhada, em relação ao comportamento, valores e estudos de caso, de 15 métricas de código-fonte. 
 
 Dentre os objetivos científicos da tese de \citeonline{Meirelles2013} o mais crucial para este trabalho de conclusão de curso é o objetivo OC4, que trata das distribuições estatísticas dos valores de métricas em 38 projetos de software livre, a fim de compreender qual a abordagem estatística mais informativa para o monitoramento dessas métricas, bem como observar os valores frequentes para essas métricas, de forma a servirem de referência para projetos futuros.
 
-\citeonline{Meirelles2013}, para conduzir o seu estudo quantitativo, utilizou-se da técnica de estatística descritiva: percentil. O percentil separa os dados em cem grupos que apresentam o mesmo número de valores, sendo a definição do percentil de ordem px100(0<p<1), em um conjunto de dados de tamanho n, é o valor da variável que ocupa a posição px(n+1) do conjunto de dados ordenados. O percentil de ordem p (ou p-quantil) deixa px100\% das observações abaixo dele na amostra ordenada. O percentil 25 recebe o nome de primeiro quartil, o percentil 50 de segundo quartil ou mediana, e o percentil 75 de terceiro quartil. Uma das hipóteses que \citeonline{Meirelles2013} utiliza é que só a partir do terceiro quartil será possível obter dados informativos sobre as métricas.
+\citeonline{Meirelles2013}, para conduzir o seu estudo quantitativo, utilizou-se da técnica de estatística descritiva: percentil. O percentil separa os dados em cem grupos que apresentam o mesmo número de valores, sendo a definição do percentil de ordem px100(0<p<1), em um conjunto de dados de tamanho n, é o valor da variável que ocupa a posição px(n+1) do conjunto de dados ordenados. O percentil de ordem p (ou p-quartil) deixa px100\% das observações abaixo dele na amostra ordenada. O percentil 25 recebe o nome de primeiro quartil, o percentil 50 de segundo quartil ou mediana, e o percentil 75 de terceiro quartil. Uma das hipóteses que \citeonline{Meirelles2013} utiliza é que só a partir do terceiro quartil será possível obter dados informativos sobre as métricas.
 
 Após a aplicação da técnica percentil na série de dados das métricas de código-fonte obtidos da análise estática do código-fonte dos projetos de software livre, tabelas apresentando os valores percentis de cada métrica nos 38 projetos avaliados foram criadas, como a Tabela \ref{tab:percentil}, que mostra os percentis para a métrica NOC.  
 	
@@ -186,7 +186,7 @@ métricas na linguagem de programação Java. Em um primeiro cenário, foi anali
 
 \section{Cenários de limpeza} 
 
-Segundo \citeonline{marinescu2005measurement}, a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a aplicabilidade da medição feita. Além disso, o autor ainda afirma que a métrica por si só não contém informação suficiente para motivar uma transformação no código que melhore sua qualidade. Uma das soluções para sanar o problema da interpretação do código através de métricas isoladas é  interpretar o código através de cenários de limpeza.
+Segundo \citeonline{marinescu2005measurement}, a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a eficácia da medição. Além disso, o autor ainda afirma que a métrica por si só não contém informação suficiente para motivar uma transformação no código que melhore sua qualidade. Uma das soluções para sanar o problema da interpretação do código através de métricas isoladas é  interpretar o código através de cenários de limpeza.
 
 \citeonline{Machini2010} apresenta uma maneira de interpretar os valores das métricas através de cenários problemáticos e suas possíveis melhorias, para que as métricas possam ser mais facilmente incorporadas no cotidiano dos programadores. \citeonline{Machini2010} também apresenta um estilo de programação baseado no paradigma da Orientação a Objetos que busca o que denominamos de “Código Limpo”, concebido e aplicado por renomados desenvolvedores de software como Robert C. Martin \cite{Martin2008} e Kent Beck \cite{Beck2007}	
 	
@@ -258,9 +258,9 @@ Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Int
 \label{chap:verificadores}
 Os verificadores estáticos de código, são ferramentas automáticas para a verificação de código, que podem verificar estilos de programação, erros ou ambos. O verificador de erro é uma ferramenta de análise estática voltada para a detecção automática de erros, tomando como base as tendências comuns dos desenvolvedores em atrair defeitos que, em sua maioria, não são visíveis aos compiladores. \cite{Louridas2006}
 
-Segundo \citeonline{Pugh}, análise Estática de Código é a análise de um sistema de computador que é realizada sem a sua execução, já a análise realizada com a execução dos programas é conhecida como análise dinâmica. O termo Análise Estática de Código pode se referir à análise automatizada, que é uma das técnicas estáticas de inspeção de software no processo de validação e verificação de software. A Inspeção é uma forma de análise estática na qual você examina o programa sem executá-lo que identificam erros comuns em diferentes linguagens de programação. A possibilidade de automatizar o processo de verificação de programas resultou no desenvolvimento de analisadores estáticos automatizados.
+Segundo \citeonline{Pugh}, análise Estática de Código é a análise de um sistema de computador que é realizada sem a sua execução. Já a análise realizada com a execução dos programas é conhecida como análise dinâmica. O termo Análise Estática de Código pode se referir à análise automatizada, que é uma das técnicas estáticas de inspeção de software no processo de validação e verificação de software. A possibilidade de automatizar o processo de verificação de programas resultou no desenvolvimento de analisadores estáticos automatizados.
 
-Analisadores estáticos automatizados são ferramentas de software que varrem o texto-fonte, entretanto os verificadores estáticos de código podem trabalhar diretamente sobre o código-fonte do programa ou trabalhar sobre o código objeto, no caso da linguagem Java, sobre o \textit{bytecode} \cite{sommerville200}. Segundo \citeonline{Louridas2006}, a intenção da análise estática automatizada é chamar a atenção para anomalias do programa. As anomalias são resultados de erros de programação ou omissões, de tal modo que onde possa ocasionar erros durante a execução do programa é enfatizado, porém nem todas as anomalias são necessariamente defeitos de programa.
+Analisadores estáticos automatizados são ferramentas de software que varrem o texto-fonte. Entretanto os verificadores estáticos de código podem trabalhar diretamente sobre o código-fonte do programa ou trabalhar sobre o código objeto, no caso da linguagem Java, sobre o \textit{bytecode} \cite{sommerville200}. Segundo \citeonline{Louridas2006}, a intenção da análise estática automatizada é chamar a atenção para anomalias do programa. As anomalias são resultados de erros de programação ou omissões, de tal modo que onde possa ocasionar erros durante a execução do programa é enfatizado, porém nem todas as anomalias são necessariamente defeitos de programa.
 
 \citeonline{Jelliffe}, destacou alguns dos benefícios da utilização de analisadores estáticos: 
 
@@ -279,6 +279,10 @@ Analisadores estáticos automatizados são ferramentas de software que varrem o 
 \subsection{Ferramentas de verificação de Erro}
 
 Neste trabalho foram utilizadas duas ferramentas de verificação de erros, o FindBugs na versão 3.0.1 e o PMD na versão 5.0.0. 
+
+\todo[inline]{Nilton, peceba que aqui faltou coesao no texto. Não foram utilizados somente o FindBugs e o PMD. Tem o Analizo também... A grande questão aqui é por que esses e não outros. Avalie se não seria melhor deixar para apresentar essa 2.5.2 no capitulo do estudo de caso... Lembre-se que a CAIXA ainda não foi citada até aqui, e a justificativa do PMD e do FindBugs passaria por explicar o contexto da CAIXA...}
+
+
 
 O FindBugs é uma ferramenta de código aberto utilizado pelos desenvolvedores de software para fazer uma  inspeção no código de forma automatizada. Esta ferramenta examina as sua classes procurando por possíveis erros em potencial no código durante a fase de desenvolvimento. O FindBugs analisa o código fonte ou mesmo o código objeto, \textit{bytecode} para programas Java. Segundo \citeonline{Louridas2006}, é um popular verificador estático de código para a linguagem Java e considera a ferramenta como um patrocinador na fortificação da qualidade do software. Atualmente, ela pode analisar programas compilados em qualquer versão da linguagem Java.
 
