@@ -2,14 +2,14 @@
 \chapter{Estudo de Caso}
 \label{estudo de caso}
 
-Neste capítulo será apresentado o projeto e a execução do estudo de caso, as análises dos dados quantitativos e qualitativos e a discussão dos resultados. Isso consiste na elaboração de um protocolo para o estudo de caso, na identificação do problema e na definição das questões e objetivos de pesquisa. O método para coleta dos dados e como eles foram analisados também serão apresentados neste capítulo.
+Neste capítulo são apresentados o projeto e a execução do estudo de caso, as análises dos dados quantitativos e qualitativos e a discussão dos resultados, realizado neste trabalho de conclusão de curso. Isso consistiu na elaboração de um protocolo para o estudo de caso, na identificação do problema e na definição das questões e objetivos de pesquisa. O método para coleta dos dados e como eles foram analisados também são apresentados neste capítulo.
 
 \section{Planejamento do Estudo de Caso}
 
 Segundo \citeonline{yin2001estudo}, o estudo de caso é um conjunto de procedimentos 
-pré-especificados para se realizar um estudo empírico que investiga um fenômeno contemporâneo dentro de seu contexto da vida real, especialmente quando os limites entre o fenômeno e o contexto não estão claramente definidos. Uma grande vantagem do estudo de caso é a sua capacidade de lidar com uma ampla variedade de evidências, documentos, artefatos, entrevistas e observações. Além disso, em algumas situações, como na observação participante, pode ocorrer manipulação informal.
+pré-especificados para se realizar um estudo experimental que investiga um fenômeno contemporâneo dentro de seu contexto da vida real, especialmente quando os limites entre o fenômeno e o contexto não estão claramente definidos. Uma grande vantagem do estudo de caso é a sua capacidade de lidar com uma ampla variedade de evidências, documentos, artefatos, entrevistas e observações. Além disso, em algumas situações, como na observação participante, pode ocorrer manipulação informal.
 
-Buscando maior entendimento a respeito do estudo de caso proposto, foram criadas algumas perguntas que são fundamentais para o seu entendimento:
+Algumas perguntas norteadoras auxiliam no entendimento do estudo de caso deste trabalho:
 
 \begin{easylist}[itemize]	
 	
@@ -19,14 +19,17 @@ Buscando maior entendimento a respeito do estudo de caso proposto, foram criadas
 	& Quais são os objetivos a serem alcançados nessa pesquisa?	
 	& Como foi a seleção do estudo de caso?
 	& Qual é a fonte dos dados coletados nessa pesquisa e qual o método de coleta?
+	& Qual o método de análise dos dados coletados?
+	& Quais as ameaças a validade do estudo de caso?
 	
 	\end{easylist}	
 	
-Com o objetivo da elucidação do escopo do estudo de caso proposto neste trabalho bem como foi ilustrado na Figura \ref{EscopoEstudoCaso}, foram apresentados, nos capítulos anteriores: um estudo teórico relacionado à métricas de software, verificadores de erro, importância do \textit{dashboard} contratação de serviços de TI por parte da Administração Pública Federal brasileira e de Data \textit{Warehouse}. Adicionalmente foi apresentada uma solução para o monitoramento de Métricas de Código-Fonte com suporte de um ambiente de Data \textit{Warehousing}.
+Com o objetivo da elucidação do escopo do estudo de caso proposto neste trabalho, bem como ilustrado na Figura \ref{EscopoEstudoCaso}, foram apresentados, nos capítulos anteriores: i) um estudo teórico relacionado à métricas de software; ii) verificadores de erro; iii) contratação de serviços de TI por parte da Administração Pública Federal brasileira; iv)  uso de Data \textit{Warehouse}, construído para aferição de qualidade interna de produto de software v) a importância do uso de \textit{dashboard}. Adicionalmente, foi apresentada uma solução para o coleta, monitoramento e interpretação de Métricas de Código-Fonte com suporte de um ambiente de Data \textit{Warehousing}.
+
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, eu sei que o latex é meio chato com esse negócio de posicionamento de figura. Contudo, existe forma de fixar a figuara na página. A figura 19 precisa estar na página 73, antes do próximo parágrafo.}
 
 
-
-Para  as demais perguntas a serem respondidas, foi estruturado neste trabalho um protocolo de estudo de caso baseado em \citeonline{case-study-template-2008} que é dividido da seguinte maneira:
+Para  as demais perguntas a serem respondidas, foi estruturado um protocolo de estudo de caso baseado em \citeonline{case-study-template-2008} que é dividido da seguinte maneira:
 
 \begin{easylist}[itemize]
 
@@ -60,12 +63,12 @@ Esta seção contém referências sobre os trabalhos que antecederam esse estudo
 
 \subsection{Trabalhos Antecedentes e Relacionados}
 
-O principal trabalho que antecede essa ideia foi desenvolvido por \citeonline{rego_monitoramento_2014TCC}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida.
+O principal trabalho que antecede essa ideia foi desenvolvido por \citeonline{rego_monitoramento_2014TCC}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida e utilizada para aferir a qualidade interna de um produto de software contratado por uma Autarquia Federal.
 
-Anteriormente ao trabalho realizado por \citeonline{rego_monitoramento_2014TCC}, \citeonline{marinescu2005measurement} mostrou em seu trabalho que a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a aplicabilidade da medição feita. Além disso, o autor ainda afirma que a métrica por si só não contém informação o suficiente para motivar uma transformação no código que que melhore sua qualidade. Buscando trabalhar nesse contexto, \citeonline{marinescu2005measurement} apresentou o conceito de interpretação das métricas em um nível de abstração maior que o adquirido ao observar apenas o valor da métrica.
+Anteriormente ao trabalho realizado por \citeonline{rego_monitoramento_2014TCC}, \citeonline{marinescu2005measurement} mostrou em seu trabalho que a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a eficácia da medição. Além disso, o autor ainda afirma que a métrica por si só não contém informação o suficiente para motivar uma transformação no código que que melhore sua qualidade. Buscando trabalhar nesse contexto, \citeonline{marinescu2005measurement} apresentou o conceito de interpretação das métricas em um nível de abstração maior que o adquirido ao observar apenas o valor da métrica.
 
 Outro trabalho antecedente a ser destacado é a tese desenvolvida por \citeonline{Meirelles2013}, em que se buscou responder como métricas de código-fonte podem influir na atratividade de projetos de software livre e quais métricas devem ser controladas ao longo do tempo. Além disso, \citeonline{Meirelles2013} também inseriu como questão de pesquisa se as métricas de código-fonte melhoram com o amadurecimento dos projetos. Durante a execução de seu trabalho, foi observado que, a partir dos resultados obtidos para cada métrica de
-código-fonte em uma análise realizada no código-fonte de trinta e oito projetos de software livre, para uma determinada linguagem de programação, é possível definir um intervalo qualitativo a partir de um determinado percentil ao observar o conjunto de valores que são frequentemente obtidos.
+código-fonte em uma análise realizada no código-fonte de 38 projetos de software livre, para uma determinada linguagem de programação, é possível definir um intervalo qualitativo a partir de um determinado percentil ao observar o conjunto de valores que são frequentemente obtidos.
 
 O trabalho de \citeonline{Machini2010} fortemente relaciona-se com este trabalho por ter como objetivo fazer com que as métricas de código-fonte sejam mais facilmente incorporadas no cotidiano dos programadores, apresentando uma maneira de interpretar os valores das métricas através de cenários problemáticos que ocorrem frequentemente durante o desenvolvimento.  
 
@@ -89,14 +92,17 @@ A questão de pesquisa a seguir foi proveniente do problema da falta de capacida
 
 \textbf{O uso de um ambiente de \textit{Data Warehousing} para aferição da qualidade interna de software, apoiado por ferramentas de análise estática de código-fonte,  pode assistir ao processo de aferição da qualidade interna em uma organização pública federal?}
 
-Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-question-metrics} conforme ilustrado na figura \ref{EstruturaEstudoCaso}. Segundo \cite{Basili96b}, o resultado da aplicação do GQM é a especificação de um sistema de medida destinada a um conjunto especifico de questões e um conjunto de regras para a interpretação dos dados da medição. O GQM é uma estrutura hierárquica que começa com um objetivo que especifica o propósito da medição, objeto a ser medido, questão a ser medida e o ponto de vista de quem a observa. O objetivo é refinado em várias questões, onde para cada questão é definida uma métrica(objetiva ou subjetiva)\cite{Basili96b}. A estrutura do GQM está a seguir.
+Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-question-metrics} conforme ilustrado na figura \ref{EstruturaEstudoCaso}. 
 
-\textbf{Objetivo 01:} Realizar um estudo de caso na CAIXA onde será analisado a capacidade do monitoramento, interpretação e de suporte à tomada de decisão acerca da qualidade interna de software do ambiente de Data Warehousing apoiado por ferramentas de análise estática de código-fonte.\\
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, mesmo problema da figura 19...}
 
+Segundo \cite{Basili96b}, o resultado da aplicação do GQM é a especificação de um sistema de medida destinada a um conjunto especifico de questões e um conjunto de regras para a interpretação dos dados da medição. O GQM é uma estrutura hierárquica que começa com um objetivo que especifica o propósito da medição, objeto a ser medido, questão a ser medida e o ponto de vista de quem a observa. O objetivo é refinado em várias questões, onde para cada questão é definida uma métrica(objetiva ou subjetiva)\cite{Basili96b}. A estrutura do GQM está a seguir.
+
+\textbf{Objetivo 01:} Realizar um estudo de caso na CAIXA, onde foi investigada a oportunidade de uso da solução construída neste trabalho, apresentada na seção \ref{solucaoConstruida}, para auxiliar as equipes da CAIXA em aferir a qualidade interna do produto de software contratado de um fornecedor, de forma a auxiliar à tomada de decisões.
 
 % Questão 01
 
-\textbf{QE01:} Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de cenários de limpeza de código através da solução DW?
+\textbf{QE01:} Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de cenários de limpeza de código através da solução DW construída neste trabalho?
 
 \textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
@@ -105,7 +111,7 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 
 % Questão 02
 
-\textbf{QE02: } Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de bugs no código(findbugs) através da solução DW?
+\textbf{QE02: } Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de bugs no código(findbugs) através da solução DW construída neste trabalho?
 
 \textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
@@ -114,7 +120,7 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 
 % Questão 03
 
-\textbf{QE03: } Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de violações de código(PMD) através da solução DW?
+\textbf{QE03: } Qual a opinião da equipe do CETEC/GITECGO quanto a detecção de violações de código(PMD) através da solução DW construída neste trabalho?
 
 \textbf{Fonte:} Entrevista com membros das equipes da CETEC e da GITECGO.
 
@@ -146,7 +152,6 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 \textbf{Fonte:} Entrevista com membros das equipes do CETEC e da GITECGO.
 
 \textbf{Métrica:} Ótimo, Muito Bom, Bom, Ruim, Muito Ruim, Não possui opinião.\\
-
 
 
 % Questão 07
@@ -187,21 +192,27 @@ Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-que
 \section{Design}
 \label{sec:design} 
 
-\citeonline{stake_art_1995} identifica três modalidades de estudos de caso: intrínseco, instrumental e coletivo. 
+\sout{
+\citeonline{stake_art_1995} identifica três modalidades de estudos de caso: intrínseco, instrumental e coletivo.} 
 
 \begin{easylist}[itemize]
 
-& \textbf{Estudo de caso intrínseco:} Constitui o próprio objeto da pesquisa. O que o 
-pesquisador almeja é conhecê-lo em profundidade, sem qualquer preocupação com o desenvolvimento de alguma teoria.
 
-& \textbf{Estudo de caso instrumental:} É desenvolvido para auxiliar no conhecimento 
-ou na redefinição de determinado problema. O pesquisador não tem interesse específico no caso, mas reconhece que pode ser útil para alcançar determinados objetivos.
+& \sout{\textbf{Estudo de caso intrínseco:} Constitui o próprio objeto da pesquisa. O que o 
+pesquisador almeja é conhecê-lo em profundidade, sem qualquer preocupação com o desenvolvimento de alguma teoria.}
 
-& \textbf{Estudo de caso coletivo:} É para estudar características de uma população. Os casos são selecionados porque se acredita que, por meio deles, torna-se possível aprimorar o conhecimento acerca do universo a que pertencem.
+& \sout{\textbf{Estudo de caso instrumental:} É desenvolvido para auxiliar no conhecimento 
+ou na redefinição de determinado problema. O pesquisador não tem interesse específico no caso, mas reconhece que pode ser útil para alcançar determinados objetivos.}
+
+& \sout{\textbf{Estudo de caso coletivo:} É para estudar características de uma população. Os casos são selecionados porque se acredita que, por meio deles, torna-se possível aprimorar o conhecimento acerca do universo a que pertencem.}
 
 \end{easylist}
 
-Como a busca do entendimento geral sobre o problema de pesquisa foi a partir do estudo de um caso particular, o estudo deste  trabalho se caracteriza como instrumental. Podemos observar que a definição de estudo de caso exploratório de \citeonline{yin2001estudo}, onde é elucidada a visão acurada de um caso particular que pode fornecer uma visão geral do problema considerado, que se equivale a definição de estudo de caso instrumental na nomenclatura de \cite{stake_art_1995}. 
+\sout{Como a busca do entendimento geral sobre o problema de pesquisa foi a partir do estudo de um caso particular, o estudo deste  trabalho se caracteriza como instrumental. }
+
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, retire esses parágrafos grifados. Referência antiga e não utilizada na área de engenharia de software. Utilizar a estrutura do design. Utilizar a estrutura proposta pelo Claes Wohlin et al, págs 59 e 60. Vide tabela 5.1 na pag. 61}
+
+Podemos observar que a definição de estudo de caso exploratório de \citeonline{yin2001estudo}, onde é elucidada a visão acurada de um caso particular que pode fornecer uma visão geral do problema considerado, que se equivale a definição de estudo de caso instrumental na nomenclatura de \cite{stake_art_1995}. 
 
 \section{Seleção}
 \label{sec:selecao} 
@@ -236,7 +247,7 @@ Atividades atribuídas à GITECBR:
 
 \end{easylist}
 
-A homologação dos serviços e a aceitação dos S\&SC será facultado à CAIXA, submetendo os programas produzidos pela CONTRATADA a testes em produtos de software especializados para avaliação do desempenho dos mesmos. Atualmente, na CETEC, a solução em homologação, que utiliza as unidades da CAIXA no processo de monitoração de métricas de código-fonte adquiridos por empresas terceirizadas, utiliza a ferramenta SonarQube \footnote{http://www.sonarqube.org/}. Apesar do processo existente estar em fase de homologação, a definição de quais as métricas, indicadores e os seus valores de referência para interpretação, ainda não foi finalizado. Diante disso, as medidas que realmente são utilizadas para o ateste da qualidade interna do produto de \textit{software} entregue estão relacionadas ao número de defeitos e ao índice aceitável de defeitos por ponto de função, conforme pode ser observado na Figura \ref{formula}. O número de pontos de defeitos pode gerar multas para a CONTRATADA conforme o índice de defeitos referenciado na tabela \ref{tab:multa}, porém a multa não exime a CONTRATADA das obrigações de corrigir os erros encontrados, onde ainda as alterações propostas pela CONTRATADA deverão ser efetuadas sem qualquer tipo de ônus financeiro ou a outro projeto para a CAIXA.
+A homologação dos serviços e a aceitação dos S\&SC é facultado à CAIXA, submetendo os produtos de software produzidos pela CONTRATADA, à testes em software especializados para avaliação do desempenho dos mesmos. Atualmente, na CETEC, a solução em homologação, que é utilizada nas unidades da CAIXA no processo de monitoração de métricas de código-fonte adquiridos por empresas terceirizadas, faz uso da ferramenta SonarQube \footnote{http://www.sonarqube.org/}. Apesar do processo existente estar em fase de homologação, a definição de quais as métricas, indicadores e os seus valores de referência para interpretação, ainda não foi finalizado. Diante disso, as medidas que realmente são utilizadas para o ateste da qualidade interna do produto de \textit{software} entregue estão relacionadas ao número de defeitos e ao índice aceitável de defeitos por ponto de função, conforme pode ser observado na Figura \ref{formula}. O número de pontos de defeitos pode gerar multas para a CONTRATADA conforme o índice de defeitos referenciado na tabela \ref{tab:multa}. Contudo, a multa não exime a CONTRATADA das obrigações de corrigir os erros encontrados, onde ainda as alterações propostas pela CONTRATADA deverão ser efetuadas sem qualquer tipo de ônus financeiro ou a outro projeto para a CAIXA.
 
 
 
@@ -246,6 +257,13 @@ A homologação dos serviços e a aceitação dos S\&SC será facultado à CAIXA
 \caption{Fórmula de Índice de Defeitos}
 \label{formula}
 \end{figure}
+
+
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, essa figura 21 está muito ruim! Fora da resolução que pedi. Tente fazer direto no LaTeX ou ao menos retire essas linhas de grade da planilha original e gere uma imagem nova com pelo menos 300dpi }
+
+
+
+
 
 \begin{table}[!ht]
 	\begin{center}
@@ -272,7 +290,10 @@ Regras relacionadas à Fórmula de Índice de Defeitos:\linebreak[1]
 	\FloatBarrier
 	
 	
-Para o estudo de caso deste trabalho foi analisado o Sistema de Gestão Financeira de Bens e Serviços de Tecnologia da Informação (SIGET) um sistema do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} do projeto a GITECBR recebe um pacote da contratada contendo o código-fonte do sistema. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve passar pela solução disponibilizada pela CETEC que utiliza o sonarQube. O sonarQube apresenta os defeitos contidos no código-fonte. Com base nos defeitos e no índice aceitável de defeitos, que é de 0,2 erro por ponto de função, o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa}.    
+Para o estudo de caso deste trabalho foi analisado o Sistema de Gestão Financeira de Bens e Serviços de Tecnologia da Informação (SIGET) um sistema do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} do projeto a GITECBR recebe um \textcolor{red}{pacote} \todo[color=orange]{Cuidaddo com o uso do termo pacote A empresa entrega o software empacotado (pacote linux)? Acho que não...} da contratada contendo o código-fonte do sistema. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve aferida pela solução disponibilizada pela CETEC que faz uso do sonarQube. O sonarQube apresenta os defeitos contidos no código-fonte. Com base nos defeitos e no índice aceitável de defeitos, que é de 0,2 erro por ponto de função, o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa}.
+
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, importante dizer aqui que o sonarCube configurado na CAIXA usa o findbugs e o PMD. Certo? }
+
 
 \section{O Software Analisado}
 
@@ -299,11 +320,11 @@ O SIGET é uma ferramenta auxiliar no aprimoramento da gestão de contratos de a
 \section{Fonte dos Dados Coletados e Método de Coleta}
 \label{sec:fonte} 
 
-Os dados deste estudo de caso foram coletados através de questionários, entrevistas e resultados gerados pela própria solução de \textit{Data Warehousing} utilizando o código-fonte do sistema SIGET desenvolvido por uma empresa contratada pela CAIXA.
+Os dados deste estudo de caso foram coletados através de  \todo[color=orange]{Referenciar o Questinoário do Apendice} \textcolor{red}{questionários}, entrevistas e resultados gerados pela própria solução de \textit{Data Warehousing}, construída neste trabalho, utilizando o código-fonte do sistema SIGET desenvolvido por uma empresa contratada pela CAIXA.
 
-Os registros oriundos do questionários foi utilizado principalmente para dados qualitativos. O questionário traz indagações a respeito da solução de \textit{Data Warehousing} pelo ponto de vista dos membros das equipes da CETEC e da GITECGO, no que diz respeito: à detecção de cenários de limpeza de código, detecção de \textit{bugs}, detecção de violações, ao nível de satisfação da solução, ao nível de satisfação da visualização do \textit{dashboard}.
+Os registros oriundos do questionários foram utilizados principalmente para dados qualitativos. O questionário traz indagações a respeito da solução de \textit{Data Warehousing} pelo ponto de vista dos membros das equipes da CETEC e da GITECGO, no que diz respeito: à detecção de cenários de limpeza de código, detecção de \textit{bugs}, detecção de violações, ao nível de satisfação da solução, ao nível de satisfação da visualização do \textit{dashboard}.
 
-Dados quantitativos da solução foram coletados ao longo das análises das \textit{releases} do SIGET.
+Dados quantitativos da solução foram coletados ao longo das análises das \textit{releases} do SIGET. \textcolor{red}{Quais são os dados quantitativos? Isso deve ficar explícito.}
 
 
 \section{Processo de análise dos dados}
@@ -324,7 +345,7 @@ A análise de dados coletados durante o estudo de caso foi feita através de 4 e
 \section{Ameaças a validade do estudo de caso}
 \label{sec:validade} 
 
-\citeonline{yin2001estudo} descreve como principais ameaças relacionadas à validade do estudo de caso as ameaças relacionadas à validade de construção, à validade interna, à validade externa e à confiabilidade. As quatro ameaças definidas por ele, bem como a forma usada nesse trabalho para preveni-las, são descritas da seguinte maneira: 
+\citeonline{yin2001estudo} descreve como principais ameaças relacionadas à validade do estudo de caso aquelas relacionadas à validade de construção, à validade interna, à validade externa e à confiabilidade. As quatro ameaças definidas por ele, bem como a forma usada nesse trabalho para preveni-las, são descritas da seguinte maneira: 
 
 \begin{easylist}[itemize]	
 
@@ -337,12 +358,15 @@ A triangulação de dados se dará pelas medidas extraídas do código-fonte por
 
 & \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho, o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados coletados e analisados e a corretude dos dados validada na Seção \ref{eqm},  garantem a repetibilidade desse trabalho e,  consequentemente, a validade relacionada à confiabilidade.
 
-\end{easylist}	
+\end{easylist}
+
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, aqui precisa ser apresentado onde esses dados podem ser obtidos, de forma que outro(a) pesquisador/pessoa que se interesse em replicar o estudo, tenha acesso aos mesmos dados que você utilizou. }
+
 
 \section{Execução do Estudo de Caso e Análise dos Dados}
 \label{chap:execucao}
 
-Para cada uma das \textit{releases} do SIGET, coletou-se o código-fonte, conforme a disponibilidade, no repositório da CAIXA. Após a obtenção do código-fonte,foi realizado a análise estática cada \textit{release} utilizando as ferramentas analizo, findbugs e PMD. Posteriormente, os resultados das análises foram extraídos, transformados e carregados no ambiente de Data Warehousing proposto no Capítulo \ref{chap:arquitetura}. Dessa forma, foi possível obter:
+Para cada uma das \textit{releases} do SIGET, coletou-se o código-fonte, conforme a disponibilidade, no repositório da CAIXA. Após a obtenção do código-fonte, foi realizado a análise estática cada \textit{release} utilizando as ferramentas analizo, findbugs e PMD. Posteriormente, os resultados das análises foram extraídos, transformados e carregados no ambiente de Data Warehousing proposto no Capítulo \ref{chap:arquitetura}. Dessa forma, foi possível obter:
 
 \begin{easylist}[itemize]
 
@@ -363,6 +387,10 @@ Para cada uma das \textit{releases} do SIGET, coletou-se o código-fonte, confor
 \end{easylist}
 
 Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dashboardFindbugs} e \ref{dashboardCenarios}.
+
+
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, a qualidade das imagens é muito ruim. Refaça as figuras com pelos menos 300dpi. Aproveite para arrumar também a posição das figuras na página}
+
 
 \begin{figure}[H]
 \centering
@@ -396,7 +424,7 @@ Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dash
 \subsection{Análise do Erro Quadrático Médio}
 \label{eqm}
 
-Com o objetivo de validar a corretude dos dados apresentados pela solução de DW foi realizado o calculo do EQM (Erro Quadrático Médio). EQM é a soma das diferenças entre
+Com o objetivo de validar a corretude dos dados apresentados pela solução de DW, contruída neste trabalho, foi realizado o calculo do EQM (Erro Quadrático Médio). EQM é a soma das diferenças entre
 o valor estimado e o valor real dos dados, ponderados pelo número de termos: 
 
 $ EQM = \sum\limits_{i}\frac{(x{i}-y{i})^{2}}{n} $
@@ -449,6 +477,9 @@ As Figuras \ref{comparacaodash} e \ref{comparacaoexcell} exemplificam como os da
 \label{comparacaoexcell}
 \end{figure}
 
+
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Gere as imagens 30, 31 novamente com qualidade melhor}
+
 Como pode ser observado os resultados obtidos do EQM foram todos igual a 0, significando a corretude entre os valores obtidos através do \textit{FindBugs} e PMD e os valores apresentados pela solução de DW. A corretude dos valores dos cenários de limpeza não foram validados porque algumas correções e adaptações tiveram que ser feitas na solução de DW de \cite{rego_monitoramento_2014TCC} para que possibilitasse as análises do SIGET, como a adição das função \textit{ROUND} no step "Inserindo os Fatos na $F_Project_Metric $" da transformação "Percentiles Analizo".  
 
 
@@ -470,10 +501,13 @@ Correlação entre duas variáveis é quando uma delas está, de alguma forma, r
 	\end{table}	
 	\FloatBarrier
 
-Um diagrama de dispersão também demostra a relação entre duas variáveis quantitativas, medidas sobre os mesmos indivíduos. Se a reta do gráfico for mais próxima de
-uma reta de 45 graus, maior será a correlação positiva, se a reta apresentada for mais próxima de 135 graus, maior será a correlação negativa. 
 
-Não querendo generalizar o resultado de uma possível correlação entre \textit{bugs}, violações e cenários de limpeza por se tratar de um estudo de apenas um estudo de caso, uma instituição e um sistema, foi calculado o coeficiente de correlação linear entre \textit{bugs} e violações, entre \textit{bugs} e cenários de limpeza e entre cenários de limpeza e violações. O resultado do cálculo do coeficiente de correlação linear pode ser vista na Figura \ref{correlacao}.
+\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, não ficou muito legal a visualização das informações das figuras 26 a 29 e 32 Transforme-as em tabelas LaTeX.}
+
+Um diagrama de dispersão também demonstra a relação entre duas variáveis quantitativas, medidas sobre os mesmos indivíduos. Se a reta do gráfico for mais próxima de
+uma reta de 45 graus, maior será a correlação positiva, se a reta apresentada for mais próxima de 135 graus, maior será a correlação negativa.  \textcolor{red}{inserir a referência para essa afirmação}
+
+Não tivemos a pretenção generalizar o resultado de uma possível correlação entre \textit{bugs}, violações e cenários de limpeza por se tratar de um estudo de apenas um estudo de caso, uma instituição e um sistema. Entretanto, queríamos, para este caso, investigar a  correlação linear entre \textit{bugs} e violações, entre \textit{bugs} e cenários de limpeza e entre cenários de limpeza e violações. O resultado do cálculo do coeficiente de correlação linear pode ser vista na Figura \ref{correlacao}.
 
 \begin{figure}[H]
 \centering
@@ -482,7 +516,7 @@ Não querendo generalizar o resultado de uma possível correlação entre \texti
 \label{correlacao}
 \end{figure}
 
-Analisando os resultados do coeficiente de correlação linear em conformidade com a Tabela \ref{tab:correlacao} podemos notar que a correlação entre cenários de limpeza e violações, entre violações e \textit{bugs} e correlação entre cenários e \textit{bugs} é uma correlação direta e muito forte. Os gráficos de dispersão das Figuras \ref{dispercaocenariosbugs}, \ref{dispersaocenariosviolacoes} e \ref{dispersaoviolacoesbugs} também demonstra uma correlação direta e muito forte pois as retas dos gráficos se aproximam de 45 graus.
+Analisando os resultados do coeficiente de correlação linear em conformidade com a Tabela \ref{tab:correlacao} podemos notar que a correlação entre cenários de limpeza e violações, entre violações e \textit{bugs} e correlação entre cenários e \textit{bugs} é uma correlação direta e muito forte. Por meio dos gráficos de dispersão observados nas figuras \ref{dispercaocenariosbugs}, \ref{dispersaocenariosviolacoes} e \ref{dispersaoviolacoesbugs} também é possível evidenciar uma correlação direta e muito forte pois as retas dos gráficos se aproximam de 45 graus.
 
 \begin{figure}[H]
 \centering
@@ -522,7 +556,7 @@ Em relação a QE05 e QE06: 40\% definiram como Ótimo, 46.7\% Muito Bom e 13.3\
 
 Em relação a QE07: 26.7\% definiram como Melhor e 76.3\% como Imparcial. Sendo que 73.3\% nunca utilizaram a ferramenta sonarQube. 
 
-Pontos fortes da solução de DW levantados pelo questionário:
+Segundo os respondentes, onde houve consideração aberta, para os sujeitos do estudo, os pontos fortes da solução de DW, levantados via questionário, foram:
 
 \begin{easylist}[itemize]
 
@@ -601,4 +635,4 @@ De todos que responderam o questionário, 100\% definiram que a solução de DW 
 
 \section{Considerações finais do capítulo}
 
-Esse capítulo teve como objetivo apresentar o protocolo de estudo de caso que foi adotado neste trabalho, sua execução, as análises dos dados quantitativos e qualitativos e a discussão dos resultados. No próximo capítulo será apresentado a conclusão, limitações e trabalhos futuros.
+Esse capítulo teve como objetivo apresentar o protocolo de estudo de caso que foi adotado neste trabalho, sua execução, as análises dos dados quantitativos e qualitativos e a discussão dos resultados. No próximo capítulo será apresentada a conclusão, limitações e trabalhos futuros.
