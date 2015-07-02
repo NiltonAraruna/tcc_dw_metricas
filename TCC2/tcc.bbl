@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Assis 2009]{pablo2009}
+\abntrefinfo{Assis}{ASSIS}{2009}
+{ASSIS, P. O.~A. de. \emph{Análise da Correlação entre Métricas de
+  Evolução e Qualidade de Design de Software}. Universidade Federal de
+  Campina Grande: [s.n.], 2009.}
+
 \bibitem[Basili, Caldiera e Rombach 1996]{Basili96b}
 \abntrefinfo{Basili, Caldiera e Rombach}{BASILI; CALDIERA; ROMBACH}{1996}
 {BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. \emph{{The Goal Question Metric
@@ -297,12 +303,6 @@ Dispon{\'\i}vel em:
   Prentice Hall, 2008.
 ISBN 9788588639287 8588639289. Dispon{\'\i}vel em:
   \url{http://www.worldcat.org/search?qt=worldcat\_org\_all&q=9788588639287}.}
-
-\bibitem[Stake 1995]{stake_art_1995}
-\abntrefinfo{Stake}{STAKE}{1995}
-{STAKE, R.~E. \emph{The art of case study research}. Thousand Oaks: Sage
-  Publications, 1995.
-ISBN 0803957661.}
 
 \bibitem[TCU 2011]{Acordao381_2011}
 \abntrefinfo{TCU}{TCU}{2011}

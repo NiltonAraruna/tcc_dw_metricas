@@ -17,32 +17,32 @@
 \contentsline {figure}{\numberline {16}{\ignorespaces Parte do projeto f\IeC {\'\i }sico contendo as tabelas relacionados ao \textit {FindBugs}\relax }}{66}{figure.caption.42}
 \contentsline {figure}{\numberline {17}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} finalizado.\relax }}{67}{figure.caption.43}
 \contentsline {figure}{\numberline {18}{\ignorespaces Arquitetura Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014TCC} e adaptado.\relax }}{69}{figure.caption.45}
-\contentsline {figure}{\numberline {19}{\ignorespaces Escopo do Estudo de Caso\relax }}{73}{figure.caption.46}
-\contentsline {figure}{\numberline {20}{\ignorespaces Estrutura do Estudo de Caso\relax }}{77}{figure.caption.47}
+\contentsline {figure}{\numberline {19}{\ignorespaces Escopo do Estudo de Caso\relax }}{72}{figure.caption.46}
+\contentsline {figure}{\numberline {20}{\ignorespaces Estrutura do Estudo de Caso\relax }}{75}{figure.caption.47}
 \contentsline {figure}{\numberline {21}{\ignorespaces F\IeC {\'o}rmula de \IeC {\'I}ndice de Defeitos\relax }}{79}{figure.caption.48}
-\contentsline {figure}{\numberline {22}{\ignorespaces \textit {Dashboard} Quantidade Total\relax }}{83}{figure.caption.50}
-\contentsline {figure}{\numberline {23}{\ignorespaces \textit {Dashboard PMD}\relax }}{84}{figure.caption.51}
-\contentsline {figure}{\numberline {24}{\ignorespaces \textit {Dashboard} Cen\IeC {\'a}rios\relax }}{85}{figure.caption.52}
-\contentsline {figure}{\numberline {25}{\ignorespaces \textit {Dashboard FindBugs}\relax }}{86}{figure.caption.53}
-\contentsline {figure}{\numberline {26}{\ignorespaces \textit {Resultados do EQM do FindBugs}\relax }}{88}{figure.caption.54}
-\contentsline {figure}{\numberline {27}{\ignorespaces \textit {Resultados do EQM do PMD}\relax }}{89}{figure.caption.55}
-\contentsline {figure}{\numberline {28}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{90}{figure.caption.56}
-\contentsline {figure}{\numberline {29}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{91}{figure.caption.57}
-\contentsline {figure}{\numberline {30}{\ignorespaces Exemplo dos dados coletados a partir do \textit {dashboard}\relax }}{92}{figure.caption.58}
-\contentsline {figure}{\numberline {31}{\ignorespaces Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD\relax }}{92}{figure.caption.59}
-\contentsline {figure}{\numberline {32}{\ignorespaces Resultado do c\IeC {\'a}lculo do coeficiente de correla\IeC {\c c}\IeC {\~a}o linear\relax }}{94}{figure.caption.61}
-\contentsline {figure}{\numberline {33}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e \textit {Bugs}\relax }}{95}{figure.caption.62}
-\contentsline {figure}{\numberline {34}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e Viola\IeC {\c c}\IeC {\~o}es\relax }}{95}{figure.caption.63}
-\contentsline {figure}{\numberline {35}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Viola\IeC {\c c}\IeC {\~o}es e \textit {Bugs}\relax }}{96}{figure.caption.64}
-\contentsline {figure}{\numberline {36}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{105}{figure.caption.68}
-\contentsline {figure}{\numberline {37}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{106}{figure.caption.69}
-\contentsline {figure}{\numberline {38}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{107}{figure.caption.70}
-\contentsline {figure}{\numberline {39}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{120}{figure.caption.71}
-\contentsline {figure}{\numberline {40}{\ignorespaces Quarta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{126}{figure.caption.72}
-\contentsline {figure}{\numberline {41}{\ignorespaces Quinta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{128}{figure.caption.73}
-\contentsline {figure}{\numberline {42}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{129}{figure.caption.74}
-\contentsline {figure}{\numberline {43}{\ignorespaces \textit {Job} deste Trabalho\relax }}{130}{figure.caption.75}
-\contentsline {figure}{\numberline {44}{\ignorespaces \textit {Dashboard} Geral\relax }}{131}{figure.caption.76}
-\contentsline {figure}{\numberline {45}{\ignorespaces \textit {Dashboard} Cen\IeC {\'a}rios\relax }}{136}{figure.caption.77}
-\contentsline {figure}{\numberline {46}{\ignorespaces \textit {Dashboard FindBugs}\relax }}{137}{figure.caption.78}
-\contentsline {figure}{\numberline {47}{\ignorespaces \textit {Dashboard} PMD\relax }}{138}{figure.caption.79}
+\contentsline {figure}{\numberline {22}{\ignorespaces \textit {Dashboard} Quantidade Total\relax }}{84}{figure.caption.50}
+\contentsline {figure}{\numberline {23}{\ignorespaces \textit {Dashboard PMD}\relax }}{85}{figure.caption.51}
+\contentsline {figure}{\numberline {24}{\ignorespaces \textit {Dashboard} Cen\IeC {\'a}rios\relax }}{86}{figure.caption.52}
+\contentsline {figure}{\numberline {25}{\ignorespaces \textit {Dashboard FindBugs}\relax }}{87}{figure.caption.53}
+\contentsline {figure}{\numberline {26}{\ignorespaces \textit {Resultados do EQM do FindBugs}\relax }}{89}{figure.caption.54}
+\contentsline {figure}{\numberline {27}{\ignorespaces \textit {Resultados do EQM do PMD}\relax }}{90}{figure.caption.55}
+\contentsline {figure}{\numberline {28}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{91}{figure.caption.56}
+\contentsline {figure}{\numberline {29}{\ignorespaces \textit {Continua\IeC {\c c}\IeC {\~a}o Resultados do EQM do PMD}\relax }}{92}{figure.caption.57}
+\contentsline {figure}{\numberline {30}{\ignorespaces Exemplo dos dados coletados a partir do \textit {dashboard}\relax }}{93}{figure.caption.58}
+\contentsline {figure}{\numberline {31}{\ignorespaces Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD\relax }}{94}{figure.caption.59}
+\contentsline {figure}{\numberline {32}{\ignorespaces Resultado do c\IeC {\'a}lculo do coeficiente de correla\IeC {\c c}\IeC {\~a}o linear\relax }}{96}{figure.caption.61}
+\contentsline {figure}{\numberline {33}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e \textit {Bugs}\relax }}{97}{figure.caption.62}
+\contentsline {figure}{\numberline {34}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Cen\IeC {\'a}rios de Limpeza e Viola\IeC {\c c}\IeC {\~o}es\relax }}{97}{figure.caption.63}
+\contentsline {figure}{\numberline {35}{\ignorespaces Gr\IeC {\'a}fico de Dispers\IeC {\~a}o entre Viola\IeC {\c c}\IeC {\~o}es e \textit {Bugs}\relax }}{98}{figure.caption.64}
+\contentsline {figure}{\numberline {36}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{107}{figure.caption.68}
+\contentsline {figure}{\numberline {37}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{108}{figure.caption.69}
+\contentsline {figure}{\numberline {38}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{109}{figure.caption.70}
+\contentsline {figure}{\numberline {39}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{122}{figure.caption.71}
+\contentsline {figure}{\numberline {40}{\ignorespaces Quarta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{128}{figure.caption.72}
+\contentsline {figure}{\numberline {41}{\ignorespaces Quinta Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{130}{figure.caption.73}
+\contentsline {figure}{\numberline {42}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{131}{figure.caption.74}
+\contentsline {figure}{\numberline {43}{\ignorespaces \textit {Job} deste Trabalho\relax }}{132}{figure.caption.75}
+\contentsline {figure}{\numberline {44}{\ignorespaces \textit {Dashboard} Geral\relax }}{133}{figure.caption.76}
+\contentsline {figure}{\numberline {45}{\ignorespaces \textit {Dashboard} Cen\IeC {\'a}rios\relax }}{138}{figure.caption.77}
+\contentsline {figure}{\numberline {46}{\ignorespaces \textit {Dashboard FindBugs}\relax }}{139}{figure.caption.78}
+\contentsline {figure}{\numberline {47}{\ignorespaces \textit {Dashboard} PMD\relax }}{140}{figure.caption.79}

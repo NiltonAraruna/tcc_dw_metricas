@@ -26,7 +26,12 @@ Algumas perguntas norteadoras auxiliam no entendimento do estudo de caso deste t
 	
 Com o objetivo da elucidação do escopo do estudo de caso proposto neste trabalho, bem como ilustrado na Figura \ref{EscopoEstudoCaso}, foram apresentados, nos capítulos anteriores: i) um estudo teórico relacionado à métricas de software; ii) verificadores de erro; iii) contratação de serviços de TI por parte da Administração Pública Federal brasileira; iv)  uso de Data \textit{Warehouse}, construído para aferição de qualidade interna de produto de software v) a importância do uso de \textit{dashboard}. Adicionalmente, foi apresentada uma solução para o coleta, monitoramento e interpretação de Métricas de Código-Fonte com suporte de um ambiente de Data \textit{Warehousing}.
 
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, eu sei que o latex é meio chato com esse negócio de posicionamento de figura. Contudo, existe forma de fixar a figuara na página. A figura 19 precisa estar na página 73, antes do próximo parágrafo.}
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/EscopoEstudoCaso.png}
+\caption{Escopo do Estudo de Caso}
+\label{EscopoEstudoCaso}
+\end{figure}
 
 
 Para  as demais perguntas a serem respondidas, foi estruturado um protocolo de estudo de caso baseado em \citeonline{case-study-template-2008} que é dividido da seguinte maneira:
@@ -50,12 +55,7 @@ fenômeno com foco em um caso singular enquanto o estudo de caso múltiplo envol
 
 \end{easylist}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/EscopoEstudoCaso.png}
-\caption{Escopo do Estudo de Caso}
-\label{EscopoEstudoCaso}
-\end{figure}
+
 
 \section{Background}\label{sec:Background}
 
@@ -94,7 +94,12 @@ A questão de pesquisa a seguir foi proveniente do problema da falta de capacida
 
 Para estruturar a questão de pesquisa foi utilizada a técnica \textit{goal-question-metrics} conforme ilustrado na figura \ref{EstruturaEstudoCaso}. 
 
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, mesmo problema da figura 19...}
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/EstruturaEstudoCaso.eps}
+\caption{Estrutura do Estudo de Caso}
+\label{EstruturaEstudoCaso}
+\end{figure}
 
 Segundo \cite{Basili96b}, o resultado da aplicação do GQM é a especificação de um sistema de medida destinada a um conjunto especifico de questões e um conjunto de regras para a interpretação dos dados da medição. O GQM é uma estrutura hierárquica que começa com um objetivo que especifica o propósito da medição, objeto a ser medido, questão a ser medida e o ponto de vista de quem a observa. O objetivo é refinado em várias questões, onde para cada questão é definida uma métrica(objetiva ou subjetiva)\cite{Basili96b}. A estrutura do GQM está a seguir.
 
@@ -180,44 +185,21 @@ Segundo \cite{Basili96b}, o resultado da aplicação do GQM é a especificação
  
 \textbf{Métrica:} Erro quadrático médio.\\
 
-	
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/EstruturaEstudoCaso.eps}
-\caption{Estrutura do Estudo de Caso}
-\label{EstruturaEstudoCaso}
-\end{figure}
-
 
 \section{Design}
 \label{sec:design} 
 
-\sout{
-\citeonline{stake_art_1995} identifica três modalidades de estudos de caso: intrínseco, instrumental e coletivo.} 
+Segundo \cite{wohlin2012experimentation}, umas das formas de classificar um estudo de caso é com base na identificação de
+seus propósitos gerais: exploratórios, descritivos, explicativos ou avaliativos. Este estudo de
+caso é classificado como exploratório, pois não foi esperado obter uma resposta definitiva para o problema proposto. A ideia é obter uma visão mais acurada do problema para posteriormente realizar uma pesquisa mais aprofundada. Tal escolha foi feita porque o tema escolhido foi pouco explorado até o momento, constituindo apenas a primeira etapa de uma investigação mais ampla e sistemática.
 
-\begin{easylist}[itemize]
+Uma segunda forma de classificação é relacionada a quantidade de casos: caso único ou casos múltiplos. Considerando as restrições de tempo para realização deste estudo de caso, foi definido o estudo de um caso único, uma organização, e holístico com uma unidade de análise, um sistema.
 
-
-& \sout{\textbf{Estudo de caso intrínseco:} Constitui o próprio objeto da pesquisa. O que o 
-pesquisador almeja é conhecê-lo em profundidade, sem qualquer preocupação com o desenvolvimento de alguma teoria.}
-
-& \sout{\textbf{Estudo de caso instrumental:} É desenvolvido para auxiliar no conhecimento 
-ou na redefinição de determinado problema. O pesquisador não tem interesse específico no caso, mas reconhece que pode ser útil para alcançar determinados objetivos.}
-
-& \sout{\textbf{Estudo de caso coletivo:} É para estudar características de uma população. Os casos são selecionados porque se acredita que, por meio deles, torna-se possível aprimorar o conhecimento acerca do universo a que pertencem.}
-
-\end{easylist}
-
-\sout{Como a busca do entendimento geral sobre o problema de pesquisa foi a partir do estudo de um caso particular, o estudo deste  trabalho se caracteriza como instrumental. }
-
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, retire esses parágrafos grifados. Referência antiga e não utilizada na área de engenharia de software. Utilizar a estrutura do design. Utilizar a estrutura proposta pelo Claes Wohlin et al, págs 59 e 60. Vide tabela 5.1 na pag. 61}
-
-Podemos observar que a definição de estudo de caso exploratório de \citeonline{yin2001estudo}, onde é elucidada a visão acurada de um caso particular que pode fornecer uma visão geral do problema considerado, que se equivale a definição de estudo de caso instrumental na nomenclatura de \cite{stake_art_1995}. 
 
 \section{Seleção}
 \label{sec:selecao} 
 
-A organização pública selecionada para este estudo de caso foi a CAIXA. O estudo aconteceu mais especificamente na Centralizadora Nacional de Tecnologia da Informação (CETEC) e na Gerência de Filial de suporte Tecnológico de Brasília (GITECBR).
+A organização pública selecionada para este estudo de caso foi a CAIXA Econômica Federal, cuja personalidade jurídica é de empresa pública. O estudo aconteceu mais especificamente na Centralizadora Nacional de Tecnologia da Informação (CETEC) e na Gerência de Filial de suporte Tecnológico de Brasília (GITECBR).
 
 Atividades atribuídas à CETEC:
 
@@ -253,17 +235,10 @@ A homologação dos serviços e a aceitação dos S\&SC é facultado à CAIXA, s
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/formula.eps}
+\includegraphics[keepaspectratio=false,scale=0.6]{figuras/figuras_nilton/formula.png}
 \caption{Fórmula de Índice de Defeitos}
 \label{formula}
 \end{figure}
-
-
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, essa figura 21 está muito ruim! Fora da resolução que pedi. Tente fazer direto no LaTeX ou ao menos retire essas linhas de grade da planilha original e gere uma imagem nova com pelo menos 300dpi }
-
-
-
-
 
 \begin{table}[!ht]
 	\begin{center}
@@ -290,9 +265,7 @@ Regras relacionadas à Fórmula de Índice de Defeitos:\linebreak[1]
 	\FloatBarrier
 	
 	
-Para o estudo de caso deste trabalho foi analisado o Sistema de Gestão Financeira de Bens e Serviços de Tecnologia da Informação (SIGET) um sistema do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} do projeto a GITECBR recebe um \textcolor{red}{pacote} \todo[color=orange]{Cuidaddo com o uso do termo pacote A empresa entrega o software empacotado (pacote linux)? Acho que não...} da contratada contendo o código-fonte do sistema. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve aferida pela solução disponibilizada pela CETEC que faz uso do sonarQube. O sonarQube apresenta os defeitos contidos no código-fonte. Com base nos defeitos e no índice aceitável de defeitos, que é de 0,2 erro por ponto de função, o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa}.
-
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, importante dizer aqui que o sonarCube configurado na CAIXA usa o findbugs e o PMD. Certo? }
+Para o estudo de caso deste trabalho foi analisado o Sistema de Gestão Financeira de Bens e Serviços de Tecnologia da Informação (SIGET) um sistema do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} do projeto a GITECBR recebe o código-fonte do sistema da contratada. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve ser aferida pela solução disponibilizada pela CETEC que faz uso do sonarQube. O sonarQube utilizado pela CETEC dispõe de \textit{plugins} configurados de outras ferramentas  para poder apresentar os defeitos contidos no código-fonte, dentre os \textit{plugins} utilizados estão o Findbugs e o PMD. Com base nos defeitos e no índice aceitável de defeitos, que é de 0,2 erro por ponto de função, o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa}.
 
 
 \section{O Software Analisado}
@@ -320,12 +293,12 @@ O SIGET é uma ferramenta auxiliar no aprimoramento da gestão de contratos de a
 \section{Fonte dos Dados Coletados e Método de Coleta}
 \label{sec:fonte} 
 
-Os dados deste estudo de caso foram coletados através de  \todo[color=orange]{Referenciar o Questinoário do Apendice} \textcolor{red}{questionários}, entrevistas e resultados gerados pela própria solução de \textit{Data Warehousing}, construída neste trabalho, utilizando o código-fonte do sistema SIGET desenvolvido por uma empresa contratada pela CAIXA.
+Os dados deste estudo de caso foram coletados através de questionários, que está presente no Apêndice \ref{sec:questionário}, entrevistas e resultados gerados pela própria solução de \textit{Data Warehousing}, construída neste trabalho, utilizando o código-fonte do sistema SIGET desenvolvido por uma empresa contratada pela CAIXA.
 
 Os registros oriundos do questionários foram utilizados principalmente para dados qualitativos. O questionário traz indagações a respeito da solução de \textit{Data Warehousing} pelo ponto de vista dos membros das equipes da CETEC e da GITECGO, no que diz respeito: à detecção de cenários de limpeza de código, detecção de \textit{bugs}, detecção de violações, ao nível de satisfação da solução, ao nível de satisfação da visualização do \textit{dashboard}.
 
-Dados quantitativos da solução foram coletados ao longo das análises das \textit{releases} do SIGET. \textcolor{red}{Quais são os dados quantitativos? Isso deve ficar explícito.}
-
+Ao longo das análises das \textit{releases} do SIGET foram coletados dados quantitativos utilizando a solução, tais como, a quantidade de Cenários de Limpeza total, por tipo e por \textit{release}, a quantidade de \textit{bugs} total,por tipo, por \textit{index} e por \textit{release} e a quantidade de violações total,por tipo, por \textit{index} e por \textit{release}. Além destes dados quantitativos também foram calculados o erro quadrático médio e o coeficiente de correlação, cuja as análises estão presentes na Seção \ref{chap:execucao}.
+ 
 
 \section{Processo de análise dos dados}
 \label{sec:analise} 
@@ -356,12 +329,9 @@ A triangulação de dados se dará pelas medidas extraídas do código-fonte por
 
 & \textbf{Validade externa: } \citeonline{yin2001estudo} recomenda a replicação do estudo em múltiplos casos. Por esse ser um caso único, a generalização não poderá ser alcançada. Este trabalho é o primeiro a analisar a solução para o estudo de caso na CAIXA, portanto não há como correlacionar os resultados obtidos a nenhum outro estudo.
 
-& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho, o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados coletados e analisados e a corretude dos dados validada na Seção \ref{eqm},  garantem a repetibilidade desse trabalho e,  consequentemente, a validade relacionada à confiabilidade.
+& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho, o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados coletados e analisados, que estão dispostos no repositório do \textit{github} \footnote{https://github.com/NiltonAraruna/tcc\_dw\_metricas}, e a corretude dos dados validada na Seção \ref{eqm},  garantem a repetibilidade desse trabalho e,  consequentemente, a validade relacionada à confiabilidade.
 
 \end{easylist}
-
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, aqui precisa ser apresentado onde esses dados podem ser obtidos, de forma que outro(a) pesquisador/pessoa que se interesse em replicar o estudo, tenha acesso aos mesmos dados que você utilizou. }
-
 
 \section{Execução do Estudo de Caso e Análise dos Dados}
 \label{chap:execucao}
@@ -387,9 +357,6 @@ Para cada uma das \textit{releases} do SIGET, coletou-se o código-fonte, confor
 \end{easylist}
 
 Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dashboardFindbugs} e \ref{dashboardCenarios}.
-
-
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, a qualidade das imagens é muito ruim. Refaça as figuras com pelos menos 300dpi. Aproveite para arrumar também a posição das figuras na página}
 
 
 \begin{figure}[H]
@@ -465,20 +432,17 @@ As Figuras \ref{comparacaodash} e \ref{comparacaoexcell} exemplificam como os da
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/comparacaodash1.png}
+\includegraphics[keepaspectratio=false,scale=0.7,angle=90]{figuras/figuras_nilton/comparacaodash1.png}
 \caption{Exemplo dos dados coletados a partir do \textit{dashboard}}
 \label{comparacaodash}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.4]{figuras/figuras_nilton/comparacaoexcell.png}
+\includegraphics[keepaspectratio=false,scale=0.6,angle=90]{figuras/figuras_nilton/comparacaoexcell.png}
 \caption{Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD}
 \label{comparacaoexcell}
 \end{figure}
-
-
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Gere as imagens 30, 31 novamente com qualidade melhor}
 
 Como pode ser observado os resultados obtidos do EQM foram todos igual a 0, significando a corretude entre os valores obtidos através do \textit{FindBugs} e PMD e os valores apresentados pela solução de DW. A corretude dos valores dos cenários de limpeza não foram validados porque algumas correções e adaptações tiveram que ser feitas na solução de DW de \cite{rego_monitoramento_2014TCC} para que possibilitasse as análises do SIGET, como a adição das função \textit{ROUND} no step "Inserindo os Fatos na $F_Project_Metric $" da transformação "Percentiles Analizo".  
 
@@ -501,11 +465,8 @@ Correlação entre duas variáveis é quando uma delas está, de alguma forma, r
 	\end{table}	
 	\FloatBarrier
 
-
-\todo[inline, backgroundcolor=yellow!20!white, bordercolor=red]{Nilton, não ficou muito legal a visualização das informações das figuras 26 a 29 e 32 Transforme-as em tabelas LaTeX.}
-
 Um diagrama de dispersão também demonstra a relação entre duas variáveis quantitativas, medidas sobre os mesmos indivíduos. Se a reta do gráfico for mais próxima de
-uma reta de 45 graus, maior será a correlação positiva, se a reta apresentada for mais próxima de 135 graus, maior será a correlação negativa.  \textcolor{red}{inserir a referência para essa afirmação}
+uma reta de 45 graus, maior será a correlação positiva, se a reta apresentada for mais próxima de 135 graus, maior será a correlação negativa. \citeonline{pablo2009}
 
 Não tivemos a pretenção generalizar o resultado de uma possível correlação entre \textit{bugs}, violações e cenários de limpeza por se tratar de um estudo de apenas um estudo de caso, uma instituição e um sistema. Entretanto, queríamos, para este caso, investigar a  correlação linear entre \textit{bugs} e violações, entre \textit{bugs} e cenários de limpeza e entre cenários de limpeza e violações. O resultado do cálculo do coeficiente de correlação linear pode ser vista na Figura \ref{correlacao}.
 
