@@ -25,66 +25,66 @@
 \contentsline {section}{\numberline {2.5}Cen\IeC {\'a}rios de limpeza}{34}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Verificadores de Erro}{39}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Ferramentas de verifica\IeC {\c c}\IeC {\~a}o de Erro}{41}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{42}{section.2.6}
+\contentsline {section}{\numberline {2.6}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{45}{section.2.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Contrata\IeC {\c c}\IeC {\~o}es de Fornecedores de Desenvolvimento de Software}}{43}{chapter.3}
-\contentsline {section}{\numberline {3.1}Import\IeC {\^a}ncia da Contrata\IeC {\c c}\IeC {\~a}o de Fornecedores de Desenvolvimento de Software}{43}{section.3.1}
-\contentsline {section}{\numberline {3.2}Instru\IeC {\c c}\IeC {\~a}o Normativa N\IeC {\textordmasculine } 04}{45}{section.3.2}
-\contentsline {section}{\numberline {3.3}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{47}{section.3.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Contrata\IeC {\c c}\IeC {\~o}es de Fornecedores de Desenvolvimento de Software}}{46}{chapter.3}
+\contentsline {section}{\numberline {3.1}Import\IeC {\^a}ncia da Contrata\IeC {\c c}\IeC {\~a}o de Fornecedores de Desenvolvimento de Software}{46}{section.3.1}
+\contentsline {section}{\numberline {3.2}Instru\IeC {\c c}\IeC {\~a}o Normativa N\IeC {\textordmasculine } 04}{48}{section.3.2}
+\contentsline {section}{\numberline {3.3}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{50}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {\textit {Data Warehouse}}}{48}{chapter.4}
-\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{48}{section.4.1}
-\contentsline {section}{\numberline {4.2}\textit {Extraction-Transformation-Load}}{49}{section.4.2}
-\contentsline {section}{\numberline {4.3}Modelagem Dimensional}{50}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}OLAP \textit {(On-Line Analytic Processing)}}{51}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Visualiza\IeC {\c c}\IeC {\~a}o de Dados}{54}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Ferramenta para cria\IeC {\c c}\IeC {\~a}o de \textit {Dashboards}}{56}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas, \textit {bugs} e viola\IeC {\c c}\IeC {\~o}es de C\IeC {\'o}digo-Fonte}{57}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Ferramentas de \textit {Data Warehousing}}{68}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{69}{section.4.6}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {\textit {Data Warehouse}}}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{51}{section.4.1}
+\contentsline {section}{\numberline {4.2}\textit {Extraction-Transformation-Load}}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}Modelagem Dimensional}{53}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}OLAP \textit {(On-Line Analytic Processing)}}{54}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Visualiza\IeC {\c c}\IeC {\~a}o de Dados}{57}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Ferramenta para cria\IeC {\c c}\IeC {\~a}o de \textit {Dashboards}}{59}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas, \textit {bugs} e viola\IeC {\c c}\IeC {\~o}es de C\IeC {\'o}digo-Fonte}{60}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Ferramentas de \textit {Data Warehousing}}{71}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{72}{section.4.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Estudo de Caso}}{71}{chapter.5}
-\contentsline {section}{\numberline {5.1}Planejamento do Estudo de Caso}{71}{section.5.1}
-\contentsline {section}{\numberline {5.2}Background}{73}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Trabalhos Antecedentes e Relacionados}{73}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Quest\IeC {\~a}o de Pesquisa}{74}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Design}{77}{section.5.3}
-\contentsline {section}{\numberline {5.4}Sele\IeC {\c c}\IeC {\~a}o}{77}{section.5.4}
-\contentsline {section}{\numberline {5.5}O Software Analisado}{81}{section.5.5}
-\contentsline {section}{\numberline {5.6}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{82}{section.5.6}
-\contentsline {section}{\numberline {5.7}Processo de an\IeC {\'a}lise dos dados}{82}{section.5.7}
-\contentsline {section}{\numberline {5.8}Amea\IeC {\c c}as a validade do estudo de caso}{83}{section.5.8}
-\contentsline {section}{\numberline {5.9}Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso e An\IeC {\'a}lise dos Dados}{83}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}An\IeC {\'a}lise do Erro Quadr\IeC {\'a}tico M\IeC {\'e}dio}{87}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}An\IeC {\'a}lise do Coeficiente de Correla\IeC {\c c}\IeC {\~a}o}{88}{subsection.5.9.2}
-\contentsline {subsection}{\numberline {5.9.3}Analise do Question\IeC {\'a}rio}{98}{subsection.5.9.3}
-\contentsline {section}{\numberline {5.10}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{100}{section.5.10}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Estudo de Caso}}{74}{chapter.5}
+\contentsline {section}{\numberline {5.1}Planejamento do Estudo de Caso}{74}{section.5.1}
+\contentsline {section}{\numberline {5.2}Background}{76}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Trabalhos Antecedentes e Relacionados}{76}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Quest\IeC {\~a}o de Pesquisa}{77}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Design}{80}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sele\IeC {\c c}\IeC {\~a}o}{80}{section.5.4}
+\contentsline {section}{\numberline {5.5}O Software Analisado}{84}{section.5.5}
+\contentsline {section}{\numberline {5.6}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{85}{section.5.6}
+\contentsline {section}{\numberline {5.7}Processo de an\IeC {\'a}lise dos dados}{85}{section.5.7}
+\contentsline {section}{\numberline {5.8}Amea\IeC {\c c}as a validade do estudo de caso}{86}{section.5.8}
+\contentsline {section}{\numberline {5.9}Execu\IeC {\c c}\IeC {\~a}o do Estudo de Caso e An\IeC {\'a}lise dos Dados}{86}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}An\IeC {\'a}lise do Erro Quadr\IeC {\'a}tico M\IeC {\'e}dio}{90}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}An\IeC {\'a}lise do Coeficiente de Correla\IeC {\c c}\IeC {\~a}o}{91}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Analise do Question\IeC {\'a}rio}{101}{subsection.5.9.3}
+\contentsline {section}{\numberline {5.10}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{103}{section.5.10}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{101}{chapter.6}
-\contentsline {section}{\numberline {6.1}Limita\IeC {\c c}\IeC {\~o}es}{102}{section.6.1}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{104}{chapter.6}
+\contentsline {section}{\numberline {6.1}Limita\IeC {\c c}\IeC {\~o}es}{105}{section.6.1}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{104}{section*.67}
+\contentsline {chapter}{Refer\^encias}{107}{section*.70}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{108}{appendix.A}
-\contentsline {section}{\numberline {A.1}Implementa\IeC {\c c}\IeC {\~o}es das \textit {Transformations}}{108}{section.A.1}
-\contentsline {section}{\numberline {A.2}Implementa\IeC {\c c}\IeC {\~a}o do \textit {Job}}{132}{section.A.2}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{111}{appendix.A}
+\contentsline {section}{\numberline {A.1}Implementa\IeC {\c c}\IeC {\~o}es das \textit {Transformations}}{111}{section.A.1}
+\contentsline {section}{\numberline {A.2}Implementa\IeC {\c c}\IeC {\~a}o do \textit {Job}}{135}{section.A.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Implementa\IeC {\c c}\IeC {\~a}o do \textit {Dashboard}}}{134}{appendix.B}
-\contentsline {section}{\numberline {B.1}\textit {Dashboard} Geral}{134}{section.B.1}
-\contentsline {section}{\numberline {B.2}\textit {Dashboards} Cen\IeC {\'a}rios, FindBugs e PMD}{138}{section.B.2}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Implementa\IeC {\c c}\IeC {\~a}o do \textit {Dashboard}}}{137}{appendix.B}
+\contentsline {section}{\numberline {B.1}\textit {Dashboard} Geral}{137}{section.B.1}
+\contentsline {section}{\numberline {B.2}\textit {Dashboards} Cen\IeC {\'a}rios, FindBugs e PMD}{141}{section.B.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Question\IeC {\'a}rio}}{150}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Question\IeC {\'a}rio}}{153}{appendix.C}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Relat\IeC {\'o}rio KanbanFlow}}{154}{appendix.D}
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Relat\IeC {\'o}rio KanbanFlow}}{157}{appendix.D}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

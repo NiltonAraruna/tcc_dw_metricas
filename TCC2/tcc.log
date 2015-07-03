@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.6)  2 JUL 2015 04:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.6)  3 JUL 2015 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1619,62 +1619,62 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 
 ]
 Overfull \hbox (1.5877pt too wide) detected at line 61
- \T1/lmss/bx/n/12 100
+ \T1/lmss/bx/n/12 103
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 63
- \T1/lmss/bx/n/12 101
- []
-
-
-Overfull \hbox (1.5877pt too wide) detected at line 64
- \T1/lmss/bx/n/12 102
- []
-
-
-Overfull \hbox (1.5877pt too wide) detected at line 67
  \T1/lmss/bx/n/12 104
  []
 
 
+Overfull \hbox (1.5877pt too wide) detected at line 64
+ \T1/lmss/bx/n/12 105
+ []
+
+
+Overfull \hbox (1.5877pt too wide) detected at line 67
+ \T1/lmss/bx/n/12 107
+ []
+
+
 Overfull \hbox (1.5877pt too wide) detected at line 72
- \T1/lmss/bx/n/12 108
+ \T1/lmss/bx/n/12 111
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 73
- \T1/lmss/bx/n/12 108
+ \T1/lmss/bx/n/12 111
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 74
- \T1/lmss/bx/n/12 132
+ \T1/lmss/bx/n/12 135
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 78
- \T1/lmss/bx/n/12 134
+ \T1/lmss/bx/n/12 137
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 79
- \T1/lmss/bx/n/12 134
+ \T1/lmss/bx/n/12 137
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 80
- \T1/lmss/bx/n/12 138
+ \T1/lmss/bx/n/12 141
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 84
- \T1/lmss/bx/n/12 150
+ \T1/lmss/bx/n/12 153
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 88
- \T1/lmss/bx/n/12 154
+ \T1/lmss/bx/n/12 157
  []
 
 ) [16]) (./capitulos/1-introducao.tex [17
@@ -1691,7 +1691,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 38.
  [18]
-<figuras/figuras_nilton/selecaoMetodologica.png, id=517, 757.83125pt x 510.9087
+<figuras/figuras_nilton/selecaoMetodologica.png, id=523, 757.83125pt x 510.9087
 5pt>
 File: figuras/figuras_nilton/selecaoMetodologica.png Graphic file (type png)
  <use figuras/figuras_nilton/selecaoMetodologica.png>
@@ -1762,7 +1762,7 @@ Underfull \vbox (badness 10000) detected at line 7
  []
 
 )
-<figuras/figuras_nilton/passosEstudoCaso.png, id=550, 627.34375pt x 430.60875pt
+<figuras/figuras_nilton/passosEstudoCaso.png, id=556, 627.34375pt x 430.60875pt
 >
 File: figuras/figuras_nilton/passosEstudoCaso.png Graphic file (type png)
  <use figuras/figuras_nilton/passosEstudoCaso.png>
@@ -1776,7 +1776,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [22
 
 ] [23 <./figuras/figuras_nilton/passosEstudoCaso.png>]
-<figuras/figuras_nilton/kanban.png, id=565, 1602.98875pt x 697.60625pt>
+<figuras/figuras_nilton/kanban.png, id=571, 1602.98875pt x 697.60625pt>
 File: figuras/figuras_nilton/kanban.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban.png>
@@ -1798,7 +1798,7 @@ Overfull \hbox (2.56119pt too wide) in paragraph at lines 8--9
 [26
 
 ]
-<figuras/figuras_nilton/modeloqualidade.png, id=603, 821.31844pt x 228.855pt>
+<figuras/figuras_nilton/modeloqualidade.png, id=609, 821.31844pt x 228.855pt>
 File: figuras/figuras_nilton/modeloqualidade.png Graphic file (type png)
 
 <use figuras/figuras_nilton/modeloqualidade.png>
@@ -2634,8 +2634,263 @@ Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--250
  [][] 
  []
 
-[39] [40] [41])
-(./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex [42]
+[39] [40] (./tabelas/tabelasNilton/comparativoferramentas.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 BSD-style li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 GNU Ge-ne-ral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/lmr/bx/n/12 Número
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 12--12
+[]|\T1/lmr/m/n/12 -Más prá-ti-cas (Bad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/lmr/bx/n/12 -Global Me-
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 13--13
+[]|\T1/lmr/m/n/12 -Corretude (Cor-rect-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\T1/lmr/m/n/12 -Braces ru-les:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\T1/lmr/m/n/12 Re-gras re-la-ci-o-
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 13--13
+[]|\T1/lmr/bx/n/12 -Module Me-
+ []
+
+) [41] (./tabelas/tabelasNilton/comparativoferramentas2.ltx
+Underfull \hbox (badness 3386) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 -Erros de con-
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 5--5
+\T1/lmr/m/n/12 cor-rên-cia (Mul-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 tith-re-a-ded
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 5--5
+\T1/lmr/m/n/12 ma-nho do có-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 -
+ []
+
+
+Overfull \hbox (13.20677pt too wide) in paragraph at lines 6--6
+\T1/lmr/m/n/12 Internacionalização
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 (In-ter-na-ti-o-na-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 -Controversial
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 6--6
+\T1/lmr/m/n/12 apli-ca-ção ge-ral,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 -Experimental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 Re-gras re-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 ci-o-na-das ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 aco-pla-mento
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 7--7
+\T1/lmr/m/n/12 en-tre ob-je-tos e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 -Vulnerabilidade
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 8--8
+\T1/lmr/m/n/12 code vul-ne-ra-bi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 -Design ru-les:
+ []
+
+) [42] (./tabelas/tabelasNilton/comparativoferramentas3.ltx
+Underfull \hbox (badness 1221) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 -Potenciais pro-
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 5--5
+\T1/lmr/m/n/12 ble-mas de de-
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 5--5
+\T1/lmr/m/n/12 sem-pe-nho (Per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 -Import sta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 te-ment ru-les:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 Re-gras re-la-ci-o-
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 -Segurança (Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 -Naming ru-les:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 Re-gras que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 ava-liam no-mes
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 6--6
+\T1/lmr/m/n/12 de va-riá-veis e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 -Optimization
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 ru-les: Re-gras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 re-la-ci-o-na-das à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 -Strict Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 cep-tion ru-les:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 Re-gras re-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 ci-o-na-das ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 lan-ça-mento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 e cap-tura de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 -String and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 String-Buf-fer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 ru-les: Re-gras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 que ve-ri-fi-cam
+ []
+
+
+Overfull \hbox (10.57924pt too wide) in paragraph at lines 2--13
+ [] 
+ []
+
+) [43]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
+[44] [45]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/atividadesAquisicao
 .eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
@@ -2650,7 +2905,7 @@ o.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf, id=877, 1104.
+<figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf, id=899, 1104.
 125pt x 691.58376pt>
 File: figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2663,16 +2918,16 @@ ed-to.pdf used on input line 19.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43
+[46
 
-] [44 <./figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf>]
+] [47 <./figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 40.
 
-[45] [46]) (./capitulos/4-dwing.tex [47]
+[48] [49]) (./capitulos/4-dwing.tex [50]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
- [48
+ [51
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/etl.eps>
@@ -2687,7 +2942,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/etl-eps-converted-to.pdf, id=936, 796.9775pt x 761.8462
+<figuras/figuras_nilton/etl-eps-converted-to.pdf, id=958, 796.9775pt x 761.8462
 5pt>
 File: figuras/figuras_nilton/etl-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_nilton/etl-eps-converted-to.pdf>
@@ -2696,7 +2951,7 @@ n input line 16.
 (pdftex.def)             Requested size: 398.48776pt x 380.9222pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 23.
- [49 <./figuras/figuras_nilton/etl-eps-converted-to.pdf>] [50]
+ [52 <./figuras/figuras_nilton/etl-eps-converted-to.pdf>] [53]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/star.eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
 (epstopdf)                    size: 2409751 bytes
@@ -2709,7 +2964,7 @@ r-eps-converted-to.pdf figuras/figuras_nilton/star.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/star-eps-converted-to.pdf, id=973, 593.21625pt x 378.41
+<figuras/figuras_nilton/star-eps-converted-to.pdf, id=995, 593.21625pt x 378.41
 376pt>
 File: figuras/figuras_nilton/star-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_nilton/star-eps-converted-to.pdf>
@@ -2724,13 +2979,13 @@ Overfull \hbox (4.14233pt too wide) in paragraph at lines 58--59
 /n/12 (OLAP) ([][]KIM-BALL; ROSS[][], [][]2002[][][]). Se-gundo [][]Sharma[][]
  []
 
-[51 <./figuras/figuras_nilton/star-eps-converted-to.pdf>]
+[54 <./figuras/figuras_nilton/star-eps-converted-to.pdf>]
 (./tabelas/tabelasNilton/hilmer_olap_oltp.ltx)
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-<figuras/figuras_nilton/drillDownUp.png, id=1002, 1021.56656pt x 408.02437pt>
+<figuras/figuras_nilton/drillDownUp.png, id=1025, 1021.56656pt x 408.02437pt>
 File: figuras/figuras_nilton/drillDownUp.png Graphic file (type png)
 
 <use figuras/figuras_nilton/drillDownUp.png>
@@ -2747,7 +3002,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[52 <./figuras/figuras_nilton/drillDownUp.png>]
+[55 <./figuras/figuras_nilton/drillDownUp.png>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/sliceDice.eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
 (epstopdf)                    size: 556234 bytes
@@ -2760,7 +3015,7 @@ ceDice-eps-converted-to.pdf figuras/figuras_nilton/sliceDice.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/sliceDice-eps-converted-to.pdf, id=1014, 160.6pt x 97.3
+<figuras/figuras_nilton/sliceDice-eps-converted-to.pdf, id=1037, 160.6pt x 97.3
 6375pt>
 File: figuras/figuras_nilton/sliceDice-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2785,7 +3040,7 @@ lAcross-eps-converted-to.pdf figuras/figuras_nilton/drilAcross.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/drilAcross-eps-converted-to.pdf, id=1023, 150.5625pt x 
+<figuras/figuras_nilton/drilAcross-eps-converted-to.pdf, id=1046, 150.5625pt x 
 148.555pt>
 File: figuras/figuras_nilton/drilAcross-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2797,7 +3052,7 @@ Package pdftex.def Info: figuras/figuras_nilton/drilAcross-eps-converted-to.pdf
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53 <./figuras/figuras_nilton/sliceDice-eps-converted-to.pdf>]
+[56 <./figuras/figuras_nilton/sliceDice-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
@@ -2814,7 +3069,7 @@ oting-eps-converted-to.pdf figuras/figuras_nilton/pivoting.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/pivoting-eps-converted-to.pdf, id=1038, 155.58125pt x 6
+<figuras/figuras_nilton/pivoting-eps-converted-to.pdf, id=1061, 155.58125pt x 6
 4.24pt>
 File: figuras/figuras_nilton/pivoting-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2822,14 +3077,14 @@ df)
 Package pdftex.def Info: figuras/figuras_nilton/pivoting-eps-converted-to.pdf u
 sed on input line 120.
 (pdftex.def)             Requested size: 311.16171pt x 128.47968pt.
- [54 <./figuras/figuras_nilton/drilAcross-eps-converted-to.pdf> <./figuras/figu
-ras_nilton/pivoting-eps-converted-to.pdf>] [55]
+ [57 <./figuras/figuras_nilton/drilAcross-eps-converted-to.pdf> <./figuras/figu
+ras_nilton/pivoting-eps-converted-to.pdf>] [58]
 Overfull \hbox (11.83238pt too wide) in paragraph at lines 192--193
 []\T1/lmr/m/n/12 Neste tra-ba-lho foi uti-li-zado o CDE (\T1/lmr/m/it/12 com-mu
 -nity dash-bo-ard edi-tor\T1/lmr/m/n/12 ) na ver-são 14.12.10.1
  []
 
-[56] [57] [58]
+[59] [60] [61]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/metodologiaKimball.
 eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
@@ -2844,7 +3099,7 @@ eps>
 (epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf, id=1098, 2371.
+<figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf, id=1121, 2371.
 86125pt x 376.40625pt>
 File: figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2853,9 +3108,9 @@ le (type pdf)
 Package pdftex.def Info: figuras/figuras_nilton/metodologiaKimball-eps-converte
 d-to.pdf used on input line 268.
 (pdftex.def)             Requested size: 450.65833pt x 71.51793pt.
- [59 <./figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf>]
+ [62 <./figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf>]
 (./tabelas/tabelasNilton/fatos-dimensoes.ltx)
-(./tabelas/tabelasNilton/fatos-dimensoes-nilton.ltx) [60]
+(./tabelas/tabelasNilton/fatos-dimensoes-nilton.ltx) [63]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/modelo-dw-baufaker.
 eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
@@ -2870,7 +3125,7 @@ eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf, id=1139, 906.3
+<figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf, id=1161, 906.3
 8625pt x 934.49126pt>
 File: figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2883,9 +3138,9 @@ d-to.pdf used on input line 327.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-rego.ltx)
-[62 <./figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf>]
-[63]
+[64] (./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-rego.ltx)
+[65 <./figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf>]
+[66]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/metadados-baufaker.
 eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
@@ -2900,7 +3155,7 @@ eps>
 (epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/metadados-baufaker-eps-converted-to.pdf, id=1167, 677.5
+<figuras/figuras_nilton/metadados-baufaker-eps-converted-to.pdf, id=1190, 677.5
 3125pt x 553.06625pt>
 File: figuras/figuras_nilton/metadados-baufaker-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2920,7 +3175,7 @@ Overfull \hbox (25.44406pt too wide) in paragraph at lines 1--357
  [] 
  []
 
-[64
+[67
 
  <./figuras/figuras_nilton/metadados-baufaker-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/project_violation.e
@@ -2937,7 +3192,7 @@ s>
 (epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/project_violation-eps-converted-to.pdf, id=1187, 935.49
+<figuras/figuras_nilton/project_violation-eps-converted-to.pdf, id=1210, 935.49
 5pt x 572.1375pt>
 File: figuras/figuras_nilton/project_violation-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2963,7 +3218,7 @@ ject_bug-eps-converted-to.pdf figuras/figuras_nilton/project_bug.eps>
 (epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/project_bug-eps-converted-to.pdf, id=1188, 940.51375pt 
+<figuras/figuras_nilton/project_bug-eps-converted-to.pdf, id=1211, 940.51375pt 
 x 614.295pt>
 File: figuras/figuras_nilton/project_bug-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2979,7 +3234,7 @@ Overfull \hbox (15.25572pt too wide) in paragraph at lines 376--377
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[65 <./figuras/figuras_nilton/project_violation-eps-converted-to.pdf>]
+[68 <./figuras/figuras_nilton/project_violation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/modelo-dw-nilton.ep
 s>
 (epstopdf)                    date: 2015-06-07 19:50:09
@@ -2994,7 +3249,7 @@ elo-dw-nilton-eps-converted-to.pdf figuras/figuras_nilton/modelo-dw-nilton.eps>
 (epstopdf)             \includegraphics on input line 384.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/modelo-dw-nilton-eps-converted-to.pdf, id=1196, 1010.77
+<figuras/figuras_nilton/modelo-dw-nilton-eps-converted-to.pdf, id=1220, 1010.77
 625pt x 1405.25pt>
 File: figuras/figuras_nilton/modelo-dw-nilton-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3007,9 +3262,9 @@ to.pdf used on input line 384.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[66 <./figuras/figuras_nilton/project_bug-eps-converted-to.pdf>] [67 <./figuras
+[69 <./figuras/figuras_nilton/project_bug-eps-converted-to.pdf>] [70 <./figuras
 /figuras_nilton/modelo-dw-nilton-eps-converted-to.pdf>]
-(./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-nilton.ltx) [68
+(./tabelas/tabelasNilton/tabelas-fatos-tabelas-dimensoes-nilton.ltx) [71
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/arquiteturaAmbiente
@@ -3026,7 +3281,7 @@ entenew.eps>
 (epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/arquiteturaAmbientenew-eps-converted-to.pdf, id=1226, 1
+<figuras/figuras_nilton/arquiteturaAmbientenew-eps-converted-to.pdf, id=1248, 1
 083.04625pt x 1079.03125pt>
 File: figuras/figuras_nilton/arquiteturaAmbientenew-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3041,18 +3296,18 @@ Overfull \hbox (1.59859pt too wide) in paragraph at lines 429--431
 T1/lmr/m/it/12 Extraction-Transformation-
  []
 
-) (./capitulos/5-projeto-estudo-de-caso.tex [69 <./figuras/figuras_nilton/arqui
-teturaAmbientenew-eps-converted-to.pdf>] [70] [71
+) (./capitulos/5-projeto-estudo-de-caso.tex [72 <./figuras/figuras_nilton/arqui
+teturaAmbientenew-eps-converted-to.pdf>] [73] [74
 
 ]
-<figuras/figuras_nilton/EscopoEstudoCaso.png, id=1252, 780.9175pt x 516.93124pt
+<figuras/figuras_nilton/EscopoEstudoCaso.png, id=1275, 780.9175pt x 516.93124pt
 >
 File: figuras/figuras_nilton/EscopoEstudoCaso.png Graphic file (type png)
  <use figuras/figuras_nilton/EscopoEstudoCaso.png>
 Package pdftex.def Info: figuras/figuras_nilton/EscopoEstudoCaso.png used on in
 put line 31.
 (pdftex.def)             Requested size: 429.50595pt x 284.31306pt.
- [72 <./figuras/figuras_nilton/EscopoEstudoCaso.png>] [73]
+ [75 <./figuras/figuras_nilton/EscopoEstudoCaso.png>] [76]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/EstruturaEstudoCaso
 .eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
@@ -3067,7 +3322,7 @@ o.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf, id=1309, 727.
+<figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf, id=1331, 727.
 71875pt x 822.07124pt>
 File: figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3076,12 +3331,12 @@ ile (type pdf)
 Package pdftex.def Info: figuras/figuras_nilton/EstruturaEstudoCaso-eps-convert
 ed-to.pdf used on input line 99.
 (pdftex.def)             Requested size: 363.85847pt x 411.0346pt.
- [74]
+ [77]
 
-LaTeX Warning: Reference `solucaoConstruida' on page 75 undefined on input line
+LaTeX Warning: Reference `solucaoConstruida' on page 78 undefined on input line
  106.
 
-[75 <./figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf>]
+[78 <./figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
@@ -3116,7 +3371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-[76]
+[79]
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
@@ -3126,7 +3381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[77] <figuras/figuras_nilton/formula.png, id=1342, 795.97375pt x 634.37pt>
+[80] <figuras/figuras_nilton/formula.png, id=1365, 795.97375pt x 634.37pt>
 File: figuras/figuras_nilton/formula.png Graphic file (type png)
 
 <use figuras/figuras_nilton/formula.png>
@@ -3146,10 +3401,10 @@ Underfull \hbox (badness 1270) in paragraph at lines 8--9
 \T1/lmr/m/n/12 manda foi en-tre-gue no-va-mente
  []
 
-) [78] [79 <./figuras/figuras_nilton/formula.png>] [80] [81
+) [81] [82 <./figuras/figuras_nilton/formula.png>] [83] [84
 
-] [82] [83]
-<figuras/figuras_nilton/DashboardTotal.png, id=1393, 1203.49625pt x 678.535pt>
+] [85] [86]
+<figuras/figuras_nilton/DashboardTotal.png, id=1416, 1203.49625pt x 678.535pt>
 File: figuras/figuras_nilton/DashboardTotal.png Graphic file (type png)
 
 <use figuras/figuras_nilton/DashboardTotal.png>
@@ -3157,7 +3412,7 @@ Package pdftex.def Info: figuras/figuras_nilton/DashboardTotal.png used on inpu
 t line 364.
 (pdftex.def)             Requested size: 447.24727pt x 260.02829pt.
 
-<figuras/figuras_nilton/DashboardPMD.png, id=1394, 834.11626pt x 806.01125pt>
+<figuras/figuras_nilton/DashboardPMD.png, id=1417, 834.11626pt x 806.01125pt>
 File: figuras/figuras_nilton/DashboardPMD.png Graphic file (type png)
 
 <use figuras/figuras_nilton/DashboardPMD.png>
@@ -3169,8 +3424,8 @@ Overfull \hbox (3.76537pt too wide) in paragraph at lines 371--372
  [][] 
  []
 
-[84 <./figuras/figuras_nilton/DashboardTotal.png>]
-<figuras/figuras_nilton/DashboardCenarios.png, id=1401, 830.10126pt x 744.7825p
+[87 <./figuras/figuras_nilton/DashboardTotal.png>]
+<figuras/figuras_nilton/DashboardCenarios.png, id=1423, 830.10126pt x 744.7825p
 t>
 File: figuras/figuras_nilton/DashboardCenarios.png Graphic file (type png)
  <use figuras/figuras_nilton/DashboardCenarios.png>
@@ -3182,8 +3437,8 @@ Overfull \hbox (1.55711pt too wide) in paragraph at lines 378--379
  [][] 
  []
 
-[85 <./figuras/figuras_nilton/DashboardPMD.png>]
-<figuras/figuras_nilton/DashboardFindbugs.png, id=1407, 835.12pt x 751.80875pt>
+[88 <./figuras/figuras_nilton/DashboardPMD.png>]
+<figuras/figuras_nilton/DashboardFindbugs.png, id=1429, 835.12pt x 751.80875pt>
 File: figuras/figuras_nilton/DashboardFindbugs.png Graphic file (type png)
 <use figuras/figuras_nilton/DashboardFindbugs.png>
 Package pdftex.def Info: figuras/figuras_nilton/DashboardFindbugs.png used on i
@@ -3194,7 +3449,7 @@ Overfull \hbox (4.31741pt too wide) in paragraph at lines 385--386
  [][] 
  []
 
-[86 <./figuras/figuras_nilton/DashboardCenarios.png>] [87 <./figuras/figuras_ni
+[89 <./figuras/figuras_nilton/DashboardCenarios.png>] [90 <./figuras/figuras_ni
 lton/DashboardFindbugs.png>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/EQMFindBugs.eps>
 (epstopdf)                    date: 2015-07-01 23:43:54
@@ -3208,7 +3463,7 @@ FindBugs-eps-converted-to.pdf figuras/figuras_nilton/EQMFindBugs.eps>
 (epstopdf)             \includegraphics on input line 407.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/EQMFindBugs-eps-converted-to.pdf, id=1434, 1491.5725pt 
+<figuras/figuras_nilton/EQMFindBugs-eps-converted-to.pdf, id=1458, 1491.5725pt 
 x 650.43pt>
 File: figuras/figuras_nilton/EQMFindBugs-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3232,7 +3487,7 @@ PMD1-eps-converted-to.pdf figuras/figuras_nilton/EQMPMD1.eps>
 (epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/EQMPMD1-eps-converted-to.pdf, id=1435, 1242.6425pt x 58
+<figuras/figuras_nilton/EQMPMD1-eps-converted-to.pdf, id=1459, 1242.6425pt x 58
 5.18625pt>
 File: figuras/figuras_nilton/EQMPMD1-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3256,7 +3511,7 @@ PMD2-eps-converted-to.pdf figuras/figuras_nilton/EQMPMD2.eps>
 (epstopdf)             \includegraphics on input line 421.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf, id=1436, 1383.1675pt x 58
+<figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf, id=1460, 1383.1675pt x 58
 5.18625pt>
 File: figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3280,7 +3535,7 @@ PMD3-eps-converted-to.pdf figuras/figuras_nilton/EQMPMD3.eps>
 (epstopdf)             \includegraphics on input line 428.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf, id=1437, 927.465pt x 583.
+<figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf, id=1461, 927.465pt x 583.
 17876pt>
 File: figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3292,7 +3547,7 @@ ed on input line 428.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/figuras_nilton/comparacaodash1.png, id=1438, 770.88pt x 499.8675pt>
+<figuras/figuras_nilton/comparacaodash1.png, id=1462, 770.88pt x 499.8675pt>
 File: figuras/figuras_nilton/comparacaodash1.png Graphic file (type png)
 
 <use figuras/figuras_nilton/comparacaodash1.png>
@@ -3304,7 +3559,7 @@ ut line 435.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figuras/figuras_nilton/comparacaoexcell.png, id=1439, 1168.365pt x 309.155pt>
+<figuras/figuras_nilton/comparacaoexcell.png, id=1463, 1168.365pt x 309.155pt>
 File: figuras/figuras_nilton/comparacaoexcell.png Graphic file (type png)
 
 <use figuras/figuras_nilton/comparacaoexcell.png>
@@ -3318,11 +3573,11 @@ LaTeX Warning: Float too large for page by 32.0244pt on input line 445.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./tabelas/tabelasNilton/correlacao.ltx) [88] [89 <./figuras/figuras_nilton/EQM
-FindBugs-eps-converted-to.pdf>] [90 <./figuras/figuras_nilton/EQMPMD1-eps-conve
-rted-to.pdf>] [91 <./figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf>]
-[92 <./figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf>] [93 <./figuras/fig
-uras_nilton/comparacaodash1.png>] [94 <./figuras/figuras_nilton/comparacaoexcel
+(./tabelas/tabelasNilton/correlacao.ltx) [91] [92 <./figuras/figuras_nilton/EQM
+FindBugs-eps-converted-to.pdf>] [93 <./figuras/figuras_nilton/EQMPMD1-eps-conve
+rted-to.pdf>] [94 <./figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf>]
+[95 <./figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf>] [96 <./figuras/fig
+uras_nilton/comparacaodash1.png>] [97 <./figuras/figuras_nilton/comparacaoexcel
 l.png>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/correlacao.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
@@ -3336,7 +3591,7 @@ relacao-eps-converted-to.pdf figuras/figuras_nilton/correlacao.eps>
 (epstopdf)             \includegraphics on input line 475.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/correlacao-eps-converted-to.pdf, id=1496, 1306.8825pt x
+<figuras/figuras_nilton/correlacao-eps-converted-to.pdf, id=1519, 1306.8825pt x
  344.28625pt>
 File: figuras/figuras_nilton/correlacao-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3345,7 +3600,7 @@ Package pdftex.def Info: figuras/figuras_nilton/correlacao-eps-converted-to.pdf
  used on input line 475.
 (pdftex.def)             Requested size: 522.74374pt x 137.71205pt.
 
-[95
+[98
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/dispercaocenariosbu
@@ -3362,7 +3617,7 @@ sbugs.eps>
 (epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf, id=1506, 52
+<figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf, id=1529, 52
 1.95pt x 329.23pt>
 File: figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3372,7 +3627,7 @@ Package pdftex.def Info: figuras/figuras_nilton/dispercaocenariosbugs-eps-conve
 rted-to.pdf used on input line 484.
 (pdftex.def)             Requested size: 365.3625pt x 230.45941pt.
 
-[96 <./figuras/figuras_nilton/correlacao-eps-converted-to.pdf>]
+[99 <./figuras/figuras_nilton/correlacao-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/dispersaocenariosvi
 olacoes.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
@@ -3387,8 +3642,8 @@ nariosviolacoes.eps>
 (epstopdf)             \includegraphics on input line 492.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf, id=151
-5, 552.0625pt x 332.24126pt>
+<figuras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf, id=153
+7, 552.0625pt x 332.24126pt>
 File: figuras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -3410,7 +3665,7 @@ oesbugs.eps>
 (epstopdf)             \includegraphics on input line 499.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf, id=1516, 6
+<figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf, id=1538, 6
 04.2575pt x 334.24875pt>
 File: figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3420,34 +3675,35 @@ Package pdftex.def Info: figuras/figuras_nilton/dispersaoviolacoesbugs-eps-conv
 erted-to.pdf used on input line 499.
 (pdftex.def)             Requested size: 422.97737pt x 233.97252pt.
 
-[97 <./figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf> <./fi
-guras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf>] [98 <./f
-iguras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf>] [99])
-(./capitulos/6-conclusao.tex [100] [101
+[100 <./figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf> <./f
+iguras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf>]
+[101 <./figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf>]
+[102]) (./capitulos/6-conclusao.tex [103] [104
 
-] [102]) (./tcc.bbl (./tcc.brf)
+] [105]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [103]
-bibitemlist
-[104
 
-] [105] [106]
+[106]
+bibitemlist
+[107
+
+] [108] [109]
 Overfull \hbox (49.26997pt too wide) in paragraph at lines 312--312
 \T1/lmr/m/n/12 2b4e554d41434f5244414f2533413338312b414e442b2b4e554d414e4f41434f
 5244414f25334132303131 & 
  []
 
-) (./apendices/apendices.tex [107]
-<figuras/figuras_nilton/componentsetl.png, id=1750, 676.5275pt x 193.72375pt>
+) (./apendices/apendices.tex [110]
+<figuras/figuras_nilton/componentsetl.png, id=1773, 676.5275pt x 193.72375pt>
 File: figuras/figuras_nilton/componentsetl.png Graphic file (type png)
 
 <use figuras/figuras_nilton/componentsetl.png>
 Package pdftex.def Info: figuras/figuras_nilton/componentsetl.png used on input
  line 18.
 (pdftex.def)             Requested size: 405.91962pt x 116.23514pt.
- [108
+ [111
 
  <./figuras/figuras_nilton/componentsetl.png>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/firsttransformation
@@ -3464,7 +3720,7 @@ n.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf, id=1758, 435.
+<figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf, id=1780, 435.
 6275pt x 272.01625pt>
 File: figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3487,7 +3743,7 @@ ion.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf, id=1760, 696
+<figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf, id=1782, 696
 .6025pt x 154.5775pt>
 File: figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3500,7 +3756,7 @@ ted-to.pdf used on input line 40.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[109 <./figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf>]
+[112 <./figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -3513,9 +3769,9 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./codigos/project-fact.sql
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3.
- [110 <./figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf>] [11
-1]
-[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122])
+ [113 <./figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf>] [11
+4]
+[115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125])
 Package epstopdf Info: Source file: <figuras/figuras_nilton/thirdtransformation
 .eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
@@ -3530,7 +3786,7 @@ n.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/thirdtransformation-eps-converted-to.pdf, id=2300, 682.
+<figuras/figuras_nilton/thirdtransformation-eps-converted-to.pdf, id=2322, 682.
 55pt x 128.48pt>
 File: figuras/figuras_nilton/thirdtransformation-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3540,9 +3796,9 @@ Package pdftex.def Info: figuras/figuras_nilton/thirdtransformation-eps-convert
 ed-to.pdf used on input line 55.
 (pdftex.def)             Requested size: 443.65225pt x 83.511pt.
 
-(./codigos/classfact.sql [123 <./figuras/figuras_nilton/thirdtransformation-eps
--converted-to.pdf>] [124] [125] [126] [127]) [128]
-<figuras/figuras_nilton/quartatransformation.png, id=2533, 818.05624pt x 149.55
+(./codigos/classfact.sql [126 <./figuras/figuras_nilton/thirdtransformation-eps
+-converted-to.pdf>] [127] [128] [129] [130]) [131]
+<figuras/figuras_nilton/quartatransformation.png, id=2555, 818.05624pt x 149.55
 875pt>
 File: figuras/figuras_nilton/quartatransformation.png Graphic file (type png)
  <use figuras/figuras_nilton/quartatransformation.png>
@@ -3550,9 +3806,9 @@ Package pdftex.def Info: figuras/figuras_nilton/quartatransformation.png used o
 n input line 69.
 (pdftex.def)             Requested size: 449.93233pt x 82.25755pt.
 
-(./codigos/sqletlviolacao.sql [129 <./figuras/figuras_nilton/quartatransformati
-on.png>]) [130]
-<figuras/figuras_nilton/quintatransformation.png, id=2575, 1004.75375pt x 262.9
+(./codigos/sqletlviolacao.sql [132 <./figuras/figuras_nilton/quartatransformati
+on.png>]) [133]
+<figuras/figuras_nilton/quintatransformation.png, id=2598, 1004.75375pt x 262.9
 825pt>
 File: figuras/figuras_nilton/quintatransformation.png Graphic file (type png)
  <use figuras/figuras_nilton/quintatransformation.png>
@@ -3560,7 +3816,7 @@ Package pdftex.def Info: figuras/figuras_nilton/quintatransformation.png used o
 n input line 85.
 (pdftex.def)             Requested size: 452.13501pt x 118.34102pt.
 
-(./codigos/sqletlbugs.sql [131 <./figuras/figuras_nilton/quintatransformation.p
+(./codigos/sqletlbugs.sql [134 <./figuras/figuras_nilton/quintatransformation.p
 ng>])
 Package epstopdf Info: Source file: <figuras/figuras_nilton/componentesjob.eps>
 
@@ -3575,7 +3831,7 @@ ponentesjob-eps-converted-to.pdf figuras/figuras_nilton/componentesjob.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/componentesjob-eps-converted-to.pdf, id=2601, 330.23375
+<figuras/figuras_nilton/componentesjob-eps-converted-to.pdf, id=2624, 330.23375
 pt x 112.42pt>
 File: figuras/figuras_nilton/componentesjob-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3584,7 +3840,7 @@ type pdf)
 Package pdftex.def Info: figuras/figuras_nilton/componentesjob-eps-converted-to
 .pdf used on input line 103.
 (pdftex.def)             Requested size: 198.14177pt x 67.45251pt.
- [132 <./figuras/figuras_nilton/componentesjob-eps-converted-to.pdf>]
+ [135 <./figuras/figuras_nilton/componentesjob-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/job.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
 (epstopdf)                    size: 1561437 bytes
@@ -3597,7 +3853,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/job-eps-converted-to.pdf, id=2621, 1027.84pt x 250.9375
+<figuras/figuras_nilton/job-eps-converted-to.pdf, id=2643, 1027.84pt x 250.9375
 pt>
 File: figuras/figuras_nilton/job-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_nilton/job-eps-converted-to.pdf>
@@ -3609,8 +3865,8 @@ Overfull \hbox (58.91875pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-[133 <./figuras/figuras_nilton/job-eps-converted-to.pdf>]
-<figuras/figuras_nilton/dashgeral.png, id=2635, 927.465pt x 664.4825pt>
+[136 <./figuras/figuras_nilton/job-eps-converted-to.pdf>]
+<figuras/figuras_nilton/dashgeral.png, id=2657, 927.465pt x 664.4825pt>
 File: figuras/figuras_nilton/dashgeral.png Graphic file (type png)
 
 <use figuras/figuras_nilton/dashgeral.png>
@@ -3622,9 +3878,9 @@ Overfull \hbox (8.73137pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-[134
+[137
 
- <./figuras/figuras_nilton/dashgeral.png>] [135] [136]
+ <./figuras/figuras_nilton/dashgeral.png>] [138] [139]
 Overfull \hbox (20.47523pt too wide) in paragraph at lines 280--280
 []\T1/lmtt/m/n/12 MEMBER [Measures].[Quantidade de Scenários] AS [Measures].[Qu
 antiy Scenarios][] 
@@ -3636,8 +3892,8 @@ Overfull \hbox (26.65024pt too wide) in paragraph at lines 281--281
 antiy Violations][] 
  []
 
-[137] [138]
-<figuras/figuras_nilton/dashcenario.png, id=2661, 949.5475pt x 825.0825pt>
+[140] [141]
+<figuras/figuras_nilton/dashcenario.png, id=2684, 949.5475pt x 825.0825pt>
 File: figuras/figuras_nilton/dashcenario.png Graphic file (type png)
 
 <use figuras/figuras_nilton/dashcenario.png>
@@ -3654,14 +3910,14 @@ File: figuras/figuras_nilton/DashboardFindbugs.png Graphic file (type png)
 Package pdftex.def Info: figuras/figuras_nilton/DashboardFindbugs.png used on i
 nput line 347.
 (pdftex.def)             Requested size: 417.55898pt x 375.90344pt.
- [139 <./figuras/figuras_nilton/dashcenario.png>]
+ [142 <./figuras/figuras_nilton/dashcenario.png>]
 File: figuras/figuras_nilton/DashboardPMD.png Graphic file (type png)
  <use figuras/figuras_nilton/DashboardPMD.png>
 Package pdftex.def Info: figuras/figuras_nilton/DashboardPMD.png used on input 
 line 354.
 (pdftex.def)             Requested size: 417.05711pt x 403.00464pt.
- [140]
-[141] [142] [143] [144] [145] [146] [147] [148] [149]
+ [143]
+[144] [145] [146] [147] [148] [149] [150] [151] [152]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/questionario1.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
 (epstopdf)                    size: 3116332 bytes
@@ -3674,7 +3930,7 @@ stionario1-eps-converted-to.pdf figuras/figuras_nilton/questionario1.eps>
 (epstopdf)             \includegraphics on input line 774.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario1-eps-converted-to.pdf, id=2709, 709.65125p
+<figuras/figuras_nilton/questionario1-eps-converted-to.pdf, id=2732, 709.65125p
 t x 726.715pt>
 File: figuras/figuras_nilton/questionario1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3694,7 +3950,7 @@ stionario2-eps-converted-to.pdf figuras/figuras_nilton/questionario2.eps>
 (epstopdf)             \includegraphics on input line 780.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario2-eps-converted-to.pdf, id=2710, 705.63625p
+<figuras/figuras_nilton/questionario2-eps-converted-to.pdf, id=2733, 705.63625p
 t x 800.9925pt>
 File: figuras/figuras_nilton/questionario2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3719,7 +3975,7 @@ stionario3-eps-converted-to.pdf figuras/figuras_nilton/questionario3.eps>
 (epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario3-eps-converted-to.pdf, id=2711, 702.625pt 
+<figuras/figuras_nilton/questionario3-eps-converted-to.pdf, id=2734, 702.625pt 
 x 783.92876pt>
 File: figuras/figuras_nilton/questionario3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3743,7 +3999,7 @@ stionario4-eps-converted-to.pdf figuras/figuras_nilton/questionario4.eps>
 (epstopdf)             \includegraphics on input line 793.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario4-eps-converted-to.pdf, id=2712, 701.62125p
+<figuras/figuras_nilton/questionario4-eps-converted-to.pdf, id=2735, 701.62125p
 t x 716.6775pt>
 File: figuras/figuras_nilton/questionario4-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3756,13 +4012,13 @@ pdf used on input line 793.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[150
+[153
 
- <./figuras/figuras_nilton/questionario1-eps-converted-to.pdf>] [151 <./figuras
-/figuras_nilton/questionario2-eps-converted-to.pdf>] [152 <./figuras/figuras_ni
-lton/questionario3-eps-converted-to.pdf>] [153 <./figuras/figuras_nilton/questi
+ <./figuras/figuras_nilton/questionario1-eps-converted-to.pdf>] [154 <./figuras
+/figuras_nilton/questionario2-eps-converted-to.pdf>] [155 <./figuras/figuras_ni
+lton/questionario3-eps-converted-to.pdf>] [156 <./figuras/figuras_nilton/questi
 onario4-eps-converted-to.pdf>]
-<figuras/figuras_nilton/kanban1.png, id=2746, 686.565pt x 771.88374pt>
+<figuras/figuras_nilton/kanban1.png, id=2769, 686.565pt x 771.88374pt>
 File: figuras/figuras_nilton/kanban1.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban1.png>
@@ -3774,7 +4030,7 @@ Overfull \hbox (25.59222pt too wide) in paragraph at lines 802--803
  [][] 
  []
 
-<figuras/figuras_nilton/kanban2.png, id=2747, 680.5425pt x 846.16125pt>
+<figuras/figuras_nilton/kanban2.png, id=2770, 680.5425pt x 846.16125pt>
 File: figuras/figuras_nilton/kanban2.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban2.png>
@@ -3789,7 +4045,7 @@ Overfull \hbox (21.3765pt too wide) in paragraph at lines 807--808
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/figuras_nilton/kanban3.png, id=2748, 682.55pt x 806.01125pt>
+<figuras/figuras_nilton/kanban3.png, id=2771, 682.55pt x 806.01125pt>
 File: figuras/figuras_nilton/kanban3.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban3.png>
@@ -3804,7 +4060,7 @@ Overfull \hbox (22.78175pt too wide) in paragraph at lines 812--813
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/figuras_nilton/kanban4.png, id=2749, 681.54625pt x 807.015pt>
+<figuras/figuras_nilton/kanban4.png, id=2772, 681.54625pt x 807.015pt>
 File: figuras/figuras_nilton/kanban4.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban4.png>
@@ -3819,7 +4075,7 @@ Overfull \hbox (22.07912pt too wide) in paragraph at lines 817--818
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/figuras_nilton/kanban5.png, id=2750, 680.5425pt x 99.37125pt>
+<figuras/figuras_nilton/kanban5.png, id=2773, 680.5425pt x 99.37125pt>
 File: figuras/figuras_nilton/kanban5.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban5.png>
@@ -3838,10 +4094,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[154
+[157
 
- <./figuras/figuras_nilton/kanban1.png>] [155 <./figuras/figuras_nilton/kanban2
-.png>] [156 <./figuras/figuras_nilton/kanban3.png>] [157 <./figuras/figuras_nil
+ <./figuras/figuras_nilton/kanban1.png>] [158 <./figuras/figuras_nilton/kanban2
+.png>] [159 <./figuras/figuras_nilton/kanban3.png>] [160 <./figuras/figuras_nil
 ton/kanban4.png> <./figuras/figuras_nilton/kanban5.png>]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
@@ -3858,7 +4114,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: A1B1C0B7C4458F7618D460BC424152EB;12918.
+(rerunfilecheck)             Checksum: 848FB5C9B2B021AA7EDD1ED25207CE10;12918.
 
 
 LaTeX Warning: There were undefined references.
@@ -3869,10 +4125,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 28241 strings out of 493304
- 472215 string characters out of 6139872
- 734236 words of memory out of 5000000
- 29797 multiletter control sequences out of 15000+600000
+ 28265 strings out of 493304
+ 473058 string characters out of 6139872
+ 734663 words of memory out of 5000000
+ 29806 multiletter control sequences out of 15000+600000
  115798 words of font info for 91 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,78p,1826b,2318s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3896,10 +4152,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmtt12.pfb>
-Output written on tcc.pdf (158 pages, 6284089 bytes).
+Output written on tcc.pdf (161 pages, 6292764 bytes).
 PDF statistics:
- 3305 PDF objects out of 3580 (max. 8388607)
- 2924 compressed objects within 30 object streams
- 1099 named destinations out of 1200 (max. 500000)
+ 3328 PDF objects out of 3580 (max. 8388607)
+ 2944 compressed objects within 30 object streams
+ 1105 named destinations out of 1200 (max. 500000)
  876 words of extra memory for PDF output out of 10000 (max. 10000000)
 
