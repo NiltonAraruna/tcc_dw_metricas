@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.6)  3 JUL 2015 00:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.6)  4 JUL 2015 03:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1391,7 +1391,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
 
 Writing index file tcc.idx 
-(./tcc.aux)
+(./tcc.aux
+
+LaTeX Warning: Label `tab:correlacao' multiply defined.
+
+)
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1599,12 +1603,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]) (./fixos/listasAutomaticas.tex (./tcc.lof
 [10
 
-]) [11] (./tcc.lot) [12
+]) [11] (./tcc.lot [12
 
-]) (./editaveis/abreviaturas.tex [13
+]) [13]) (./editaveis/abreviaturas.tex [14
 
 
-] [14])
+] [15])
 (./fixos/indiceAutomatico.tex (./tcc.toc
 Overfull \hbox (8.8168pt too wide) in paragraph at lines 30--30
  [][] [][][]\T1/lmss/bx/n/12 CONTRATAÇÕES DE FOR-NE-CE-DO-RES DE DE-SEN-VOL-VI-
@@ -1615,74 +1619,74 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 39.
-[15
+[16
 
 ]
 Overfull \hbox (1.5877pt too wide) detected at line 61
- \T1/lmss/bx/n/12 103
- []
-
-
-Overfull \hbox (1.5877pt too wide) detected at line 63
- \T1/lmss/bx/n/12 104
- []
-
-
-Overfull \hbox (1.5877pt too wide) detected at line 64
  \T1/lmss/bx/n/12 105
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 67
+Overfull \hbox (1.5877pt too wide) detected at line 63
+ \T1/lmss/bx/n/12 106
+ []
+
+
+Overfull \hbox (1.5877pt too wide) detected at line 64
  \T1/lmss/bx/n/12 107
  []
 
 
+Overfull \hbox (1.5877pt too wide) detected at line 67
+ \T1/lmss/bx/n/12 109
+ []
+
+
 Overfull \hbox (1.5877pt too wide) detected at line 72
- \T1/lmss/bx/n/12 111
+ \T1/lmss/bx/n/12 113
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 73
- \T1/lmss/bx/n/12 111
+ \T1/lmss/bx/n/12 113
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 74
- \T1/lmss/bx/n/12 135
+ \T1/lmss/bx/n/12 137
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 78
- \T1/lmss/bx/n/12 137
+ \T1/lmss/bx/n/12 139
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 79
- \T1/lmss/bx/n/12 137
+ \T1/lmss/bx/n/12 139
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 80
- \T1/lmss/bx/n/12 141
+ \T1/lmss/bx/n/12 143
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 84
- \T1/lmss/bx/n/12 153
+ \T1/lmss/bx/n/12 155
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 88
- \T1/lmss/bx/n/12 157
+ \T1/lmss/bx/n/12 159
  []
 
-) [16]) (./capitulos/1-introducao.tex [17
+) [17]) (./capitulos/1-introducao.tex [18
 
 
 ]
 
-LaTeX Warning: Citation `paperrego' on page 18 undefined on input line 34.
+LaTeX Warning: Citation `paperrego' on page 19 undefined on input line 34.
 
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 38.
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
@@ -1690,8 +1694,8 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 38.
- [18]
-<figuras/figuras_nilton/selecaoMetodologica.png, id=523, 757.83125pt x 510.9087
+ [19]
+<figuras/figuras_nilton/selecaoMetodologica.png, id=531, 757.83125pt x 510.9087
 5pt>
 File: figuras/figuras_nilton/selecaoMetodologica.png Graphic file (type png)
  <use figuras/figuras_nilton/selecaoMetodologica.png>
@@ -1736,7 +1740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 Underfull \vbox (badness 10000) detected at line 16
  []
 
-) [19] [20 <./figuras/figuras_nilton/selecaoMetodologica.png>] [21]
+) [20] [21 <./figuras/figuras_nilton/selecaoMetodologica.png>] [22]
 (./tabelas/tabelasNilton/tabelaDescricaoMetodologia2.ltx
 Overfull \hbox (6.47667pt too wide) in paragraph at lines 4--4
 []|[]| 
@@ -1762,7 +1766,7 @@ Underfull \vbox (badness 10000) detected at line 7
  []
 
 )
-<figuras/figuras_nilton/passosEstudoCaso.png, id=556, 627.34375pt x 430.60875pt
+<figuras/figuras_nilton/passosEstudoCaso.png, id=564, 627.34375pt x 430.60875pt
 >
 File: figuras/figuras_nilton/passosEstudoCaso.png Graphic file (type png)
  <use figuras/figuras_nilton/passosEstudoCaso.png>
@@ -1773,10 +1777,10 @@ put line 93.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22
+[23
 
-] [23 <./figuras/figuras_nilton/passosEstudoCaso.png>]
-<figuras/figuras_nilton/kanban.png, id=571, 1602.98875pt x 697.60625pt>
+] [24 <./figuras/figuras_nilton/passosEstudoCaso.png>]
+<figuras/figuras_nilton/kanban.png, id=580, 1602.98875pt x 697.60625pt>
 File: figuras/figuras_nilton/kanban.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban.png>
@@ -1788,34 +1792,34 @@ Overfull \hbox (25.90034pt too wide) in paragraph at lines 141--142
  [][] 
  []
 
-[24 <./figuras/figuras_nilton/kanban.png>]) (./capitulos/2-metricas.tex
-[25]
+[25 <./figuras/figuras_nilton/kanban.png>]) (./capitulos/2-metricas.tex
+[26]
 Overfull \hbox (2.56119pt too wide) in paragraph at lines 8--9
 []\T1/lmr/m/n/12 Ainda se-gundo o [][]SOF-TEX[][] ([][]2013b[][][]), entende-se
  por mé-todo de me-di-ção uma sequên-
  []
 
-[26
+[27
 
 ]
-<figuras/figuras_nilton/modeloqualidade.png, id=609, 821.31844pt x 228.855pt>
+<figuras/figuras_nilton/modeloqualidade.png, id=618, 821.31844pt x 228.855pt>
 File: figuras/figuras_nilton/modeloqualidade.png Graphic file (type png)
 
 <use figuras/figuras_nilton/modeloqualidade.png>
 Package pdftex.def Info: figuras/figuras_nilton/modeloqualidade.png used on inp
 ut line 49.
 (pdftex.def)             Requested size: 451.72653pt x 125.87062pt.
- [27 <./figuras/figuras_nilton/modeloqualidade.png>] [28] [29] [30] (./tabelas/
+ [28 <./figuras/figuras_nilton/modeloqualidade.png>] [29] [30] [31] (./tabelas/
 tabelasNilton/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
 )
-[31] (./tabelas/tabelasNilton/intervalos.ltx)
+[32] (./tabelas/tabelasNilton/intervalos.ltx)
 (./tabelas/tabelasNilton/metricas.ltx)
 
 LaTeX Warning: Float too large for page by 59.66628pt on input line 181.
 
-[32] [33] (./tabelas/tabelasNilton/conceitos-limpeza-parte1.ltx
+[33] [34] (./tabelas/tabelasNilton/conceitos-limpeza-parte1.ltx
 Underfull \hbox (badness 6658) in paragraph at lines 5--5
 []|\T1/lmr/m/n/12 Composição de
  []
@@ -1965,7 +1969,7 @@ Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--211
  [][] 
  []
 
-[34
+[35
 
 ] (./tabelas/tabelasNilton/conceitos-limpeza-parte2.ltx
 Underfull \hbox (badness 10000) in paragraph at lines 5--5
@@ -2122,7 +2126,7 @@ Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--219
  [][] 
  []
 
-[35] [36] (./tabelas/tabelasNilton/conceitos-limpeza-parte3.ltx
+[36] [37] (./tabelas/tabelasNilton/conceitos-limpeza-parte3.ltx
 Underfull \hbox (badness 3240) in paragraph at lines 5--6
 []|\T1/lmr/m/n/12 Quebrar uma classe
  []
@@ -2447,9 +2451,9 @@ Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--235
  [][] 
  []
 
-[37
+[38
 
-] [38] (./tabelas/tabelasNilton/cenarios.ltx
+] [39] (./tabelas/tabelasNilton/cenarios.ltx
 Underfull \hbox (badness 5893) in paragraph at lines 3--3
 []|\T1/lmr/m/n/12 Forma de De-tec-ção
  []
@@ -2630,13 +2634,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
  []
 
 )
-Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--250
+Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--252
  [][] 
  []
 
-[39] [40] (./tabelas/tabelasNilton/comparativoferramentas.ltx
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[]|\T1/lmr/m/n/12 BSD-style li-
+[40] [41] [42] (./tabelas/tabelasNilton/comparativoferramentasT.ltx
+Overfull \hbox (1.93597pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Linsença| 
  []
 
 
@@ -2645,252 +2649,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|\T1/lmr/bx/n/12 Número
+Overfull \hbox (6.83205pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 Propósito| 
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 12--12
-[]|\T1/lmr/m/n/12 -Más prá-ti-cas (Bad
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Pontos
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 -Encontra de-fei-tos
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Foco em pro-ble-mas po-ten-ci-ais,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/lmr/m/n/12 Número
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]|\T1/lmr/bx/n/12 -Global Me-
+[]|\T1/lmr/m/n/12 Regra
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 13--13
-[]|\T1/lmr/m/n/12 -Corretude (Cor-rect-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\T1/lmr/m/n/12 -Braces ru-les:
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/lmr/m/n/12 Ca-te-go-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\T1/lmr/m/n/12 Re-gras re-la-ci-o-
+[]|\T1/lmr/m/n/12 -Corretude (Cor-
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 13--13
-[]|\T1/lmr/bx/n/12 -Module Me-
- []
-
-) [41] (./tabelas/tabelasNilton/comparativoferramentas2.ltx
-Underfull \hbox (badness 3386) in paragraph at lines 5--5
-[]|\T1/lmr/m/n/12 -Erros de con-
+Underfull \hbox (badness 2351) in paragraph at lines 14--14
+[]|\T1/lmr/m/n/12 -Erros de con-cor-
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 5--5
-\T1/lmr/m/n/12 cor-rên-cia (Mul-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
-\T1/lmr/m/n/12 tith-re-a-ded
- []
-
-
-Underfull \hbox (badness 6204) in paragraph at lines 5--5
-\T1/lmr/m/n/12 ma-nho do có-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 []|\T1/lmr/m/n/12 -
  []
 
 
-Overfull \hbox (13.20677pt too wide) in paragraph at lines 6--6
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 \T1/lmr/m/n/12 Internacionalização
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\T1/lmr/m/n/12 (In-ter-na-ti-o-na-li-
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/12 (In-ter-na-ti-o-na-li-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[]|\T1/lmr/m/n/12 -Controversial
+Underfull \hbox (badness 1092) in paragraph at lines 15--15
+[]|\T1/lmr/m/n/12 -Controversial ru-les: Re-gras de
+ []
+
+) [43] (./tabelas/tabelasNilton/comparativoferramentasT2.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 có-digo ma-li-ci-oso
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 6--6
-\T1/lmr/m/n/12 apli-ca-ção ge-ral,
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 (Ma-li-ci-ous code
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\T1/lmr/m/n/12 -Experimental
+Underfull \hbox (badness 3098) in paragraph at lines 5--5
+\T1/lmr/m/n/12 mas de de-sem-pe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\T1/lmr/m/n/12 Re-gras re-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\T1/lmr/m/n/12 ci-o-na-das ao
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\T1/lmr/m/n/12 aco-pla-mento
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 7--7
-\T1/lmr/m/n/12 en-tre ob-je-tos e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]|\T1/lmr/m/n/12 -Vulnerabilidade
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 8--8
-\T1/lmr/m/n/12 code vul-ne-ra-bi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]|\T1/lmr/m/n/12 -Design ru-les:
- []
-
-) [42] (./tabelas/tabelasNilton/comparativoferramentas3.ltx
-Underfull \hbox (badness 1221) in paragraph at lines 5--5
-[]|\T1/lmr/m/n/12 -Potenciais pro-
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 5--5
-\T1/lmr/m/n/12 ble-mas de de-
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 5--5
-\T1/lmr/m/n/12 sem-pe-nho (Per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
-[]|\T1/lmr/m/n/12 -Import sta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
-\T1/lmr/m/n/12 te-ment ru-les:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
-\T1/lmr/m/n/12 Re-gras re-la-ci-o-
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 6--6
-[]|\T1/lmr/m/n/12 -Segurança (Se-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[]|\T1/lmr/m/n/12 -Naming ru-les:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\T1/lmr/m/n/12 Re-gras que
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\T1/lmr/m/n/12 ava-liam no-mes
- []
-
-
-Underfull \hbox (badness 7814) in paragraph at lines 6--6
-\T1/lmr/m/n/12 de va-riá-veis e
+Underfull \hbox (badness 5711) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 -Segurança (Se-cu-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\T1/lmr/m/n/12 -Optimization
+[]|\T1/lmr/m/n/12 -Código Con-fuso
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\T1/lmr/m/n/12 ru-les: Re-gras
+Underfull \hbox (badness 1490) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 -String and String-Buf-fer ru-les:
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\T1/lmr/m/n/12 re-la-ci-o-na-das à
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]|\T1/lmr/m/n/12 -Strict Ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\T1/lmr/m/n/12 cep-tion ru-les:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\T1/lmr/m/n/12 Re-gras re-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\T1/lmr/m/n/12 ci-o-na-das ao
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\T1/lmr/m/n/12 lan-ça-mento
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\T1/lmr/m/n/12 e cap-tura de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]|\T1/lmr/m/n/12 -String and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\T1/lmr/m/n/12 String-Buf-fer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\T1/lmr/m/n/12 ru-les: Re-gras
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\T1/lmr/m/n/12 que ve-ri-fi-cam
- []
-
-
-Overfull \hbox (10.57924pt too wide) in paragraph at lines 2--13
- [] 
- []
-
-) [43]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
-[44] [45]
+) [44]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
+[45]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/atividadesAquisicao
 .eps>
 (epstopdf)                    date: 2015-05-03 17:48:58
@@ -2905,7 +2764,7 @@ o.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf, id=899, 1104.
+<figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf, id=902, 1104.
 125pt x 691.58376pt>
 File: figuras/figuras_nilton/atividadesAquisicao-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2942,7 +2801,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/etl-eps-converted-to.pdf, id=958, 796.9775pt x 761.8462
+<figuras/figuras_nilton/etl-eps-converted-to.pdf, id=961, 796.9775pt x 761.8462
 5pt>
 File: figuras/figuras_nilton/etl-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_nilton/etl-eps-converted-to.pdf>
@@ -2964,7 +2823,7 @@ r-eps-converted-to.pdf figuras/figuras_nilton/star.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/star-eps-converted-to.pdf, id=995, 593.21625pt x 378.41
+<figuras/figuras_nilton/star-eps-converted-to.pdf, id=998, 593.21625pt x 378.41
 376pt>
 File: figuras/figuras_nilton/star-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_nilton/star-eps-converted-to.pdf>
@@ -2985,7 +2844,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-<figuras/figuras_nilton/drillDownUp.png, id=1025, 1021.56656pt x 408.02437pt>
+<figuras/figuras_nilton/drillDownUp.png, id=1028, 1021.56656pt x 408.02437pt>
 File: figuras/figuras_nilton/drillDownUp.png Graphic file (type png)
 
 <use figuras/figuras_nilton/drillDownUp.png>
@@ -3015,7 +2874,7 @@ ceDice-eps-converted-to.pdf figuras/figuras_nilton/sliceDice.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/sliceDice-eps-converted-to.pdf, id=1037, 160.6pt x 97.3
+<figuras/figuras_nilton/sliceDice-eps-converted-to.pdf, id=1040, 160.6pt x 97.3
 6375pt>
 File: figuras/figuras_nilton/sliceDice-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -3040,7 +2899,7 @@ lAcross-eps-converted-to.pdf figuras/figuras_nilton/drilAcross.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/drilAcross-eps-converted-to.pdf, id=1046, 150.5625pt x 
+<figuras/figuras_nilton/drilAcross-eps-converted-to.pdf, id=1049, 150.5625pt x 
 148.555pt>
 File: figuras/figuras_nilton/drilAcross-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3069,7 +2928,7 @@ oting-eps-converted-to.pdf figuras/figuras_nilton/pivoting.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/pivoting-eps-converted-to.pdf, id=1061, 155.58125pt x 6
+<figuras/figuras_nilton/pivoting-eps-converted-to.pdf, id=1064, 155.58125pt x 6
 4.24pt>
 File: figuras/figuras_nilton/pivoting-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3099,7 +2958,7 @@ eps>
 (epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf, id=1121, 2371.
+<figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf, id=1124, 2371.
 86125pt x 376.40625pt>
 File: figuras/figuras_nilton/metodologiaKimball-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3125,7 +2984,7 @@ eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf, id=1161, 906.3
+<figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf, id=1164, 906.3
 8625pt x 934.49126pt>
 File: figuras/figuras_nilton/modelo-dw-baufaker-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3155,7 +3014,7 @@ eps>
 (epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/metadados-baufaker-eps-converted-to.pdf, id=1190, 677.5
+<figuras/figuras_nilton/metadados-baufaker-eps-converted-to.pdf, id=1193, 677.5
 3125pt x 553.06625pt>
 File: figuras/figuras_nilton/metadados-baufaker-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3192,7 +3051,7 @@ s>
 (epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/project_violation-eps-converted-to.pdf, id=1210, 935.49
+<figuras/figuras_nilton/project_violation-eps-converted-to.pdf, id=1213, 935.49
 5pt x 572.1375pt>
 File: figuras/figuras_nilton/project_violation-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -3218,7 +3077,7 @@ ject_bug-eps-converted-to.pdf figuras/figuras_nilton/project_bug.eps>
 (epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/project_bug-eps-converted-to.pdf, id=1211, 940.51375pt 
+<figuras/figuras_nilton/project_bug-eps-converted-to.pdf, id=1214, 940.51375pt 
 x 614.295pt>
 File: figuras/figuras_nilton/project_bug-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3249,7 +3108,7 @@ elo-dw-nilton-eps-converted-to.pdf figuras/figuras_nilton/modelo-dw-nilton.eps>
 (epstopdf)             \includegraphics on input line 384.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/modelo-dw-nilton-eps-converted-to.pdf, id=1220, 1010.77
+<figuras/figuras_nilton/modelo-dw-nilton-eps-converted-to.pdf, id=1223, 1010.77
 625pt x 1405.25pt>
 File: figuras/figuras_nilton/modelo-dw-nilton-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3281,7 +3140,7 @@ entenew.eps>
 (epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/arquiteturaAmbientenew-eps-converted-to.pdf, id=1248, 1
+<figuras/figuras_nilton/arquiteturaAmbientenew-eps-converted-to.pdf, id=1251, 1
 083.04625pt x 1079.03125pt>
 File: figuras/figuras_nilton/arquiteturaAmbientenew-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3300,7 +3159,7 @@ T1/lmr/m/it/12 Extraction-Transformation-
 teturaAmbientenew-eps-converted-to.pdf>] [73] [74
 
 ]
-<figuras/figuras_nilton/EscopoEstudoCaso.png, id=1275, 780.9175pt x 516.93124pt
+<figuras/figuras_nilton/EscopoEstudoCaso.png, id=1278, 780.9175pt x 516.93124pt
 >
 File: figuras/figuras_nilton/EscopoEstudoCaso.png Graphic file (type png)
  <use figuras/figuras_nilton/EscopoEstudoCaso.png>
@@ -3322,7 +3181,7 @@ o.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf, id=1331, 727.
+<figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf, id=1334, 727.
 71875pt x 822.07124pt>
 File: figuras/figuras_nilton/EstruturaEstudoCaso-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3381,7 +3240,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[80] <figuras/figuras_nilton/formula.png, id=1365, 795.97375pt x 634.37pt>
+[80] <figuras/figuras_nilton/formula.png, id=1368, 795.97375pt x 634.37pt>
 File: figuras/figuras_nilton/formula.png Graphic file (type png)
 
 <use figuras/figuras_nilton/formula.png>
@@ -3404,7 +3263,7 @@ Underfull \hbox (badness 1270) in paragraph at lines 8--9
 ) [81] [82 <./figuras/figuras_nilton/formula.png>] [83] [84
 
 ] [85] [86]
-<figuras/figuras_nilton/DashboardTotal.png, id=1416, 1203.49625pt x 678.535pt>
+<figuras/figuras_nilton/DashboardTotal.png, id=1419, 1203.49625pt x 678.535pt>
 File: figuras/figuras_nilton/DashboardTotal.png Graphic file (type png)
 
 <use figuras/figuras_nilton/DashboardTotal.png>
@@ -3412,7 +3271,7 @@ Package pdftex.def Info: figuras/figuras_nilton/DashboardTotal.png used on inpu
 t line 364.
 (pdftex.def)             Requested size: 447.24727pt x 260.02829pt.
 
-<figuras/figuras_nilton/DashboardPMD.png, id=1417, 834.11626pt x 806.01125pt>
+<figuras/figuras_nilton/DashboardPMD.png, id=1420, 834.11626pt x 806.01125pt>
 File: figuras/figuras_nilton/DashboardPMD.png Graphic file (type png)
 
 <use figuras/figuras_nilton/DashboardPMD.png>
@@ -3425,7 +3284,7 @@ Overfull \hbox (3.76537pt too wide) in paragraph at lines 371--372
  []
 
 [87 <./figuras/figuras_nilton/DashboardTotal.png>]
-<figuras/figuras_nilton/DashboardCenarios.png, id=1423, 830.10126pt x 744.7825p
+<figuras/figuras_nilton/DashboardCenarios.png, id=1426, 830.10126pt x 744.7825p
 t>
 File: figuras/figuras_nilton/DashboardCenarios.png Graphic file (type png)
  <use figuras/figuras_nilton/DashboardCenarios.png>
@@ -3438,7 +3297,7 @@ Overfull \hbox (1.55711pt too wide) in paragraph at lines 378--379
  []
 
 [88 <./figuras/figuras_nilton/DashboardPMD.png>]
-<figuras/figuras_nilton/DashboardFindbugs.png, id=1429, 835.12pt x 751.80875pt>
+<figuras/figuras_nilton/DashboardFindbugs.png, id=1432, 835.12pt x 751.80875pt>
 File: figuras/figuras_nilton/DashboardFindbugs.png Graphic file (type png)
 <use figuras/figuras_nilton/DashboardFindbugs.png>
 Package pdftex.def Info: figuras/figuras_nilton/DashboardFindbugs.png used on i
@@ -3449,160 +3308,1335 @@ Overfull \hbox (4.31741pt too wide) in paragraph at lines 385--386
  [][] 
  []
 
-[89 <./figuras/figuras_nilton/DashboardCenarios.png>] [90 <./figuras/figuras_ni
-lton/DashboardFindbugs.png>]
-Package epstopdf Info: Source file: <figuras/figuras_nilton/EQMFindBugs.eps>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 5857392 bytes
-(epstopdf)             Output file: <figuras/figuras_nilton/EQMFindBugs-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 148822 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/EQM
-FindBugs-eps-converted-to.pdf figuras/figuras_nilton/EQMFindBugs.eps>
-(epstopdf)             \includegraphics on input line 407.
-Package epstopdf Info: Output file is already uptodate.
+[89 <./figuras/figuras_nilton/DashboardCenarios.png>]
+Overfull \hbox (20.92987pt too wide) in paragraph at lines 401--401
+ [] [] [][]\T1/lmr/m/n/10 https://github.com/NiltonAraruna/tcc_dw_metricas/tree
+/master/ARQUIVOS%20/Atualizada/analises| 
+ []
 
-<figuras/figuras_nilton/EQMFindBugs-eps-converted-to.pdf, id=1458, 1491.5725pt 
-x 650.43pt>
-File: figuras/figuras_nilton/EQMFindBugs-eps-converted-to.pdf Graphic file (typ
-e pdf)
- <use figuras/figuras_nilton/EQMFindBugs-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/figuras_nilton/EQMFindBugs-eps-converted-to.pd
-f used on input line 407.
-(pdftex.def)             Requested size: 671.20143pt x 292.6908pt.
+[90 <./figuras/figuras_nilton/DashboardFindbugs.png>]
+(./tabelas/tabelasNilton/eqmfindbugs.ltx
+Overfull \hbox (6.7962pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 correct
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package epstopdf Info: Source file: <figuras/figuras_nilton/EQMPMD1.eps>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 4391792 bytes
-(epstopdf)             Output file: <figuras/figuras_nilton/EQMPMD1-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 117841 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/EQM
-PMD1-eps-converted-to.pdf figuras/figuras_nilton/EQMPMD1.eps>
-(epstopdf)             \includegraphics on input line 414.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/figuras_nilton/EQMPMD1-eps-converted-to.pdf, id=1459, 1242.6425pt x 58
-5.18625pt>
-File: figuras/figuras_nilton/EQMPMD1-eps-converted-to.pdf Graphic file (type pd
-f)
- <use figuras/figuras_nilton/EQMPMD1-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/figuras_nilton/EQMPMD1-eps-converted-to.pdf us
-ed on input line 414.
-(pdftex.def)             Requested size: 559.18396pt x 263.33138pt.
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 per
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package epstopdf Info: Source file: <figuras/figuras_nilton/EQMPMD2.eps>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 4887790 bytes
-(epstopdf)             Output file: <figuras/figuras_nilton/EQMPMD2-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 126727 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/EQM
-PMD2-eps-converted-to.pdf figuras/figuras_nilton/EQMPMD2.eps>
-(epstopdf)             \includegraphics on input line 421.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf, id=1460, 1383.1675pt x 58
-5.18625pt>
-File: figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf Graphic file (type pd
-f)
- <use figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf us
-ed on input line 421.
-(pdftex.def)             Requested size: 622.41963pt x 263.33138pt.
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 bad
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package epstopdf Info: Source file: <figuras/figuras_nilton/EQMPMD3.eps>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 3268103 bytes
-(epstopdf)             Output file: <figuras/figuras_nilton/EQMPMD3-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2015-07-01 23:43:54
-(epstopdf)                    size: 217530 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/EQM
-PMD3-eps-converted-to.pdf figuras/figuras_nilton/EQMPMD3.eps>
-(epstopdf)             \includegraphics on input line 428.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf, id=1461, 927.465pt x 583.
-17876pt>
-File: figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf Graphic file (type pd
-f)
- <use figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf us
-ed on input line 428.
-(pdftex.def)             Requested size: 417.3554pt x 262.42801pt.
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 mali
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 cius
+ []
 
-<figuras/figuras_nilton/comparacaodash1.png, id=1462, 770.88pt x 499.8675pt>
+
+Overfull \hbox (16.43962pt too wide) in paragraph at lines 2--31
+ [] 
+ []
+
+) (./tabelas/tabelasNilton/eqmpmd.ltx) (./tabelas/tabelasNilton/eqmpmd2.ltx)
+(./tabelas/tabelasNilton/eqmpmd3.ltx) [91] [92] [93
+
+] [94
+
+] [95
+
+]
+<figuras/figuras_nilton/comparacaodash1.png, id=1492, 770.88pt x 499.8675pt>
 File: figuras/figuras_nilton/comparacaodash1.png Graphic file (type png)
 
 <use figuras/figuras_nilton/comparacaodash1.png>
 Package pdftex.def Info: figuras/figuras_nilton/comparacaodash1.png used on inp
-ut line 435.
+ut line 439.
 (pdftex.def)             Requested size: 539.61234pt x 349.90486pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<figuras/figuras_nilton/comparacaoexcell.png, id=1463, 1168.365pt x 309.155pt>
-File: figuras/figuras_nilton/comparacaoexcell.png Graphic file (type png)
-
-<use figuras/figuras_nilton/comparacaoexcell.png>
-Package pdftex.def Info: figuras/figuras_nilton/comparacaoexcell.png used on in
-put line 442.
-(pdftex.def)             Requested size: 701.02441pt x 185.49442pt.
+(./tabelas/tabelasNilton/comparacaoexcell.ltx
+Overfull \hbox (5.70265pt too wide) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Prio-
+ []
 
 
-LaTeX Warning: Float too large for page by 32.0244pt on input line 445.
+Overfull \hbox (3.41772pt too wide) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Rule
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 br.gov.
+ []
 
-(./tabelas/tabelasNilton/correlacao.ltx) [91] [92 <./figuras/figuras_nilton/EQM
-FindBugs-eps-converted-to.pdf>] [93 <./figuras/figuras_nilton/EQMPMD1-eps-conve
-rted-to.pdf>] [94 <./figuras/figuras_nilton/EQMPMD2-eps-converted-to.pdf>]
-[95 <./figuras/figuras_nilton/EQMPMD3-eps-converted-to.pdf>] [96 <./figuras/fig
-uras_nilton/comparacaodash1.png>] [97 <./figuras/figuras_nilton/comparacaoexcel
-l.png>]
-Package epstopdf Info: Source file: <figuras/figuras_nilton/correlacao.eps>
-(epstopdf)                    date: 2015-07-01 23:43:55
-(epstopdf)                    size: 2719620 bytes
-(epstopdf)             Output file: <figuras/figuras_nilton/correlacao-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2015-07-01 23:43:55
-(epstopdf)                    size: 60895 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/cor
-relacao-eps-converted-to.pdf figuras/figuras_nilton/correlacao.eps>
-(epstopdf)             \includegraphics on input line 475.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/correlacao-eps-converted-to.pdf, id=1519, 1306.8825pt x
- 344.28625pt>
-File: figuras/figuras_nilton/correlacao-eps-converted-to.pdf Graphic file (type
- pdf)
- <use figuras/figuras_nilton/correlacao-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/figuras_nilton/correlacao-eps-converted-to.pdf
- used on input line 475.
-(pdftex.def)             Requested size: 522.74374pt x 137.71205pt.
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 caixa.
+ []
 
-[98
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 /gov/-caixa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 /si-get/-con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Each class
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 should de-clare
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 at le-ast one
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 AtLeastOne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 6--6
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Avoid ex-ces-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 si-vely long
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 va-ri-a-ble na-mes
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 6--6
+\T1/lmr/m/n/12 like man-te-rAm-
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 7--7
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 Found non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 transient, non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 static mem-ber.
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 BeanMembers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 8--8
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Parameter 'fa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 ces-Con-tex' is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 not as-sig-ned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 and could be
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 9--9
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Parameter 'ui-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 Com-po-nent' is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 not as-sig-ned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 and could be
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 10--10
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 10--10
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\T1/lmr/m/n/12 Parameter
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 10--10
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 10--10
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 11--11
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 11--11
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/lmr/m/n/12 Avoid ins-tan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 ti-a-ting Long
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 ob-jects.Call
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/lmr/m/n/12 Long.valueOf()
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 11--11
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.25336pt too wide) in paragraph at lines 11--11
+[]|\T1/lmr/m/n/12 LongInstantiation| 
+ []
+
+) [96 <./figuras/figuras_nilton/comparacaodash1.png>]
+Overfull \vbox (37.94537pt too high) has occurred while \output is active []
+
+
+[97] (./tabelas/tabelasNilton/comparacaoexcell2.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 4--4
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 A method
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 should have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 only one exit
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 4--4
+\T1/lmr/m/n/12 should be the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 last sta-te-ment
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 5--5
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Parameter 'fa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 ces-Con-text' is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 not as-sig-ned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 and could be
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 6--6
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Parameter 'ui-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 Com-po-nent' is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 not as-sig-ned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 and could be
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 7--7
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 Parameter
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 8--8
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Local va-ri-a-ble
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 LocalVariable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 9--9
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 ter/Am-bi-en-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 A method
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 should have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 only one exit
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 9--9
+\T1/lmr/m/n/12 should be the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 last sta-te-ment
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+) (./tabelas/tabelasNilton/comparacaoexcell3.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 4--4
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 ter/-Bem-Con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Each class
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 should de-clare
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 at le-ast one
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 AtLeastOne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 5--5
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 ter/-Bem-Con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Found non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 transient, non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/lmr/m/n/12 static mem-ber.
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 BeanMembers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 6--6
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 ter/-Bem-Con-ver-
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 This fi-nal fi-eld
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 6--6
+\T1/lmr/m/n/12 could be made
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 FinalField
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 7--7
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 ter/-Bem-Con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 Parameter 'fa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 ces-Con-tex' is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 not as-sig-ned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/12 and could be
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 7--7
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 br.gov.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 caixa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 si-get.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 con-ver-
+ []
+
+
+Overfull \hbox (1.91295pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 siget_914/src/br
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 8--8
+\T1/lmr/m/n/12 /gov/-caixa /si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 get /con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 ter/-Bem-Con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Parameter 'ui-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 Com-po-nent' is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 not as-sig-ned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\T1/lmr/m/n/12 and could be
+ []
+
+
+Overfull \hbox (7.3998pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 Basic| 
+ []
+
+
+Overfull \hbox (6.02261pt too wide) in paragraph at lines 8--8
+[]|\T1/lmr/m/n/12 MethodArgument
+ []
+
+) [98] [99] (./tabelas/tabelasNilton/correlacao.ltx)
+(./tabelas/tabelasNilton/correlacao2.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 Ce-ná-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Total
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 Vi-o-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Correlação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 en-tre Ce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 ná-rios e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Correlação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 en-tre Ce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 ná-rios e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\T1/lmr/m/n/12 Correlação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 en-tre Vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/lmr/m/n/12 o-la-ções e
+ []
+
+
+Overfull \hbox (5.29286pt too wide) in paragraph at lines 5--5
+[]|[]| 
+ []
+
+
+Overfull \hbox (5.29286pt too wide) in paragraph at lines 5--5
+[]|[]| 
+ []
+
+
+Overfull \hbox (5.29286pt too wide) in paragraph at lines 5--5
+[]|[]| 
+ []
+
+) [100]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/dispercaocenariosbu
 gs.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
@@ -3614,20 +4648,20 @@ gs-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/dis
 percaocenariosbugs-eps-converted-to.pdf figuras/figuras_nilton/dispercaocenario
 sbugs.eps>
-(epstopdf)             \includegraphics on input line 484.
+(epstopdf)             \includegraphics on input line 497.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf, id=1529, 52
+<figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf, id=1531, 52
 1.95pt x 329.23pt>
 File: figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_nilton/dispercaocenariosbugs-eps-conve
-rted-to.pdf used on input line 484.
+rted-to.pdf used on input line 497.
 (pdftex.def)             Requested size: 365.3625pt x 230.45941pt.
 
-[99 <./figuras/figuras_nilton/correlacao-eps-converted-to.pdf>]
+[101]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/dispersaocenariosvi
 olacoes.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
@@ -3639,17 +4673,17 @@ olacoes-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/dis
 persaocenariosviolacoes-eps-converted-to.pdf figuras/figuras_nilton/dispersaoce
 nariosviolacoes.eps>
-(epstopdf)             \includegraphics on input line 492.
+(epstopdf)             \includegraphics on input line 505.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf, id=153
-7, 552.0625pt x 332.24126pt>
+6, 552.0625pt x 332.24126pt>
 File: figuras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
 <use figuras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_nilton/dispersaocenariosviolacoes-eps-
-converted-to.pdf used on input line 492.
+converted-to.pdf used on input line 505.
 (pdftex.def)             Requested size: 386.4411pt x 232.56728pt.
 Package epstopdf Info: Source file: <figuras/figuras_nilton/dispersaoviolacoesb
 ugs.eps>
@@ -3662,48 +4696,48 @@ ugs-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figuras/figuras_nilton/dis
 persaoviolacoesbugs-eps-converted-to.pdf figuras/figuras_nilton/dispersaoviolac
 oesbugs.eps>
-(epstopdf)             \includegraphics on input line 499.
+(epstopdf)             \includegraphics on input line 512.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf, id=1538, 6
+<figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf, id=1537, 6
 04.2575pt x 334.24875pt>
 File: figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_nilton/dispersaoviolacoesbugs-eps-conv
-erted-to.pdf used on input line 499.
+erted-to.pdf used on input line 512.
 (pdftex.def)             Requested size: 422.97737pt x 233.97252pt.
 
-[100 <./figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf> <./f
+[102 <./figuras/figuras_nilton/dispercaocenariosbugs-eps-converted-to.pdf> <./f
 iguras/figuras_nilton/dispersaocenariosviolacoes-eps-converted-to.pdf>]
-[101 <./figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf>]
-[102]) (./capitulos/6-conclusao.tex [103] [104
+[103 <./figuras/figuras_nilton/dispersaoviolacoesbugs-eps-converted-to.pdf>]
+[104]) (./capitulos/6-conclusao.tex [105] [106
 
-] [105]) (./tcc.bbl (./tcc.brf)
+] [107]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
 
-[106]
+[108]
 bibitemlist
-[107
+[109
 
-] [108] [109]
+] [110] [111]
 Overfull \hbox (49.26997pt too wide) in paragraph at lines 312--312
 \T1/lmr/m/n/12 2b4e554d41434f5244414f2533413338312b414e442b2b4e554d414e4f41434f
 5244414f25334132303131 & 
  []
 
-) (./apendices/apendices.tex [110]
-<figuras/figuras_nilton/componentsetl.png, id=1773, 676.5275pt x 193.72375pt>
+) (./apendices/apendices.tex [112]
+<figuras/figuras_nilton/componentsetl.png, id=1772, 676.5275pt x 193.72375pt>
 File: figuras/figuras_nilton/componentsetl.png Graphic file (type png)
 
 <use figuras/figuras_nilton/componentsetl.png>
 Package pdftex.def Info: figuras/figuras_nilton/componentsetl.png used on input
  line 18.
 (pdftex.def)             Requested size: 405.91962pt x 116.23514pt.
- [111
+ [113
 
  <./figuras/figuras_nilton/componentsetl.png>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/firsttransformation
@@ -3720,7 +4754,7 @@ n.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf, id=1780, 435.
+<figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf, id=1779, 435.
 6275pt x 272.01625pt>
 File: figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3743,7 +4777,7 @@ ion.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf, id=1782, 696
+<figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf, id=1781, 696
 .6025pt x 154.5775pt>
 File: figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3756,7 +4790,7 @@ ted-to.pdf used on input line 40.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[112 <./figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf>]
+[114 <./figuras/figuras_nilton/firsttransformation-eps-converted-to.pdf>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -3769,9 +4803,9 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./codigos/project-fact.sql
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3.
- [113 <./figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf>] [11
-4]
-[115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125])
+ [115 <./figuras/figuras_nilton/secondtransformation-eps-converted-to.pdf>] [11
+6]
+[117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127])
 Package epstopdf Info: Source file: <figuras/figuras_nilton/thirdtransformation
 .eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
@@ -3796,9 +4830,9 @@ Package pdftex.def Info: figuras/figuras_nilton/thirdtransformation-eps-convert
 ed-to.pdf used on input line 55.
 (pdftex.def)             Requested size: 443.65225pt x 83.511pt.
 
-(./codigos/classfact.sql [126 <./figuras/figuras_nilton/thirdtransformation-eps
--converted-to.pdf>] [127] [128] [129] [130]) [131]
-<figuras/figuras_nilton/quartatransformation.png, id=2555, 818.05624pt x 149.55
+(./codigos/classfact.sql [128 <./figuras/figuras_nilton/thirdtransformation-eps
+-converted-to.pdf>] [129] [130] [131] [132]) [133]
+<figuras/figuras_nilton/quartatransformation.png, id=2556, 818.05624pt x 149.55
 875pt>
 File: figuras/figuras_nilton/quartatransformation.png Graphic file (type png)
  <use figuras/figuras_nilton/quartatransformation.png>
@@ -3806,9 +4840,9 @@ Package pdftex.def Info: figuras/figuras_nilton/quartatransformation.png used o
 n input line 69.
 (pdftex.def)             Requested size: 449.93233pt x 82.25755pt.
 
-(./codigos/sqletlviolacao.sql [132 <./figuras/figuras_nilton/quartatransformati
-on.png>]) [133]
-<figuras/figuras_nilton/quintatransformation.png, id=2598, 1004.75375pt x 262.9
+(./codigos/sqletlviolacao.sql [134 <./figuras/figuras_nilton/quartatransformati
+on.png>]) [135]
+<figuras/figuras_nilton/quintatransformation.png, id=2597, 1004.75375pt x 262.9
 825pt>
 File: figuras/figuras_nilton/quintatransformation.png Graphic file (type png)
  <use figuras/figuras_nilton/quintatransformation.png>
@@ -3816,7 +4850,7 @@ Package pdftex.def Info: figuras/figuras_nilton/quintatransformation.png used o
 n input line 85.
 (pdftex.def)             Requested size: 452.13501pt x 118.34102pt.
 
-(./codigos/sqletlbugs.sql [134 <./figuras/figuras_nilton/quintatransformation.p
+(./codigos/sqletlbugs.sql [136 <./figuras/figuras_nilton/quintatransformation.p
 ng>])
 Package epstopdf Info: Source file: <figuras/figuras_nilton/componentesjob.eps>
 
@@ -3831,7 +4865,7 @@ ponentesjob-eps-converted-to.pdf figuras/figuras_nilton/componentesjob.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/componentesjob-eps-converted-to.pdf, id=2624, 330.23375
+<figuras/figuras_nilton/componentesjob-eps-converted-to.pdf, id=2623, 330.23375
 pt x 112.42pt>
 File: figuras/figuras_nilton/componentesjob-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3840,7 +4874,7 @@ type pdf)
 Package pdftex.def Info: figuras/figuras_nilton/componentesjob-eps-converted-to
 .pdf used on input line 103.
 (pdftex.def)             Requested size: 198.14177pt x 67.45251pt.
- [135 <./figuras/figuras_nilton/componentesjob-eps-converted-to.pdf>]
+ [137 <./figuras/figuras_nilton/componentesjob-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/job.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
 (epstopdf)                    size: 1561437 bytes
@@ -3853,7 +4887,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/job-eps-converted-to.pdf, id=2643, 1027.84pt x 250.9375
+<figuras/figuras_nilton/job-eps-converted-to.pdf, id=2642, 1027.84pt x 250.9375
 pt>
 File: figuras/figuras_nilton/job-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_nilton/job-eps-converted-to.pdf>
@@ -3865,7 +4899,7 @@ Overfull \hbox (58.91875pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-[136 <./figuras/figuras_nilton/job-eps-converted-to.pdf>]
+[138 <./figuras/figuras_nilton/job-eps-converted-to.pdf>]
 <figuras/figuras_nilton/dashgeral.png, id=2657, 927.465pt x 664.4825pt>
 File: figuras/figuras_nilton/dashgeral.png Graphic file (type png)
 
@@ -3878,9 +4912,9 @@ Overfull \hbox (8.73137pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-[137
+[139
 
- <./figuras/figuras_nilton/dashgeral.png>] [138] [139]
+ <./figuras/figuras_nilton/dashgeral.png>] [140] [141]
 Overfull \hbox (20.47523pt too wide) in paragraph at lines 280--280
 []\T1/lmtt/m/n/12 MEMBER [Measures].[Quantidade de Scenários] AS [Measures].[Qu
 antiy Scenarios][] 
@@ -3892,8 +4926,8 @@ Overfull \hbox (26.65024pt too wide) in paragraph at lines 281--281
 antiy Violations][] 
  []
 
-[140] [141]
-<figuras/figuras_nilton/dashcenario.png, id=2684, 949.5475pt x 825.0825pt>
+[142] [143]
+<figuras/figuras_nilton/dashcenario.png, id=2683, 949.5475pt x 825.0825pt>
 File: figuras/figuras_nilton/dashcenario.png Graphic file (type png)
 
 <use figuras/figuras_nilton/dashcenario.png>
@@ -3910,14 +4944,14 @@ File: figuras/figuras_nilton/DashboardFindbugs.png Graphic file (type png)
 Package pdftex.def Info: figuras/figuras_nilton/DashboardFindbugs.png used on i
 nput line 347.
 (pdftex.def)             Requested size: 417.55898pt x 375.90344pt.
- [142 <./figuras/figuras_nilton/dashcenario.png>]
+ [144 <./figuras/figuras_nilton/dashcenario.png>]
 File: figuras/figuras_nilton/DashboardPMD.png Graphic file (type png)
  <use figuras/figuras_nilton/DashboardPMD.png>
 Package pdftex.def Info: figuras/figuras_nilton/DashboardPMD.png used on input 
 line 354.
 (pdftex.def)             Requested size: 417.05711pt x 403.00464pt.
- [143]
-[144] [145] [146] [147] [148] [149] [150] [151] [152]
+ [145]
+[146] [147] [148] [149] [150] [151] [152] [153] [154]
 Package epstopdf Info: Source file: <figuras/figuras_nilton/questionario1.eps>
 (epstopdf)                    date: 2015-07-01 23:43:55
 (epstopdf)                    size: 3116332 bytes
@@ -3930,7 +4964,7 @@ stionario1-eps-converted-to.pdf figuras/figuras_nilton/questionario1.eps>
 (epstopdf)             \includegraphics on input line 774.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario1-eps-converted-to.pdf, id=2732, 709.65125p
+<figuras/figuras_nilton/questionario1-eps-converted-to.pdf, id=2731, 709.65125p
 t x 726.715pt>
 File: figuras/figuras_nilton/questionario1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3950,7 +4984,7 @@ stionario2-eps-converted-to.pdf figuras/figuras_nilton/questionario2.eps>
 (epstopdf)             \includegraphics on input line 780.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario2-eps-converted-to.pdf, id=2733, 705.63625p
+<figuras/figuras_nilton/questionario2-eps-converted-to.pdf, id=2732, 705.63625p
 t x 800.9925pt>
 File: figuras/figuras_nilton/questionario2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3975,7 +5009,7 @@ stionario3-eps-converted-to.pdf figuras/figuras_nilton/questionario3.eps>
 (epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario3-eps-converted-to.pdf, id=2734, 702.625pt 
+<figuras/figuras_nilton/questionario3-eps-converted-to.pdf, id=2733, 702.625pt 
 x 783.92876pt>
 File: figuras/figuras_nilton/questionario3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3999,7 +5033,7 @@ stionario4-eps-converted-to.pdf figuras/figuras_nilton/questionario4.eps>
 (epstopdf)             \includegraphics on input line 793.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_nilton/questionario4-eps-converted-to.pdf, id=2735, 701.62125p
+<figuras/figuras_nilton/questionario4-eps-converted-to.pdf, id=2734, 701.62125p
 t x 716.6775pt>
 File: figuras/figuras_nilton/questionario4-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -4012,13 +5046,13 @@ pdf used on input line 793.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[153
+[155
 
- <./figuras/figuras_nilton/questionario1-eps-converted-to.pdf>] [154 <./figuras
-/figuras_nilton/questionario2-eps-converted-to.pdf>] [155 <./figuras/figuras_ni
-lton/questionario3-eps-converted-to.pdf>] [156 <./figuras/figuras_nilton/questi
+ <./figuras/figuras_nilton/questionario1-eps-converted-to.pdf>] [156 <./figuras
+/figuras_nilton/questionario2-eps-converted-to.pdf>] [157 <./figuras/figuras_ni
+lton/questionario3-eps-converted-to.pdf>] [158 <./figuras/figuras_nilton/questi
 onario4-eps-converted-to.pdf>]
-<figuras/figuras_nilton/kanban1.png, id=2769, 686.565pt x 771.88374pt>
+<figuras/figuras_nilton/kanban1.png, id=2768, 686.565pt x 771.88374pt>
 File: figuras/figuras_nilton/kanban1.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban1.png>
@@ -4030,7 +5064,7 @@ Overfull \hbox (25.59222pt too wide) in paragraph at lines 802--803
  [][] 
  []
 
-<figuras/figuras_nilton/kanban2.png, id=2770, 680.5425pt x 846.16125pt>
+<figuras/figuras_nilton/kanban2.png, id=2769, 680.5425pt x 846.16125pt>
 File: figuras/figuras_nilton/kanban2.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban2.png>
@@ -4045,7 +5079,7 @@ Overfull \hbox (21.3765pt too wide) in paragraph at lines 807--808
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/figuras_nilton/kanban3.png, id=2771, 682.55pt x 806.01125pt>
+<figuras/figuras_nilton/kanban3.png, id=2770, 682.55pt x 806.01125pt>
 File: figuras/figuras_nilton/kanban3.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban3.png>
@@ -4060,7 +5094,7 @@ Overfull \hbox (22.78175pt too wide) in paragraph at lines 812--813
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/figuras_nilton/kanban4.png, id=2772, 681.54625pt x 807.015pt>
+<figuras/figuras_nilton/kanban4.png, id=2771, 681.54625pt x 807.015pt>
 File: figuras/figuras_nilton/kanban4.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban4.png>
@@ -4075,7 +5109,7 @@ Overfull \hbox (22.07912pt too wide) in paragraph at lines 817--818
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/figuras_nilton/kanban5.png, id=2773, 680.5425pt x 99.37125pt>
+<figuras/figuras_nilton/kanban5.png, id=2772, 680.5425pt x 99.37125pt>
 File: figuras/figuras_nilton/kanban5.png Graphic file (type png)
 
 <use figuras/figuras_nilton/kanban5.png>
@@ -4094,10 +5128,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[157
+[159
 
- <./figuras/figuras_nilton/kanban1.png>] [158 <./figuras/figuras_nilton/kanban2
-.png>] [159 <./figuras/figuras_nilton/kanban3.png>] [160 <./figuras/figuras_nil
+ <./figuras/figuras_nilton/kanban1.png>] [160 <./figuras/figuras_nilton/kanban2
+.png>] [161 <./figuras/figuras_nilton/kanban3.png>] [162 <./figuras/figuras_nil
 ton/kanban4.png> <./figuras/figuras_nilton/kanban5.png>]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
@@ -4114,21 +5148,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 848FB5C9B2B021AA7EDD1ED25207CE10;12918.
+(rerunfilecheck)             Checksum: 1AB28D7D40B529A99C18A6779E264020;12920.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 28265 strings out of 493304
- 473058 string characters out of 6139872
- 734663 words of memory out of 5000000
- 29806 multiletter control sequences out of 15000+600000
+ 28283 strings out of 493304
+ 472969 string characters out of 6139872
+ 734639 words of memory out of 5000000
+ 29800 multiletter control sequences out of 15000+600000
  115798 words of font info for 91 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,14n,78p,1826b,2318s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4152,10 +5186,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmtt12.pfb>
-Output written on tcc.pdf (161 pages, 6292764 bytes).
+Output written on tcc.pdf (163 pages, 5556019 bytes).
 PDF statistics:
- 3328 PDF objects out of 3580 (max. 8388607)
- 2944 compressed objects within 30 object streams
- 1105 named destinations out of 1200 (max. 500000)
- 876 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3329 PDF objects out of 3580 (max. 8388607)
+ 2955 compressed objects within 30 object streams
+ 1113 named destinations out of 1200 (max. 500000)
+ 846 words of extra memory for PDF output out of 10000 (max. 10000000)
 

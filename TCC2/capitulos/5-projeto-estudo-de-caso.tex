@@ -398,51 +398,65 @@ $ EQM = \sum\limits_{i}\frac{(x{i}-y{i})^{2}}{n} $
 
 Quanto mais próximo o valor do EQM de 0, maior a corretude e menor é a diferença entre os valores estimados e os valores reais.
 
-Tomando como referência o valor estimado como os valores apresentados pela a solução de DW e o valor real como os valores apresentados pelas ferramentas \textit{FindBugs} e PMD utilizadas individualmente. Foi calculado o EQM de cada conjunto de regra do FindBugs e do PMD de todas as \textit{releases}, as Figuras \ref{EQMFindBugs}, \ref{EQMPMD1}, \ref{EQMPMD2} e \ref{EQMPMD3} mostram os resultados do EQM. Os valores apresentados pelas ferramentas utilizadas individualmente foram coletados de arquivos do tipo csv por elas geradas, que estão disponíveis para consulta no repositório deste trabalho no \textit{github} \footnote{https://github.com/NiltonAraruna/}. Os valores da solução de DW foram coletados a partir dos \textit{Dashboards} da própria solução. 
+Tomando como referência o valor estimado como os valores apresentados pela a solução de DW e o valor real como os valores apresentados pelas ferramentas \textit{FindBugs} e PMD utilizadas individualmente. Foi calculado o EQM de cada conjunto de regra do FindBugs e do PMD de todas as \textit{releases}, as Tabelas \ref{tab:eqmfindbugs}, \ref{tab:eqmpmd}, \ref{tab:eqmpmd2} e \ref{tab:eqmpmd3} mostram os resultados do EQM da maioria das \textit{releases}, a tabela completa se encontra no repositório do \textit{github} \footnote{https://github.com/NiltonAraruna/tcc\_dw\_metricas/tree/master/ARQUIVOS\%20/Atualizada/}  . Os valores apresentados pelas ferramentas utilizadas individualmente foram coletados de arquivos do tipo csv por elas geradas, que estão disponíveis para consulta no repositório deste trabalho no \textit{github} \footnote{https://github.com/NiltonAraruna/tcc\_dw\_metricas/tree/master/ARQUIVOS\%20/Atualizada/analises}. Os valores da solução de DW foram coletados a partir dos \textit{Dashboards} da própria solução. 
 
-As Figuras \ref{comparacaodash} e \ref{comparacaoexcell} exemplificam como os dados foram coletados para o cálculo do EQM. A Figura \ref{comparacaodash} demonstra a quantidade de violações do tipo \textit{Basic} da \textit{release} 914 no \textit{dashboard} do PMD, já a Figura \ref{comparacaoexcell} demonstra a quantidade de violações do tipo \textit{Basic} da mesma \textit{release} no arquivo gerado pela ferramenta PMD.
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMFindBugs.eps}
-\caption{\textit{Resultados do EQM do FindBugs}}
-\label{EQMFindBugs}
-\end{figure}
+\begin{sidewaystable}
+\begin{table}[H]
+\input{tabelas/tabelasNilton/eqmfindbugs.ltx}
+\end{table}
+\FloatBarrier
+\end{sidewaystable}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMPMD1.eps}
-\caption{\textit{Resultados do EQM do PMD}}
-\label{EQMPMD1}
-\end{figure}
+\begin{sidewaystable}
+\begin{table}[H]
+\input{tabelas/tabelasNilton/eqmpmd.ltx}
+\end{table}
+\FloatBarrier
+\end{sidewaystable}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMPMD2.eps}
-\caption{\textit{Continuação Resultados do EQM do PMD}}
-\label{EQMPMD2}
-\end{figure}
+\begin{sidewaystable}
+\begin{table}[H]
+\input{tabelas/tabelasNilton/eqmpmd2.ltx}
+\end{table}
+\FloatBarrier
+\end{sidewaystable}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.45,angle=90]{figuras/figuras_nilton/EQMPMD3.eps}
-\caption{\textit{Continuação Resultados do EQM do PMD}}
-\label{EQMPMD3}
-\end{figure}
+\begin{sidewaystable}
+\begin{table}[H]
+\input{tabelas/tabelasNilton/eqmpmd3.ltx}
+\end{table}
+\FloatBarrier
+\end{sidewaystable}
 
-\begin{figure}[h!]
+\pagebreak
+
+A Figura \ref{comparacaodash} e as Tabelas \ref{comparacaoexcell}, \ref{comparacaoexcell2} e \ref{comparacaoexcell3} exemplificam como os dados foram coletados para o cálculo do EQM. A Figura \ref{comparacaodash} demonstra a quantidade de violações do tipo \textit{Basic} da \textit{release} 914 no \textit{dashboard} do PMD, já as Tabelas \ref{comparacaoexcell}, \ref{comparacaoexcell2} e \ref{comparacaoexcell3} demonstram a quantidade de violações do tipo \textit{Basic} da mesma \textit{release} no arquivo gerado pela ferramenta PMD.
+
+
+\begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.7,angle=90]{figuras/figuras_nilton/comparacaodash1.png}
 \caption{Exemplo dos dados coletados a partir do \textit{dashboard}}
 \label{comparacaodash}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.6,angle=90]{figuras/figuras_nilton/comparacaoexcell.png}
-\caption{Exemplo dos dados coletados a partir do arquivo gerado pela ferramenta PMD}
-\label{comparacaoexcell}
-\end{figure}
+
+
+\begin{table}[H]
+\input{tabelas/tabelasNilton/comparacaoexcell.ltx}
+\end{table}
+\FloatBarrier
+
+\begin{table}[H]
+\input{tabelas/tabelasNilton/comparacaoexcell2.ltx}
+\end{table}
+\FloatBarrier
+
+\begin{table}[H]
+\input{tabelas/tabelasNilton/comparacaoexcell3.ltx}
+\end{table}
+\FloatBarrier
 
 Como pode ser observado os resultados obtidos do EQM foram todos igual a 0, significando a corretude entre os valores obtidos através do \textit{FindBugs} e PMD e os valores apresentados pela solução de DW. A corretude dos valores dos cenários de limpeza não foram validados porque algumas correções e adaptações tiveram que ser feitas na solução de DW de \cite{rego_monitoramento_2014TCC} para que possibilitasse as análises do SIGET, como a adição das função \textit{ROUND} no step "Inserindo os Fatos na $F_Project_Metric $" da transformação "Percentiles Analizo".  
 
@@ -468,14 +482,13 @@ Correlação entre duas variáveis é quando uma delas está, de alguma forma, r
 Um diagrama de dispersão também demonstra a relação entre duas variáveis quantitativas, medidas sobre os mesmos indivíduos. Se a reta do gráfico for mais próxima de
 uma reta de 45 graus, maior será a correlação positiva, se a reta apresentada for mais próxima de 135 graus, maior será a correlação negativa. \citeonline{pablo2009}
 
-Não tivemos a pretenção generalizar o resultado de uma possível correlação entre \textit{bugs}, violações e cenários de limpeza por se tratar de um estudo de apenas um estudo de caso, uma instituição e um sistema. Entretanto, queríamos, para este caso, investigar a  correlação linear entre \textit{bugs} e violações, entre \textit{bugs} e cenários de limpeza e entre cenários de limpeza e violações. O resultado do cálculo do coeficiente de correlação linear pode ser vista na Figura \ref{correlacao}.
+Não tivemos a pretensão generalizar o resultado de uma possível correlação entre \textit{bugs}, violações e cenários de limpeza por se tratar de um estudo de apenas um estudo de caso, uma instituição e um sistema. Entretanto, queríamos, para este caso, investigar a  correlação linear entre \textit{bugs} e violações, entre \textit{bugs} e cenários de limpeza e entre cenários de limpeza e violações. O resultado do cálculo do coeficiente de correlação linear pode ser vista na Tabela \ref{tab:correlacao}.
 
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.40,angle=90]{figuras/figuras_nilton/correlacao.eps}
-\caption{Resultado do cálculo do coeficiente de correlação linear}
-\label{correlacao}
-\end{figure}
+
+\begin{table}[H]
+\input{tabelas/tabelasNilton/correlacao2.ltx}
+\end{table}
+\FloatBarrier
 
 Analisando os resultados do coeficiente de correlação linear em conformidade com a Tabela \ref{tab:correlacao} podemos notar que a correlação entre cenários de limpeza e violações, entre violações e \textit{bugs} e correlação entre cenários e \textit{bugs} é uma correlação direta e muito forte. Por meio dos gráficos de dispersão observados nas figuras \ref{dispercaocenariosbugs}, \ref{dispersaocenariosviolacoes} e \ref{dispersaoviolacoesbugs} também é possível evidenciar uma correlação direta e muito forte pois as retas dos gráficos se aproximam de 45 graus.
 
