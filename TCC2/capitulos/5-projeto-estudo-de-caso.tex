@@ -240,9 +240,6 @@ A homologação dos serviços e a aceitação dos S\&SC é facultado à CAIXA, s
 \label{formula}
 \end{figure}
 
-\begin{table}[!ht]
-	\begin{center}
-
 
 \begin{easylist}[itemize]
 
@@ -256,13 +253,16 @@ Regras relacionadas à Fórmula de Índice de Defeitos:\linebreak[1]
 & Caso o índice de defeitos fique superior ao aceitável, que é de 0,2 erro por ponto de função, sensibilizará o indicador de desempenho e aplicará o respectivo percentual de redução, conforme a tabela \ref{tab:multa}.\linebreak[1]  
  
 \end{easylist}
-	
-	\input{tabelas/tabelasNilton/multasdefeitos.ltx} 
-	\caption{Multa por defeitos}
-	\label{tab:multa}
-	\end{center}
-	\end{table}	
-	\FloatBarrier
+
+
+\begin{table}[!ht]
+\begin{center}
+\input{tabelas/tabelasNilton/multasdefeitos.ltx} 
+\caption{Multa por defeitos}
+\label{tab:multa}
+\end{center}
+\end{table}	
+\FloatBarrier
 	
 	
 Para o estudo de caso deste trabalho foi analisado o Sistema de Gestão Financeira de Bens e Serviços de Tecnologia da Informação (SIGET) um sistema do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} do projeto a GITECBR recebe o código-fonte do sistema da contratada. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve ser aferida pela solução disponibilizada pela CETEC que faz uso do sonarQube. O sonarQube utilizado pela CETEC dispõe de \textit{plugins} configurados de outras ferramentas  para poder apresentar os defeitos contidos no código-fonte, dentre os \textit{plugins} utilizados estão o Findbugs e o PMD. Com base nos defeitos e no índice aceitável de defeitos, que é de 0,2 erro por ponto de função, o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa}.
@@ -361,28 +361,28 @@ Como demonstrado nas Figuras \ref{dashboardtotal}, \ref{dashboardPMD}, \ref{dash
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.4,trim=3cm 1cm 0cm 0cm]{figuras/figuras_nilton/DashboardTotal.png}
+\includegraphics[keepaspectratio=false,scale=0.7,angle=90,trim=10cm 0cm 0cm 0cm,clip=true]{figuras/figuras_nilton/DashboardTotal.png}
 \caption{\textit{Dashboard} Quantidade Total}
 \label{dashboardtotal}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/DashboardPMD.png}
+\includegraphics[keepaspectratio=false,scale=0.7,angle=90,trim=0cm 5cm 0cm 0cm,clip=true]{figuras/figuras_nilton/DashboardPMD.png}
 \caption{\textit{Dashboard PMD}}
 \label{dashboardPMD}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/DashboardCenarios.png}
+\includegraphics[keepaspectratio=false,scale=0.75,angle=90,trim=0cm 5cm 0cm 0cm,clip=true]{figuras/figuras_nilton/DashboardCenarios.png}
 \caption{\textit{Dashboard} Cenários}
 \label{dashboardFindbugs}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.55]{figuras/figuras_nilton/DashboardFindbugs.png}
+\includegraphics[keepaspectratio=false,scale=0.75,angle=90,trim=0cm 5cm 0cm 0cm,clip=true]{figuras/figuras_nilton/DashboardFindbugs.png}
 \caption{\textit{Dashboard FindBugs}}
 \label{dashboardCenarios}
 \end{figure}
