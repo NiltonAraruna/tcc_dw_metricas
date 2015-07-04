@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.6)  4 JUL 2015 17:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.6)  4 JUL 2015 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5180,7 +5180,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmtt12.pfb>
-Output written on tcc.pdf (164 pages, 5557161 bytes).
+Output written on tcc.pdf (164 pages, 5557158 bytes).
 PDF statistics:
  3340 PDF objects out of 3580 (max. 8388607)
  2961 compressed objects within 30 object streams
