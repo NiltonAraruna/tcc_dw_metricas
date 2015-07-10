@@ -1,15 +1,15 @@
 \chapter{\textit{Data Warehouse}} 
 \label{chap:arquitetura}
 
-Neste capítulo será apresentada a fundamentação teórica sobre \textit{Data Warehouse} e como utiliza-lo para o monitoramento de métricas, \textit{bugs} e violações. Também será apresentado o ambiente de \textit{Data Warehouse} utilizado na solução proposta por \citeonline{rego_monitoramento_2014TCC}, como ela foi desenvolvida e os incrementos no qual este trabalho buscou aumentar o valor da aferição da qualidade.   
+Neste capítulo, será apresentada a fundamentação teórica sobre \textit{Data Warehouse} e como utiliza-lo para o monitoramento de métricas, \textit{bugs} e violações. Também será apresentado o ambiente de \textit{Data Warehouse} utilizado na solução proposta por \citeonline{rego_monitoramento_2014TCC}, como ela foi desenvolvida e os incrementos no qual este trabalho buscou aumentar o valor da aferição da qualidade.   
 
 \section{Definição}
 
-Na década de 80 as organizações perceberam a importância de não apenas usar dados para propósitos operacionais, mas também para derivar a inteligência por trás deles. Essa inteligência não só justificaria as decisões passadas, mas também ajudaria na tomada de decisões para o futuro. O termo \textit{Business Intelligence} tornou-se cada vez mais popular, e foi durante o final dos anos 1980 que pesquisadores da IBM, Barry Devlin e Paul Murphy, desenvolveram o conceito de \textit{Business data warehouse }. A partir que aplicações de \textit{business intelligence } foram surgindo, foi rapidamente verificado que os dados de bancos transacionais tinham que primeiramente ser transformados e armazenados em outros bancos de dados com um esquema específico para poderem derivar de sua inteligência. Esta base de dados poderia ser usada para arquivamento, e seria maior em tamanho do que as bases de dados transacionais, mas seu \textit{design} seria ideal para executar relatórios que permitem as grandes organizações planejarem e tomarem decisões de forma proativa. Este banco de dados, normalmente armazenando as atividades realizadas no passado e no presente das organizações, foi chamado de \textit{Data Warehouse} \cite{neeraj_sharma_2011}.
+Na década de 80 as organizações perceberam a importância de não apenas usar dados para propósitos operacionais, mas também para derivar a inteligência por trás deles. Essa inteligência não só justificaria as decisões passadas, mas também ajudaria na tomada de decisões para o futuro. O termo \textit{Business Intelligence} tornou-se cada vez mais popular, e foi durante o final dos anos 1980 que pesquisadores da IBM, Barry Devlin e Paul Murphy, desenvolveram o conceito de \textit{Business data warehouse}. A partir do momento que aplicações de \textit{business intelligence } foram surgindo, foi rapidamente verificado que os dados de bancos transacionais tinham que primeiramente ser transformados e armazenados em outros bancos de dados com um esquema específico para poderem derivar de sua inteligência. Esta base de dados poderia ser usada para arquivamento, e seria maior em tamanho do que as bases de dados transacionais, mas seu \textit{design} seria ideal para executar relatórios que permitem as grandes organizações planejarem e tomarem decisões de forma proativa. Este banco de dados, normalmente armazenando as atividades realizadas no passado e no presente das organizações, foi chamado de \textit{Data Warehouse} \cite{neeraj_sharma_2011}.
 
 Para \citeonline{Inmon2002}, \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real.
 
-Segundo \citeonline{andre2000},  \textit{Data Warehousing} é a infra-estrutura tecnológica de \textit{hardware} e \textit{software} para a atividade de análise gerencial. Agora que sabemos o que é o \textit{data wharehouse} e \textit{Data Warehousing}, serão mostrado os componentes que compõem um ambiente completo de \textit{data warehousing}. É importante entender como os componentes funcionam individualmente antes de começarem a ser combinados para se criar um \textit{data warehouse}. Cada componente do armazém tem uma função específica. É preciso aprender a importância estratégica de cada componente e como manuseá-los efetivamente para fazer uso do \textit{data warehousing}. Uma das maiores ameaças ao sucesso no \textit{data warehousing} é confundir os papéis e as funções dos componentes \cite{Kimball2002}. A Figura \ref{fig:etl} descreve uma arquitetura geral de um ambiente de \textit{Data Warehousing}, os componentes do ambiente serão esclarecidos no decorrer deste capítulo.
+Segundo \citeonline{andre2000},  \textit{Data Warehousing} é a infra-estrutura tecnológica de \textit{hardware} e \textit{software} para a atividade de análise gerencial. Uma vez conhecidos os conceitos de \textit{data wharehouse} e de \textit{Data Warehousing}, serão mostrados os componentes que compõem um ambiente completo de \textit{data warehousing}. É importante entender como os componentes funcionam individualmente antes de começarem a ser combinados para se criar um \textit{data warehouse}. Cada componente do armazém tem uma função específica. É preciso aprender a importância estratégica de cada componente e como manuseá-los efetivamente para fazer uso do \textit{data warehousing}. Uma das maiores ameaças ao sucesso no \textit{data warehousing} é confundir os papéis e as funções dos componentes \cite{Kimball2002}. A Figura \ref{fig:etl} descreve uma arquitetura geral de um ambiente de \textit{Data Warehousing}, os componentes do ambiente serão esclarecidos no decorrer deste capítulo.
 
 \begin{figure}[h!]
 \centering
@@ -34,13 +34,13 @@ A \textit{Staging Area} é uma área de armazenamento onde acontece o processo d
 
 \section{Modelagem Dimensional}
 
-Modelagem dimensional é um novo nome para uma velha técnica para deixar os bancos de dados simples e compreensíveis. No início dos anos 70 as organizações de TI, consultores, usuários finais e fornecedores tiveram que migrar para uma estrutura dimensional simples que combinasse com a necessidade humana pela simplicidade \cite{Kimball2002}. 
+Modelagem dimensional é um novo nome para uma antiga técnica, a qual consiste em deixar os bancos de dados simples e compreensíveis. No início dos anos 70, as organizações de TI, consultores, usuários finais e fornecedores tiveram que migrar para uma estrutura dimensional simples que combinasse com a necessidade humana pela simplicidade \cite{Kimball2002}. 
 
 Segundo \citeonline{Kimball2002}, a modelagem dimensional tem sido amplamente aceita como a técnica dominante para a apresentação do \textit{data warehouse}. Os profissionais e especialistas de \textit{data warehouse} reconhecem que a apresentação do \textit{data warehouse} deve ser fundamentada na simplicidade. A simplicidade é a chave fundamental que permite que os usuários entendam facilmente as bases de dados e naveguem de forma eficiente no bancos de dados do \textit{software}. 
 
-Para facilitar na difusão do conceito de modelagem dimensional \citeonline{Kimball2002} utiliza como exemplo um diretor geral que descreve seus negócios  como "Nós vendemos produtos em várias áreas de negócio e medimos nosso desempenho ao longo do tempo". Assim, designers dimensionais colocariam em ênfase o produto, as áreas de negócio e o tempo, pensando intuitivamente neste negócio como um cubo de dados, onde as bordas estariam marcadas como produto, negócio e tempo. Pontos dentro do cubo são onde as medições que combinam produtos, áreas de negócio e tempo são salvas. A capacidade de visualizar algo tão abstrato como um conjunto de dados de uma forma concreta e tangível é o segredo da compreensão.
+Para facilitar na difusão do conceito de modelagem dimensional, \citeonline{Kimball2002} utiliza como exemplo um diretor geral que descreve seus negócios  como "Nós vendemos produtos em várias áreas de negócio e medimos nosso desempenho ao longo do tempo". Assim, \textit{designers} dimensionais colocariam em ênfase o produto, as áreas de negócio e o tempo, pensando intuitivamente neste negócio como um cubo de dados, onde as bordas estariam marcadas como produto, negócio e tempo. Pontos dentro do cubo são onde as medições que combinam produtos, áreas de negócio e tempo são salvas. A capacidade de visualizar algo tão abstrato como um conjunto de dados de uma forma concreta e tangível é o segredo da compreensão.
 
-Os conceitos básicos da modelagem dimensional são: fatos, dimensões e medidas. Um fato é uma coleção de itens de dados relacionados, que consiste em medidas e dados de contexto. Ele representa tipicamente itens de negócios ou transações de negócio. A dimensão é uma coleção de dados que descrevem uma dimensão negócio. Dimensões determinam o contextual a fundo para os fatos; eles são os parâmetros nos quais queremos realizar a \textit{On-Line Analytic Processing (OLAP)}. A medida é um atributo numérico de um fato, que representa o desempenho ou comportamento do negócio em relação às dimensões \cite{marotta2000}.
+Os conceitos básicos da modelagem dimensional são: fatos, dimensões e medidas. Um fato é uma coleção de itens de dados relacionados, que consiste em medidas e dados de contexto. Ele representa tipicamente itens de negócios ou transações de negócio. A dimensão é uma coleção de dados que descreve uma dimensão negócio. Dimensões determinam o contextual a fundo para os fatos; eles são os parâmetros nos quais queremos realizar a \textit{On-Line Analytic Processing (OLAP)}. A medida é um atributo numérico de um fato, que representa o desempenho ou comportamento do negócio em relação às dimensões \cite{marotta2000}.
 
 Considerando o contexto relacional, existem dois modelos básicos que são utilizados na modelagem dimensional: modelo de estrela e modelo de floco de neve. O modelo estrela é a estrutura básica de um modelo dimensional. Ele tem uma grande tabela central (tabelas fato) e um conjunto de pequenas tabelas (tabelas dimensão) dispostos em um padrão radial 
 ao redor da tabela central, como é mostrado na Figura \ref{fig:estrela}. O modelo de floco de neve é o resultado da decomposição de uma ou mais das dimensões \cite{marotta2000}.
@@ -131,15 +131,15 @@ Entre as operações OLAP estão:
 \section{Visualização de Dados}
 \label{visualizacaodashboard} 
 
-O processo de monitorização visual envolve uma série de passos sequenciais que o \textit{dashboard} deve ser concebido para apoio. O usuário ao começar a obter uma visão geral do que está acontecendo deve rapidamente identificar o que precisa de atenção, para que em seguida, o usuário olhe mais de perto cada uma dessas áreas que precisam de atenção para entendê-las bem o suficiente para determinar se algo deve ser feito sobre eles. O monitoramento é uma atividade cognitiva que recebe a entrada principalmente através do canal visual, porque este é o sentido mais poderoso, que é capaz de trabalhar em altas velocidades de entrada, capaz de detectar diferenças sutis e complexas.\cite{few2006}
+O processo de monitorização visual envolve uma série de passos sequenciais que o \textit{dashboard} deve ser concebido para apoio. O usuário, ao começar a obter uma visão geral do que está acontecendo, deve rapidamente identificar o que precisa de atenção, para que em seguida, o usuário olhe mais de perto cada uma dessas áreas que precisam de atenção para entendê-las bem o suficiente para determinar se algo deve ser feito sobre eles. O monitoramento é uma atividade cognitiva que recebe a entrada principalmente através do canal visual, porque este é o sentido mais poderoso, que é capaz de trabalhar em altas velocidades de entrada, capaz de detectar diferenças sutis e complexas.\cite{few2006}
 
-A orientação visual dos \textit{dashboards} é importante devido à velocidade da percepção de que é geralmente necessária para monitorar informações. Quanto mais rápido se deseja avaliar o que está acontecendo, mais deve-se confiar no meio gráfico para mostrar a informação. O texto deve ser lido, o que envolve um processo relativamente lento, sendo que certas propriedades visuais, no entanto, pode ser percebida de relance, sem pensamento consciente.  
+A orientação visual dos \textit{dashboards} é importante devido à velocidade da percepção de que é geralmente necessária para monitorar informações. Quanto mais rápido se deseja avaliar o que está acontecendo, mais deve-se confiar no meio gráfico para mostrar a informação. O texto deve ser lido, o que envolve um processo relativamente lento, sendo que certas propriedades visuais, no entanto, podem ser percebidas de relance, sem pensamento consciente.  
 
-Segundo \citeonline{few2006}, um \textit{dashboard} é um display visual das informações mais importantes necessárias para alcançar um ou mais objetivos, consolidados e organizados em uma única tela para que a informação possa ser monitorada em um piscar de olhos. \citeonline{few2006} categorizou  diversos tipos de \textit{dashboards} sendo estratégicas, analíticas, ou operacionais, e as características do design no que tange à sugestão de organização variam para dar suporte às necessidades de cada categoria:
+Segundo \citeonline{few2006}, um \textit{dashboard} é um display visual das informações mais importantes necessárias para alcançar um ou mais objetivos, consolidados e organizados em uma única tela para que a informação possa ser monitorada em um piscar de olhos. \citeonline{few2006} categorizou  diversos tipos de \textit{dashboards} sendo estratégicas, analíticas, ou operacionais, e as características do \textit{design} no que tange à sugestão de organização variam para dar suporte às necessidades de cada categoria:
 
 \begin{easylist}[itemize]
 
-& fins estratégicos - O uso primários de \textit{dashboards} nos dias de hoje é para propósitos estratégicos, oferecem uma rápida visão que os tomadores de decisão precisam para monitorar a saúde e as oportunidades de um negócio.
+& fins estratégicos - O uso primário de \textit{dashboards} nos dias de hoje é para propósitos estratégicos, oferecem uma rápida visão que os tomadores de decisão precisam para monitorar a saúde e as oportunidades de um negócio.
 
 & fins analíticos - Mais sofisticação para as mídias de exibição, para que os analistas possam examinar melhor dados complexos e relacionamentos. \textit{Dashboards} analíticos devem suportar interações com os dados, como aprofundamentos em camadas detalhadas, não apenas para ver o que está acontecendo, mas para examinar as causas. 
 
@@ -195,7 +195,7 @@ Neste trabalho foi utilizado o CDE (\textit{community dashboard editor}) na vers
 
 O CDE permite o desenvolvimento e a implantação de \textit{dashboards} no \textit{Pentaho Business Intelligence}. O CDE nasceu para simplificar a criação e edição de \textit{dashboards} e é uma ferramenta muito poderosa e completa, combinando \textit{front end} com fontes de dados e componentes personalizados de uma forma perfeita. \cite{CDE}
 
-O CDE possui algumas tecnologia por trás dela:
+O CDE possui algumas tecnologia por trás dele:
 
 \begin{easylist}[itemize]
 
@@ -211,7 +211,7 @@ Para o design do \textit{dashboard}, o CDE oferece três perspectivas:
 
 \begin{easylist}[itemize]
 
-& \textit{Layout} - Para projetar o layout do seu {dashboard} a partir do zero ou de um templete, ao definir o layout é possível aplicar estilos e adicionar elementos HTML para descrever páginas Web, CSS para controlar o estilo do layout, \textit{JavaScript} para adicionar interatividade e \textit{jQuery} para simplificar todas essas tarefas.
+& \textit{Layout} - Para projetar o layout do seu {dashboard} a partir do zero ou de um template, ao definir o layout é possível aplicar estilos e adicionar elementos HTML para descrever páginas Web, CSS para controlar o estilo do layout, \textit{JavaScript} para adicionar interatividade e \textit{jQuery} para simplificar todas essas tarefas.
 
 & \textit{Components} - Para adicionar e configurar os diferentes componentes que compõem o seu \textit{dashboard}: Componentes Visuais (caixas de texto, tabelas e gráficos, seletores e relatórios), parâmetros que representam os valores que são partilhados pelos componentes e \textit{Scripts}, que permitem personalizar a aparência ou o comportamento de outros componentes.
 
@@ -219,7 +219,7 @@ Para o design do \textit{dashboard}, o CDE oferece três perspectivas:
 
 \end{easylist}
 
-A descrição completa da implementação do \textit{dashboard} foi descrita no Apêndice \ref{sec:implementação-dashboard}.
+A descrição completa da implementação do \textit{dashboard} foi apresentada no Apêndice \ref{sec:implementação-dashboard}.
 
 \section{Ambiente de \textit{Data Warehousing} para Métricas, \textit{bugs} e violações de Código-Fonte}
 
@@ -273,7 +273,7 @@ A ferramenta de análise estática de código-fonte escolhida por \citeonline{re
 \end{figure}
 \FloatBarrier
 
-Utilizando a mesma metodologia  que o \citeonline{rego_monitoramento_2014TCC}, foi definido novos requisitos de negócio que a solução deveria suportar:
+Utilizando a mesma metodologia  que o \citeonline{rego_monitoramento_2014TCC}, foram definidos novos requisitos de negócio que a solução deveria suportar:
 
 \begin{easylist}[itemize]
 
@@ -285,7 +285,7 @@ de um projeto.
 
 & Requisito 18: Visualizar a quantidade de \textit{bugs} por severidade em uma determinada \textit{release} de um projeto.
 
-& & Requisito 19: Visualizar a quantidade de \textit{bugs} por tipo em uma determinada \textit{release} de um projeto.
+& Requisito 19: Visualizar a quantidade de \textit{bugs} por tipo em uma determinada \textit{release} de um projeto.
 
 & Requisito 20: Visualizar a quantidade de \textit{bugs} por classe em uma determinada \textit{release} de um projeto.
 
@@ -310,7 +310,7 @@ Ainda seguindo a metodologia de \cite{Kimball2002}, \citeonline{rego_monitoramen
 	\end{table}	
 	\FloatBarrier
 
-Dando prosseguimento a metodologia de \cite{Kimball2002}, foram identificadas mais fatos e dimensões em complemento à solução de \citeonline{rego_monitoramento_2014TCC}, como mostra a Tabela \ref{tab:fatos-dimensoes-nilton}. 
+Dando prosseguimento à metodologia de \cite{Kimball2002}, foram identificados mais fatos e dimensões em complemento à solução de \citeonline{rego_monitoramento_2014TCC}, como mostra a Tabela \ref{tab:fatos-dimensoes-nilton}. 
 
 \begin{table}[!ht]
 	\begin{center}
@@ -342,7 +342,7 @@ Após a identificação dos fatos e das dimensões, \citeonline{rego_monitoramen
 	\end{table}	
 	\FloatBarrier
 	
-Visando facilitar o processo de ETL principalmente na etapa da transformação, \citeonline{rego_monitoramento_2014TCC} criou uma área de metadados mostrada na Figura \ref{fig:metadados} com intuito de tratar os dados que representam os próprios dados dos processos de negócio. A Tabela \ref{tab:tabelasMetadadosDescricao} descreve as tabelas contidas na área de metadados do \textit{Data Warehouse}.
+Visando facilitar o processo de ETL, principalmente na etapa da transformação, \citeonline{rego_monitoramento_2014TCC} criou uma área de metadados mostrada na Figura \ref{fig:metadados} com intuito de tratar os dados que representam os próprios dados dos processos de negócio. A Tabela \ref{tab:tabelasMetadadosDescricao} descreve as tabelas contidas na área de metadados do \textit{Data Warehouse}.
 
 \begin{figure}[h!]
 \centering
@@ -412,11 +412,11 @@ Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
 	 
 	& \textbf{Implementação das Consultas OLAP:} \textit{Pentaho BI Platform 8}, provê uma arquitetura e a infraestrutura para soluções de \textit{Business Inteligence}, \textit{Data Mining}.
 	
-	& \textbf{Visualização de Dados:} Como visto na subseção \ref{visualizacaodashboard} foi utilizado o \textit{plugin} do \textit{Pentaho BI} CDE para a visualização de dados. O \textit{plugin} \textit{Saiku Analytics} também pode ser utilizado para visualização de dados,  ela oferece serviços de apoio a operações OLAP e à visualização de dados. Na arquitetura do \textit{Saiku Analytics}, está incorporado outro \textit{software} livre que realiza consulta, chamado de \textit{Mondrian OLAP}.
+	& \textbf{Visualização de Dados:} Como visto na subseção \ref{visualizacaodashboard} foi utilizado o \textit{plugin} do \textit{Pentaho BI} CDE para a visualização de dados. O \textit{plugin} \textit{Saiku Analytics} também pode ser utilizado para visualização de dados,  ele oferece serviços de apoio a operações OLAP e à visualização de dados. Na arquitetura do \textit{Saiku Analytics}, está incorporado outro \textit{software} livre que realiza consulta, chamado de \textit{Mondrian OLAP}.
 
-	& \textbf{Análise estática de código-fonte:}\textit{Analizo}, possibilita emitir saídas das métricas em CSV que detalham o nome da classe e as suas respectivas métrica.
+	& \textbf{Análise estática de código-fonte:}\textit{Analizo}, possibilita emitir saídas das métricas em CSV que detalham o nome da classe e as suas respectivas métricas.
 	
-	& \textbf{Verificadores  de erro:} Como visto no Capítulo \ref{chap:verificadores} foram utilizados as ferramentas \textit{FindBugs} e \textit{PMD} que possibilitam uma analise de código voltadas para \textit{bugs} e violações de código.
+	& \textbf{Verificadores  de erro:} Como visto no Capítulo \ref{chap:verificadores}, foram utilizados as ferramentas \textit{FindBugs} e \textit{PMD} que possibilitam uma análise de código voltada para \textit{bugs} e violações de código.
 	
 	\end{easylist}
 	
@@ -433,4 +433,4 @@ Load} na ferramenta \textit{Kettle} foi descrita no Apêndice \ref{sec:implement
 
 \section{Considerações finais do capítulo}
 
-Nesse capítulo foi apresentada a solução proposta no trabalho de \citeonline{rego_monitoramento_2014TCC} e o que foi acrescentado visando suprir os novos requisitos adicionados, bem como a base teórica para a compreensão de ambos. No próximo capítulo será apresentado o projeto de estudo de caso que visa analisar se a solução de DW proposta nesse capítulo pode assistir ao processo de aferição da qualidade de \textit{software}.
+Nesse capítulo, foi apresentada a solução proposta no trabalho de \citeonline{rego_monitoramento_2014TCC} e o que foi acrescentado visando suprir os novos requisitos adicionados, bem como a base teórica para a compreensão de ambos. No próximo capítulo, será apresentado o projeto de estudo de caso que visa analisar se a solução de DW proposta nesse capítulo pode assistir ao processo de aferição da qualidade de \textit{software}.

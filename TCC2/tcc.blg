@@ -19,7 +19,6 @@ Warning--string name "sept" is undefined
 --line 142 of file bibliografia.bib
 Warning--entry type for "hilmer2002" isn't style-file defined
 --line 620 of file bibliografia.bib
-Warning--I didn't find a database entry for "paperrego"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -32,7 +31,7 @@ Warning--faltando school em andre2000
 +---------------------------------------------------------+
 You've used 55 entries,
             6711 wiz_defined-function locations,
-            1513 strings with 18056 characters,
+            1512 strings with 18047 characters,
 and the built_in function-call counts, 56768 in all, are:
 = -- 5926
 > -- 1200
@@ -71,4 +70,4 @@ warning$ -- 1
 while$ -- 345
 width$ -- 0
 write$ -- 828
-(There were 5 warnings)
+(There were 4 warnings)
